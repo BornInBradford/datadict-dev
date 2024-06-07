@@ -1,5 +1,12 @@
 bookdown::gitbook:
   css: style.css
+  split_by: section
+  number_sections: false
   config:
     toc:
       collapse: section
+    sharing:
+      facebook: no
+      twitter: no
+    
+  

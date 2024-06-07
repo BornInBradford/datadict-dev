@@ -30,7 +30,10 @@ project_chapter <- function(meta) {
 
 project_section <- function(df_project) {
   
-  md <- paste0("# ", df_project$display_name, "\n")
+  md <- paste0("# ", df_project$display_name, " {#", df_project$project_name, "}\n\n")
+  
+  md <- md |> c(df_project$project_description,
+                "\n\n")
   
   return(md)
   
@@ -39,7 +42,25 @@ project_section <- function(df_project) {
 
 table_section <- function(df_table, df_vars, df_cats) {
   
-  md <- paste0("## ", df_table$display_name, "\n")
+  md <- paste0("## ", df_table$display_name, " {#", df_table$table_id, "}\n\n")
+  
+  tab_display <- df_table |> transmute(cohort_membership,
+                                       entity_type,
+                                       n_entities,
+                                       n_rows,
+                                       n_variables)
+    
+  vars_display <- df_vars |> arrange(display_order) |>
+    transmute(variable,
+              label,
+              value_type,
+              closer_term)
+  
+  md <- md |> c(df_table$table_description,
+                "\n\n",
+                kable(tab_display, aling = "l"),
+                "\n\n",
+                kable(vars_display, align = "l"))
   
   return(md)
   
@@ -73,6 +94,7 @@ add_fixed_files <- function() {
   
   if(!file.copy(index_md, paste0(output_dir, "index.md"), overwrite = TRUE)) warning("index.md failed to copy to output directory")
   if(!file.copy(output_yml, paste0(output_dir, "_output.yml"), overwrite = TRUE)) warning("_output.yml failed to copy to output directory")
+  if(!file.copy(nojekyll, paste0(output_dir, ".nojekyll"), overwrite = TRUE)) warning(".nojekyll failed to copy to output directory")
   
 }
 

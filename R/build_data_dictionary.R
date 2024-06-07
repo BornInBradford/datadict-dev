@@ -1,5 +1,6 @@
 
 do_render_book <- TRUE
+max_chapters <- 0
 
 t <- proc.time()
 
@@ -13,8 +14,10 @@ tables <- ev_simple_fetch(con, "DataDictionary", "metadata_table")
 terms_closer <- ev_simple_fetch(con, "DataDictionary", "terms_closer")
 terms_bib <- ev_simple_fetch(con, "DataDictionary", "terms_bib")
 
-
 projects <- projects |> filter(publish == 1) |> arrange(display_order)
+
+if(max_chapters) projects <- head(projects, max_chapters)
+
 tables <- tables |> filter(publish == 1) |>
   inner_join(select(projects, project_name, project_display_order = display_order), by = "project_name") |>
   arrange(project_display_order, project_name, display_order, table_name)

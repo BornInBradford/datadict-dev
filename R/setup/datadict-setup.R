@@ -1,6 +1,7 @@
 library(epivaultr)
 library(dplyr)
 library(yaml)
+library(knitr)
 
 options(ev_server = "BHTS-RESRCH22DV")
 options(ev_database = "ResearchWarehouse")
@@ -12,6 +13,7 @@ yml_output_dir <- "docs"
 
 index_md <- "resources/index.md"
 output_yml <- "resources/_output.yml"
+nojekyll <- "resources/.nojekyll"
 
 yaml_handlers = list(
   logical = function(x) {
