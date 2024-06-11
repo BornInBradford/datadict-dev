@@ -1,0 +1,381 @@
+---
+params:
+  project_name: BiB_GrowingUp
+---
+
+
+
+# BiB Growing Up {#BiB_GrowingUp}
+
+
+Research clinics and surveys data from the BiB Growing Up follow-up.
+
+
+
+```{r, include=FALSE}
+prj_name <- 'BiB_GrowingUp'
+source('../R/get_all_project_metadata.R', local = knitr::knit_global())
+```
+## BiB Growing Up participant pathway {#BiB_GrowingUp.participant_pathway}
+
+
+BiB Growing Up participant pathway - contacts, recruitment, completions, withdrawals etc
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_GrowingUp.participant_pathway'
+prj_name <- 'BiB_GrowingUp'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## BiB Growing Up adult survey {#BiB_GrowingUp.adult_survey}
+
+
+BiB Growing Up adult survey
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_GrowingUp.adult_survey'
+prj_name <- 'BiB_GrowingUp'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## BiB Growing Up adult survey - BiB1000 sample {#BiB_GrowingUp.adult_survey_BiB1000_sample}
+
+
+BiB Growing Up adult survey - BiB1000 sample
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_GrowingUp.adult_survey_BiB1000_sample'
+prj_name <- 'BiB_GrowingUp'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## BiB Growing Up adult survey - MeDALL sample {#BiB_GrowingUp.adult_survey_MeDALL_sample}
+
+
+BiB Growing Up adult survey - MeDALL sample
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_GrowingUp.adult_survey_MeDALL_sample'
+prj_name <- 'BiB_GrowingUp'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## BiB Growing Up child survey (adult completed) {#BiB_GrowingUp.child_survey_adult_comp}
+
+
+BiB Growing Up child survey, completed by adult
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_GrowingUp.child_survey_adult_comp'
+prj_name <- 'BiB_GrowingUp'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## BiB Growing Up child survey (child completed) {#BiB_GrowingUp.child_survey_child_comp}
+
+
+BiB Growing Up child survey, completed by child
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_GrowingUp.child_survey_child_comp'
+prj_name <- 'BiB_GrowingUp'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## BiB Growing Up DXA scan (mother) {#BiB_GrowingUp.dxa_scan_m}
+
+
+DXA scan on cohort mothers completed during the BiB Growing Up study.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_GrowingUp.dxa_scan_m'
+prj_name <- 'BiB_GrowingUp'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## BiB Growing Up DXA scan (child) {#BiB_GrowingUp.dxa_scan_c}
+
+
+DXA scan on cohort children completed during the BiB Growing Up study.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_GrowingUp.dxa_scan_c'
+prj_name <- 'BiB_GrowingUp'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## BiB Growing Up DXA scan (father) {#BiB_GrowingUp.dxa_scan_f}
+
+
+DXA scan on cohort fathers completed during the BiB Growing Up study.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_GrowingUp.dxa_scan_f'
+prj_name <- 'BiB_GrowingUp'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## BiB Growing Up child blood pressures {#BiB_GrowingUp.blood_pressure}
+
+
+BiB Growing Up child blood pressures
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_GrowingUp.blood_pressure'
+prj_name <- 'BiB_GrowingUp'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## BiB Growing Up renal study urine analyses {#BiB_GrowingUp.renal_urines}
+
+
+BiB Growing Up urine tests for participants enrolled in the UK Kidney Research renal study. Mostly carried out at Bradford Teaching Hospitals, except RBP, which was carried out at Sheffield Teaching Hospitals.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_GrowingUp.renal_urines'
+prj_name <- 'BiB_GrowingUp'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+

@@ -1,0 +1,315 @@
+---
+params:
+  project_name: BiB_MeDALL
+---
+
+
+
+# BiB MeDALL {#BiB_MeDALL}
+
+
+MeDALL (Mechanisms of Development of ALLergy) is a subcohort nested within BiB that contributed to a broader consortium [http://www.eisbm.org/projects/medall/]. Contains survey, skin prick and local green space information.
+
+
+
+```{r, include=FALSE}
+prj_name <- 'BiB_MeDALL'
+source('../R/get_all_project_metadata.R', local = knitr::knit_global())
+```
+## MeDALL Questionnaire {#BiB_MeDALL.medall_quest}
+
+
+MeDALL questionnaire. Currently excludes some parts of section D (allergic reactions) that are multiple responses per person. Also excludes SCORAD.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_MeDALL.medall_quest'
+prj_name <- 'BiB_MeDALL'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## MeDALL Questionnaire reactions to food {#BiB_MeDALL.medall_qd1}
+
+
+MeDALL questionnaire. Question D1: child abnormal reactions to food.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_MeDALL.medall_qd1'
+prj_name <- 'BiB_MeDALL'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## MeDALL Questionnaire reactions to medicines {#BiB_MeDALL.medall_qd5}
+
+
+MeDALL questionnaire. Question D5: child abnormal reactions to medicines.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_MeDALL.medall_qd5'
+prj_name <- 'BiB_MeDALL'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## MeDALL Questionnaire reactions to vaccines {#BiB_MeDALL.medall_qd8}
+
+
+MeDALL questionnaire. Question D8: child abnormal reactions to vaccines.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_MeDALL.medall_qd8'
+prj_name <- 'BiB_MeDALL'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## MeDALL skin prick {#BiB_MeDALL.medall_skinprick}
+
+
+MeDALL child skin prick test results.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_MeDALL.medall_skinprick'
+prj_name <- 'BiB_MeDALL'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## MeDALL skin prick QC {#BiB_MeDALL.medall_skinprick_qc}
+
+
+MeDALL child skin prick test QC double coding results.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_MeDALL.medall_skinprick_qc'
+prj_name <- 'BiB_MeDALL'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## MeDALL Green Space Questionnaire {#BiB_MeDALL.medall_greenspace}
+
+
+A questionnaire was developed by Dr Rosie McEachan with colleagues at Staffordshire University (Dr Chris Gidlow) and CREAL (Prof Mark Nieuwenhuijsen, Dr Payam Dadvand) to explore perceptions of quality of local green space, and estimates of time children spend playing in green space in summer and winter months. This questionnaire was approved by Leeds Bradford REC on 31st May 2013 as a substantial amendment (no.3) to the MeDALL (Mechanisms of the Development of ALLergy) study REF: 12/YH/0252, original approval date 12th June 2012. It was administered to English speaking mothers who were attending a MEDALL study appointment when their infants were aged 4-5. Data is available on n=821 mothers. Researchers wishing to use this questionnaire should contact Dr Rosie McEachan (rosie.mceachan@bthft.nhs.uk) in the first instance.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_MeDALL.medall_greenspace'
+prj_name <- 'BiB_MeDALL'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## MeDALL Neighbourhood Green Space Tool {#BiB_MeDALL.medall_ngst}
+
+
+An audit of 45 green spaces in Bradford was conducted in June-July 2015 to examine the present quality of spaces. Spaces were selected on the basis they were visited most frequently by a MEDALL sub-sample. Two assessors completed the audit using an adaptation of Gidlow's (2012) Neighbourhood Green Space Tool. This tool measures the quality of 'neighbourhood' urban green space, including access, recreational facilities, amenities, natural features, incivilities and usage.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_MeDALL.medall_ngst'
+prj_name <- 'BiB_MeDALL'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## MeDALL residential NDVI and green space {#BiB_MeDALL.medall_ndvi}
+
+
+NDVI and local green space based on maternal residential address at time of MeDALL questionnaire.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_MeDALL.medall_ndvi'
+prj_name <- 'BiB_MeDALL'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+

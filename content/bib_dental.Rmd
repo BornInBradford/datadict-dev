@@ -1,0 +1,216 @@
+---
+params:
+  project_name: BiB_Dental
+---
+
+
+
+# BiB Dental {#BiB_Dental}
+
+
+Child dental surveys and linked dental records.
+
+
+
+```{r, include=FALSE}
+prj_name <- 'BiB_Dental'
+source('../R/get_all_project_metadata.R', local = knitr::knit_global())
+```
+## 5yo Dental Survey {#BiB_Dental.dsurvey_5yo}
+
+
+Records from the National Dental Epidemiology Programme for England survey of 5 year-olds, matched to BiB IDs
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Dental.dsurvey_5yo'
+prj_name <- 'BiB_Dental'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Dental extractions under GA {#BiB_Dental.dental_ga}
+
+
+Data from linked dental records indicating dental extraction procedures under general anaesthetic
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Dental.dental_ga'
+prj_name <- 'BiB_Dental'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## PLATOON dental study participant data {#BiB_Dental.plat_person}
+
+
+PLATOON dental study participant data
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Dental.plat_person'
+prj_name <- 'BiB_Dental'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## PLATOON dental study tooth observations {#BiB_Dental.plat_teeth}
+
+
+PLATOON dental study tooth observations
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Dental.plat_teeth'
+prj_name <- 'BiB_Dental'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## PLATOON dental study orthodontic assessment {#BiB_Dental.plat_ortho}
+
+
+PLATOON dental study orthodontic assessment
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Dental.plat_ortho'
+prj_name <- 'BiB_Dental'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## PLATOON dental study survey {#BiB_Dental.plat_survey}
+
+
+PLATOON dental study survey
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Dental.plat_survey'
+prj_name <- 'BiB_Dental'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+

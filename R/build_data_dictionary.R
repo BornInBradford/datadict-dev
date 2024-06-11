@@ -39,19 +39,8 @@ for(p in 1:nrow(projects)) {
   
   if(nrow(prj_tabs) > 0) {
     
-    table_request <- paste0(prj_tabs$table_id, ".*")
-    
-    ev_vars <- make_ev_variables(table_request)
-    
-    tab_vars <- fetch_ev_meta_vars(con, ev_vars, cats = FALSE)
-    tab_cats <- fetch_ev_meta_vars(con, ev_vars, cats = TRUE)
-    
-    message(paste0("...fetched metadata for ", nrow(tab_vars), " variables with ", nrow(tab_cats), " value labels"))
-    
     prj_meta <- list(df_project = prj,
-                     df_tables = prj_tabs,
-                     df_vars = tab_vars,
-                     df_cats = tab_cats)
+                     df_tables = prj_tabs)
     
     message("...building project chapter markdown")
     
@@ -80,7 +69,9 @@ message(paste0("Time to create sources: ", (proc.time() - t)[3]))
 if(do_render_book) {
   
   # empty output directory
-  unlink(paste0(yml_output_dir, "*"), recursive = TRUE)
+  unlink(paste0(yml_output_dir, "/*"), recursive = TRUE)
+  
+  add_nojekyll()
   
   bookdown::render_book(output_dir)
 

@@ -1,0 +1,183 @@
+---
+params:
+  project_name: BiBBS_CohortInfo
+---
+
+
+
+# BiBBS Cohort Information {#BiBBS_CohortInfo}
+
+
+Information about BiBBS cohort participants
+
+
+
+```{r, include=FALSE}
+prj_name <- 'BiBBS_CohortInfo'
+source('../R/get_all_project_metadata.R', local = knitr::knit_global())
+```
+## Pregnancy recruitment {#BiBBS_CohortInfo.recruitment}
+
+
+Data describing patient pathway through the recruitment process for all booked pregnancies in the target period. (2019-11-30 datafreeze)
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiBBS_CohortInfo.recruitment'
+prj_name <- 'BiBBS_CohortInfo'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Recruited pregnancy information {#BiBBS_CohortInfo.pregnancy}
+
+
+Information for administrative and linkage purposes regarding recruited pregnancies (2019-11-30 datafreeze)
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiBBS_CohortInfo.pregnancy'
+prj_name <- 'BiBBS_CohortInfo'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Recruited mother information {#BiBBS_CohortInfo.mother}
+
+
+Information for administrative and linkage purposes regarding recruited Mother participants (2019-11-30 datafreeze)
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiBBS_CohortInfo.mother'
+prj_name <- 'BiBBS_CohortInfo'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Child information {#BiBBS_CohortInfo.child}
+
+
+Information for administrative and linkage purposes regarding recruited Child participants (2019-11-30 datafreeze)
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiBBS_CohortInfo.child'
+prj_name <- 'BiBBS_CohortInfo'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Partner information {#BiBBS_CohortInfo.partner}
+
+
+Information for administrative and linkage purposes regarding recruited Partner participants (2019-11-30 datafreeze)
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiBBS_CohortInfo.partner'
+prj_name <- 'BiBBS_CohortInfo'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+

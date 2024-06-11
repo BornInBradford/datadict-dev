@@ -1,0 +1,416 @@
+---
+params:
+  project_name: BiB_Biosamples
+---
+
+
+
+# BiB Biosamples {#BiB_Biosamples}
+
+
+Contains all data derived from assays of BiB blood and urine samples. Also contains manifests of samples stored in the biobank.
+
+
+
+```{r, include=FALSE}
+prj_name <- 'BiB_Biosamples'
+source('../R/get_all_project_metadata.R', local = knitr::knit_global())
+```
+## Biochemistry hospital bloods taken during pregnancy {#BiB_Biosamples.hosp_biochem}
+
+
+Hospital bloods from mother taken during pregnancy. Biochemistry data.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Biosamples.hosp_biochem'
+prj_name <- 'BiB_Biosamples'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Haematology hospital bloods taken during pregnancy {#BiB_Biosamples.hosp_haem}
+
+
+Hospital bloods from mother taken during pregnancy. Haematology data.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Biosamples.hosp_haem'
+prj_name <- 'BiB_Biosamples'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## HbA1c hospital bloods taken during pregnancy {#BiB_Biosamples.hosp_hba1c}
+
+
+Hospital bloods from mother taken during pregnancy. HbA1c data.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Biosamples.hosp_hba1c'
+prj_name <- 'BiB_Biosamples'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Pregnancy blood biomarkers {#BiB_Biosamples.pregnancy_bloods}
+
+
+Biomarkers taken from baseline maternal bloods for whole cohort
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Biosamples.pregnancy_bloods'
+prj_name <- 'BiB_Biosamples'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Pregnancy bloods vitamin D {#BiB_Biosamples.pregnancy_bloods_vitd}
+
+
+Extra biomarkers taken from baseline maternal bloods for vitamin D study
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Biosamples.pregnancy_bloods_vitd'
+prj_name <- 'BiB_Biosamples'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Maternal baseline GTT {#BiB_Biosamples.pregnancy_gtt}
+
+
+Maternal baseline glucose tolerance test
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Biosamples.pregnancy_gtt'
+prj_name <- 'BiB_Biosamples'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## BiB Growing Up main blood tests {#BiB_Biosamples.blood_tests}
+
+
+BiB Growing Up main blood tests carried out at Bradford Teaching Hospitals
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Biosamples.blood_tests'
+prj_name <- 'BiB_Biosamples'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Baby cord blood biomarkers {#BiB_Biosamples.cord_bloods}
+
+
+Biomarkers taken from baby cord bloods for a subcohort of 2176 between Oct 2008 and Oct 2009.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Biosamples.cord_bloods'
+prj_name <- 'BiB_Biosamples'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## BiB COVID19 child covid antibody blood tests {#BiB_Biosamples.covid_antibody_blood_tests}
+
+
+Results of antibody blood tests taken during COVID19 pandemic
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Biosamples.covid_antibody_blood_tests'
+prj_name <- 'BiB_Biosamples'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## BiB maternal iodine {#BiB_Biosamples.maternal_iodine}
+
+
+Urine samples were collected at ~26 weeks gestation from 7,060 participants. Urinary iodine was estimated at the Leeds Institute of Cardiovascular and Metabolic Medicine, University of Leeds. For further details refer to the following citation: https://doi.org/10.1111/ppe.12719
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Biosamples.maternal_iodine'
+prj_name <- 'BiB_Biosamples'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## BiB Growing Up renal study blood tests {#BiB_Biosamples.renal_blood_tests}
+
+
+BiB Growing Up blood tests for participants enrolled in the UK Kidney Research renal study, carried out at Bradford Teaching Hospitals
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Biosamples.renal_blood_tests'
+prj_name <- 'BiB_Biosamples'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## BiB Growing Up renal study Cystatin C {#BiB_Biosamples.renal_cystatinc}
+
+
+Cystatin C analysis for the BiB Growing Up UK Kindey Research renal study. Specs: Cobas 8000 made by Roche Diagnostics calibrated against international
+standard ERM DA471/IFCC
+
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Biosamples.renal_cystatinc'
+prj_name <- 'BiB_Biosamples'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+

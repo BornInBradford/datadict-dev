@@ -1,0 +1,51 @@
+---
+params:
+  project_name: BiB_Biobank
+---
+
+
+
+# BiB Biobank {#BiB_Biobank}
+
+
+Biosamples collected for storage in the BiB biobank. Contains details of samples collected and samples currently available for use in studies.
+
+
+
+```{r, include=FALSE}
+prj_name <- 'BiB_Biobank'
+source('../R/get_all_project_metadata.R', local = knitr::knit_global())
+```
+## BiB biobank current samples {#BiB_Biobank.current_samples}
+
+
+A catalogue of current sample availability in the BiB biobank. Includes information about sample types, age at collection and study wave of collection for each person.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Biobank.current_samples'
+prj_name <- 'BiB_Biobank'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+

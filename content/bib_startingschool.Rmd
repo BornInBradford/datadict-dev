@@ -1,0 +1,183 @@
+---
+params:
+  project_name: BiB_StartingSchool
+---
+
+
+
+# BiB Starting School {#BiB_StartingSchool}
+
+
+On-screen cognitive, fine motor and behavioural assessments, including BPVS, Letter Identification, SDQ and CKAT, conducted in school during the child's Reception year. Starting School recruited whole classes and hence includes children who are not part of the core BiB cohort.
+
+
+
+```{r, include=FALSE}
+prj_name <- 'BiB_StartingSchool'
+source('../R/get_all_project_metadata.R', local = knitr::knit_global())
+```
+## Starting School Child Info {#BiB_StartingSchool.stschool_info}
+
+
+Administrative information about children in the Starting School cohort.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_StartingSchool.stschool_info'
+prj_name <- 'BiB_StartingSchool'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Starting School BPVS {#BiB_StartingSchool.stschool_bpvs}
+
+
+Starting School was a research project that engaged Bradford primary schools and which ran for two consecutive academic years (2012-13 and 2013-14). The project aimed to assess all children in their first (reception) year of schooling who were in schools where there were at least 10 Born in Bradford children enrolled. Ninety-four out of the 142 primary schools in Bradford were contacted in the recruitment phase. The British Picture Vocabulary Scale (BPVS) is a one-to-one test that assesses a child’s receptive vocabulary. For each question, the assessor says a word and the child responds by selecting a picture from four options that best illustrates the word's meaning. As no reading is required, BPVS can be used to assess language development in non-readers and especially pupils with expressive language impairments. Because no spoken response is required, the assessment may be administered to pupils with autism and other related communication difficulties or those with English as an Additional Language (EAL). To help with administration to pupils who may be colour blind the illustrations have black outlines and the colours are vivid.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_StartingSchool.stschool_bpvs'
+prj_name <- 'BiB_StartingSchool'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Starting School Letter identification {#BiB_StartingSchool.stschool_lid}
+
+
+Starting School was a research project that engaged Bradford primary schools and which ran for two consecutive academic years (2012-13 and 2013-14). The project aimed to assess all children in their first (reception) year of schooling who were in schools where there were at least 10 Born in Bradford children enrolled. Ninety-four out of the 142 primary schools in Bradford were contacted in the recruitment phase.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_StartingSchool.stschool_lid'
+prj_name <- 'BiB_StartingSchool'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Starting School CKAT {#BiB_StartingSchool.stschool_ckat}
+
+
+Starting School was a research project that engaged Bradford primary schools and which ran for two consecutive academic years (2012-13 and 2013-14). The project aimed to assess all children in their first (reception) year of schooling who were in schools where there were at least 10 Born in Bradford children enrolled. Ninety-four out of the 142 primary schools in Bradford were contacted in the recruitment phase. Clinical Kinematic Assessment Tool (CKAT) is a standardised, computerised assessment battery of visuo-manual motor control which comprises of tasks involving the presentation of interactive visual stimuli displayed on a touch-screen tablet laptop screen, whilst simultaneously recording participant’s responses to these stimuli via interactions with the screen using a handheld stylus. The battery of tasks presented by CKAT is described in detail in Flatters et al. (2014; PloS One, 9(2), e88692. doi:10.1371/journal.pone.0088692), whilst the underlying software architecture and the performance metrics CKAT measures participants on are explained in Culmer, Levesley, Mon-Williams and Williams (2009; Journal of Neuroscience Methods, 184(1), 184–92. doi:10.1016/j.jneumeth.2009.07.025). To briefly summarise: (1) the CKAT Tracking task assesses participants ability to predict target movement; (2) the Aiming task assesses (discrete) feedforward and feedback control mechanisms and (3) the Tracing/Steering assesses (continuous) steering control mechanisms - all of which are considered to be fundamental sensorimotor control processes.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_StartingSchool.stschool_ckat'
+prj_name <- 'BiB_StartingSchool'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Starting School SDQ {#BiB_StartingSchool.stschool_sdq}
+
+
+Starting School was a research project that engaged Bradford primary schools and which ran for two consecutive academic years (2012-13 and 2013-14). The project aimed to assess all children in their first (reception) year of schooling who were in schools where there were at least 10 Born in Bradford children enrolled. Ninety-four out of the 142 primary schools in Bradford were contacted in the recruitment phase. The Strengths and Difficulties Questionnaire (SDQ) is a brief behavioural screening tool assessing psychological attributes such as emotional symptoms, conduct problems, hyperactivity, peer relationships and prosocial behaviour. This version was completed by the child's class teacher, and also includes an impact supplement, which assesses the teacher's perceived impact of the difficulties identified. (Goodman R (1997) Journal of Child Psychology and Psychiatry, 38, 581-586 doi:10.1111/j.1469-7610.1997.tb01545.x)
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_StartingSchool.stschool_sdq'
+prj_name <- 'BiB_StartingSchool'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+

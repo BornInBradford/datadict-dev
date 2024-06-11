@@ -1,0 +1,216 @@
+---
+params:
+  project_name: BiB_Proteomics
+---
+
+
+
+# BiB Proteomics {#BiB_Proteomics}
+
+
+Proteomics datasets contain protein expression and associated sample selection and quality control data.
+
+
+
+```{r, include=FALSE}
+prj_name <- 'BiB_Proteomics'
+source('../R/get_all_project_metadata.R', local = knitr::knit_global())
+```
+## Next generation sequencing controls {#BiB_Proteomics.ngs_control}
+
+
+Next generation sequenced proteomics data controls
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Proteomics.ngs_control'
+prj_name <- 'BiB_Proteomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Next generation sequencing project 1 {#BiB_Proteomics.ngs_project1}
+
+
+Next generation sequenced proteomics data in White European and Pakistani mothers who also have genotype data
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Proteomics.ngs_project1'
+prj_name <- 'BiB_Proteomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Next generation sequencing project 2 {#BiB_Proteomics.ngs_project2}
+
+
+Next generation sequenced proteomics data White British and Pakistani mothers who have genotype and metabolomics data, and specific pregnancy or birth outcomes
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Proteomics.ngs_project2'
+prj_name <- 'BiB_Proteomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## QPCR controls {#BiB_Proteomics.qpcr_control}
+
+
+QPCR proteomics data controls
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Proteomics.qpcr_control'
+prj_name <- 'BiB_Proteomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## QPCR project 1 {#BiB_Proteomics.qpcr_project1}
+
+
+QPCR proteomics data in White European and Pakistani mothers who also have genotype data
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Proteomics.qpcr_project1'
+prj_name <- 'BiB_Proteomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## QPCR project 2 {#BiB_Proteomics.qpcr_project2}
+
+
+QPCR proteomics data White British and Pakistani mothers who have genotype and metabolomics data, and specific pregnancy or birth outcomes
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Proteomics.qpcr_project2'
+prj_name <- 'BiB_Proteomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+

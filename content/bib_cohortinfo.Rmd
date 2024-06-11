@@ -1,0 +1,414 @@
+---
+params:
+  project_name: BiB_CohortInfo
+---
+
+
+
+# BiB Cohort Information {#BiB_CohortInfo}
+
+
+Information about BiB cohort participants
+
+
+
+```{r, include=FALSE}
+prj_name <- 'BiB_CohortInfo'
+source('../R/get_all_project_metadata.R', local = knitr::knit_global())
+```
+## BiB person-level information {#BiB_CohortInfo.person_info}
+
+
+BiB person-level information, including parent-child and sibling linkage.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_CohortInfo.person_info'
+prj_name <- 'BiB_CohortInfo'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Ethnicity information about BiB cohort participants {#BiB_CohortInfo.ethnicity}
+
+
+Ethnicity information about BiB cohort participants
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_CohortInfo.ethnicity'
+prj_name <- 'BiB_CohortInfo'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## BiB participant related pairs {#BiB_CohortInfo.related_pairs}
+
+
+Related pairs of BiB participants, e.g. mother-child relationships, child-parent relationships
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_CohortInfo.related_pairs'
+prj_name <- 'BiB_CohortInfo'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Person information Child {#BiB_CohortInfo.child_info}
+
+
+Administrative cohort information on Child participants.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_CohortInfo.child_info'
+prj_name <- 'BiB_CohortInfo'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Person information Father {#BiB_CohortInfo.father_info}
+
+
+Administrative cohort information on Father participants.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_CohortInfo.father_info'
+prj_name <- 'BiB_CohortInfo'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Person information Mother {#BiB_CohortInfo.mother_info}
+
+
+Administrative cohort information on Mother participants.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_CohortInfo.mother_info'
+prj_name <- 'BiB_CohortInfo'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## ID Linkage {#BiB_CohortInfo.id_linkage}
+
+
+Identifiers for BiB cohort participants
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_CohortInfo.id_linkage'
+prj_name <- 'BiB_CohortInfo'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Pregnancy information {#BiB_CohortInfo.preg_info}
+
+
+Information from administrative records about the BiB pregnancy
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_CohortInfo.preg_info'
+prj_name <- 'BiB_CohortInfo'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## BiB genotyping data linkage {#BiB_CohortInfo.genotyping_info}
+
+
+Information about available genotyping data including links to sample IDs.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_CohortInfo.genotyping_info'
+prj_name <- 'BiB_CohortInfo'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## BiB exome sequencing data linkage {#BiB_CohortInfo.exomeseq_info}
+
+
+Information about available exome sequencing data including links to sample IDs.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_CohortInfo.exomeseq_info'
+prj_name <- 'BiB_CohortInfo'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## BiB DNA methylation data linkage {#BiB_CohortInfo.dnam_info}
+
+
+Information about available DNA methylation data including links to sample IDs.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_CohortInfo.dnam_info'
+prj_name <- 'BiB_CohortInfo'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## BiB DNA methylation control sample IDs {#BiB_CohortInfo.dnam_controls}
+
+
+BiB DNA methylation control sample IDs
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_CohortInfo.dnam_controls'
+prj_name <- 'BiB_CohortInfo'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+

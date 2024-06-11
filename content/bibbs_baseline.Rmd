@@ -1,0 +1,51 @@
+---
+params:
+  project_name: BiBBS_Baseline
+---
+
+
+
+# BiBBS Baseline {#BiBBS_Baseline}
+
+
+Baseline surveys completed on BiBBS cohort registration during pregnancy.
+
+
+
+```{r, include=FALSE}
+prj_name <- 'BiBBS_Baseline'
+source('../R/get_all_project_metadata.R', local = knitr::knit_global())
+```
+## Mother baseline pregnancy survey {#BiBBS_Baseline.pregnancy_survey}
+
+
+Maternal baseline pregnancy survey. Harmonised data across all survey versions up to the 2019-11-30 datafreeze.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiBBS_Baseline.pregnancy_survey'
+prj_name <- 'BiBBS_Baseline'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+

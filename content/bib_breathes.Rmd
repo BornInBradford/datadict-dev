@@ -1,0 +1,84 @@
+---
+params:
+  project_name: BiB_Breathes
+---
+
+
+
+# BiB Breathes {#BiB_Breathes}
+
+
+BiB Breathes survey and associated data
+
+
+
+```{r, include=FALSE}
+prj_name <- 'BiB_Breathes'
+source('../R/get_all_project_metadata.R', local = knitr::knit_global())
+```
+## BREATHES Air quality survey Phase 1 {#BiB_Breathes.BiBBr_Phase1}
+
+
+Air quality survey from the BiB BREATHES study
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Breathes.BiBBr_Phase1'
+prj_name <- 'BiB_Breathes'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## BREATHES Air quality survey Phase 2 {#BiB_Breathes.BiBBr_Phase2}
+
+
+Air quality survey from the BiB BREATHES study
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Breathes.BiBBr_Phase2'
+prj_name <- 'BiB_Breathes'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+

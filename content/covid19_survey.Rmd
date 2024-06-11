@@ -1,0 +1,282 @@
+---
+params:
+  project_name: COVID19_Survey
+---
+
+
+
+# COVID19 Surveys {#COVID19_Survey}
+
+
+A series of mixed-mode surveys conducted during 2020 COVID-19 national lockdown and in the months that followed.
+
+
+
+```{r, include=FALSE}
+prj_name <- 'COVID19_Survey'
+source('../R/get_all_project_metadata.R', local = knitr::knit_global())
+```
+## COVID19 Adult  Survey Phase 1 {#COVID19_Survey.adult_phase1}
+
+
+COVID19 adult-completed survey phase 1. Combines respondents from both the BiB and BiBBS cohorts.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'COVID19_Survey.adult_phase1'
+prj_name <- 'COVID19_Survey'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## COVID19 Adult Survey Phase 2 (BiB) {#COVID19_Survey.adult_bib_phase2}
+
+
+COVID19 adult-completed survey phase 2. Just respondents from the BiB cohort.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'COVID19_Survey.adult_bib_phase2'
+prj_name <- 'COVID19_Survey'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## COVID19 Adult Survey Phase 2 (BiBBS) {#COVID19_Survey.adult_bibbs_phase2}
+
+
+COVID19 adult-completed survey phase 2. Just respondents from the BiBBS cohort.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'COVID19_Survey.adult_bibbs_phase2'
+prj_name <- 'COVID19_Survey'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## COVID19 Adult Survey Phase 3 (BiB and general public) {#COVID19_Survey.adult_bibplus_phase3}
+
+
+COVID19 adult-completed survey phase 3. Respondents from the BiB cohort and the general public. This table is constructed from questions 20:50 of the BiB Breathes survey.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'COVID19_Survey.adult_bibplus_phase3'
+prj_name <- 'COVID19_Survey'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## COVID19 Adult Survey Phase 3 (BiBBS) {#COVID19_Survey.adult_bibbs_phase3}
+
+
+COVID19 adult-completed survey phase 3. Just respondents from the BiBBS cohort.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'COVID19_Survey.adult_bibbs_phase3'
+prj_name <- 'COVID19_Survey'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## COVID19 Child Survey Phase 1 {#COVID19_Survey.child_phase1_covid}
+
+
+COVID19 child survey. Respondents from the BiB cohort. Phase 1.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'COVID19_Survey.child_phase1_covid'
+prj_name <- 'COVID19_Survey'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## COVID19 Child Survey Phase 2 {#COVID19_Survey.child_phase2_covid}
+
+
+COVID19 child survey. Respondents from the BiB cohort. Phase 2.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'COVID19_Survey.child_phase2_covid'
+prj_name <- 'COVID19_Survey'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## COVID19 Child Survey Phase 3 {#COVID19_Survey.child_phase3_covid}
+
+
+COVID19 child survey. Respondents from the BiB cohort. Phase 3.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'COVID19_Survey.child_phase3_covid'
+prj_name <- 'COVID19_Survey'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+

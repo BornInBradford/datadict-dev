@@ -1,0 +1,348 @@
+---
+params:
+  project_name: BiB_Baseline
+---
+
+
+
+# BiB Baseline {#BiB_Baseline}
+
+
+Baseline surveys completed on BiB cohort registration during pregnancy.
+
+
+
+```{r, include=FALSE}
+prj_name <- 'BiB_Baseline'
+source('../R/get_all_project_metadata.R', local = knitr::knit_global())
+```
+## Mother baseline survey {#BiB_Baseline.base_m_survey}
+
+
+Maternal baseline questionnaire. Main table, contains variables collected in all three questionnaire phases.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Baseline.base_m_survey'
+prj_name <- 'BiB_Baseline'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Mother food frequency and knowledge survey questions phase 2 {#BiB_Baseline.base_m2_foodfrequency}
+
+
+A series of food / diet survey questions from BiB Mothers Baseline survey (phase 2) relating to food frequency and knowledge
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Baseline.base_m2_foodfrequency'
+prj_name <- 'BiB_Baseline'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Mother consumption of fats survey questions phase 1 {#BiB_Baseline.base_m1_consumptionoffats}
+
+
+A series of food / diet survey questions from BiB Mothers Baseline survey (phase 1) relating to the consumption of fats
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Baseline.base_m1_consumptionoffats'
+prj_name <- 'BiB_Baseline'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Mother cooking methods survey questions phase 1 and phase 2 {#BiB_Baseline.base_m12_cookingmethods}
+
+
+A series of food / diet survey questions from BiB Mothers Baseline survey (phase 1 and phase 2) relating to cooking methods
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Baseline.base_m12_cookingmethods'
+prj_name <- 'BiB_Baseline'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## BiB Baseline mother exercise phase 1 {#BiB_Baseline.base_m1_exercise}
+
+
+A series of exercise survey questions from BiB Baseline exercise survey phase 1
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Baseline.base_m1_exercise'
+prj_name <- 'BiB_Baseline'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## BiB Baseline mother food frequency phase 1 {#BiB_Baseline.base_m1_foodfrequency}
+
+
+A series of exercise survey questions from BiB Baseline food frequency survey phase 1
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Baseline.base_m1_foodfrequency'
+prj_name <- 'BiB_Baseline'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## BiB Baseline mother exercise phase 2 and phase 3 {#BiB_Baseline.base_m23_exercise}
+
+
+A series of exercise survey questions from BiB Baseline exercise survey phase 2 and phase 3
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Baseline.base_m23_exercise'
+prj_name <- 'BiB_Baseline'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Mother baseline phase 1 {#BiB_Baseline.base_m1_survey}
+
+
+Maternal baseline questionnaire. This source contains data collected only in Phase 1 (of 3 Phases). These items relate to Social Capital.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Baseline.base_m1_survey'
+prj_name <- 'BiB_Baseline'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Father baseline survey {#BiB_Baseline.base_f_survey}
+
+
+BiB father baseline questionnaire, mostly completed at pregnancy recruitment appointment. There were problems with the stored questionnaire date, so date of questionnaire is set to pregnancy recruitment date.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Baseline.base_f_survey'
+prj_name <- 'BiB_Baseline'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Mother baseline phase 2 and 3 {#BiB_Baseline.base_m23_survey}
+
+
+Maternal baseline questionnaire. Contains variables collected in phases 2 and 3.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Baseline.base_m23_survey'
+prj_name <- 'BiB_Baseline'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+

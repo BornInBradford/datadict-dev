@@ -1,0 +1,44 @@
+---
+title: BiB Data Dictionary [DEVELOPMENT VERSION]
+---
+
+
+```{r setup, message=FALSE, warning=FALSE, include=FALSE}
+
+library(epivaultr)
+library(dplyr)
+library(knitr)
+library(reactable)
+library(V8)
+library(here)
+
+source("../R/setup/datadict-functions.R")
+
+options(ev_server = "BHTS-RESRCH22DV")
+options(ev_database = "ResearchWarehouse")
+
+con <- ev_connect()
+
+projects <- ev_simple_fetch(con, "DataDictionary", "metadata_project")
+tables <- ev_simple_fetch(con, "DataDictionary", "metadata_table")
+
+terms_closer <- ev_simple_fetch(con, "DataDictionary", "terms_closer")
+terms_bib <- ev_simple_fetch(con, "DataDictionary", "terms_bib")
+
+projects <- projects |> filter(publish == 1) |> arrange(display_order)
+
+tables <- tables |> filter(publish == 1) |>
+  inner_join(select(projects, project_name, project_display_order = display_order), by = "project_name") |>
+  arrange(project_display_order, project_name, display_order, table_name)
+# remove projects with no tables
+projects <- projects |> semi_join(tables, by = "project_name")
+
+
+```
+
+
+# Introduction
+
+This is the development version of the BiB data dictionary.
+
+

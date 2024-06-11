@@ -1,0 +1,315 @@
+---
+params:
+  project_name: BiB_PrimarySchoolYears
+---
+
+
+
+# BiB Primary School Years {#BiB_PrimarySchoolYears}
+
+
+The BiB Primary School Years follow-up.
+
+
+
+```{r, include=FALSE}
+prj_name <- 'BiB_PrimarySchoolYears'
+source('../R/get_all_project_metadata.R', local = knitr::knit_global())
+```
+## Primary School Years child information {#BiB_PrimarySchoolYears.child_info}
+
+
+This table contains basic information about the Primary School Years children.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_PrimarySchoolYears.child_info'
+prj_name <- 'BiB_PrimarySchoolYears'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Primary School Years SDQ data {#BiB_PrimarySchoolYears.sdq_data}
+
+
+Teacher completed Strengths and Difficulties Questionnaire for children in the Primary School Years study.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_PrimarySchoolYears.sdq_data'
+prj_name <- 'BiB_PrimarySchoolYears'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Primary School Years child quiz {#BiB_PrimarySchoolYears.child_quiz}
+
+
+This table contains the results of the Child Quiz, also known as the Child Wellbeing Survey.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_PrimarySchoolYears.child_quiz'
+prj_name <- 'BiB_PrimarySchoolYears'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Primary School Years EF BDR task data {#BiB_PrimarySchoolYears.ef_task_bdr}
+
+
+Primary School Years Executive Function tasks. This table contains data from the Backward Digit Recall (BDR) task.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_PrimarySchoolYears.ef_task_bdr'
+prj_name <- 'BiB_PrimarySchoolYears'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Primary School Years EF FDR task data {#BiB_PrimarySchoolYears.ef_task_fdr}
+
+
+Primary School Years Executive Function tasks. This table contains data from the Forward Digit Recall (FDR) task.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_PrimarySchoolYears.ef_task_fdr'
+prj_name <- 'BiB_PrimarySchoolYears'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Primary School Years EF Corsi task data {#BiB_PrimarySchoolYears.ef_task_corsi}
+
+
+Primary School Years Executive Function tasks. This table contains data from the Corsi task.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_PrimarySchoolYears.ef_task_corsi'
+prj_name <- 'BiB_PrimarySchoolYears'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Primary School Years EF Inhibition task data {#BiB_PrimarySchoolYears.ef_task_inhibition}
+
+
+Primary School Years Executive Function tasks. This table contains data from the Inhibition task.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_PrimarySchoolYears.ef_task_inhibition'
+prj_name <- 'BiB_PrimarySchoolYears'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Primary School Years EF PS task data {#BiB_PrimarySchoolYears.ef_task_ps}
+
+
+Primary School Years Executive Function tasks. This table contains data from the Processing Speed (PS) task.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_PrimarySchoolYears.ef_task_ps'
+prj_name <- 'BiB_PrimarySchoolYears'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Primary School Years CKAT data {#BiB_PrimarySchoolYears.ckat_data}
+
+
+Main CKAT dataset from the Primary School Years study age 7-10 yrs
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_PrimarySchoolYears.ckat_data'
+prj_name <- 'BiB_PrimarySchoolYears'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+

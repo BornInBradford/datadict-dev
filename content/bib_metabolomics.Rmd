@@ -1,0 +1,942 @@
+---
+params:
+  project_name: BiB_Metabolomics
+---
+
+
+
+# BiB Metabolomics {#BiB_Metabolomics}
+
+
+Nuclear magnetic resonance (NMR) and mass spectrometry (MS) metabolomics on BiB pregnancy, neonatal and infant samples.
+
+
+
+```{r, include=FALSE}
+prj_name <- 'BiB_Metabolomics'
+source('../R/get_all_project_metadata.R', local = knitr::knit_global())
+```
+## MS metabolomics paired mother samples scaled {#BiB_Metabolomics.metms_pairm_s}
+
+
+Mass spectrometry metabolomics (Metabolon) with over 1300 markers from mother pregnancy bloods. Paired neonatal sample data also available. Scaled values.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metms_pairm_s'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## MS metabolomics paired mother samples raw {#BiB_Metabolomics.metms_pairm_r}
+
+
+Mass spectrometry metabolomics (Metabolon) with over 1300 markers from mother pregnancy bloods. Paired neonatal sample data also available. Raw values.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metms_pairm_r'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## MS metabolomics paired mother samples header {#BiB_Metabolomics.metms_pairm_h}
+
+
+Sample header information (meta data) from mass spectrometry metabolomics (Metabolon) on paired mother samples.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metms_pairm_h'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## MS metabolomics paired mother samples compound metadata {#BiB_Metabolomics.metms_pairm_c}
+
+
+Meta data about compounds (markers) from mass spectrometry metabolomics (Metabolon) on paired mother samples.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metms_pairm_c'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## MS metabolomics paired child samples scaled {#BiB_Metabolomics.metms_pairc_s}
+
+
+Mass spectrometry metabolomics (Metabolon) with over 1300 markers from neonatal bloods. Paired mother pregnancy sample data also available. Scaled values.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metms_pairc_s'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## MS metabolomics paired child samples raw {#BiB_Metabolomics.metms_pairc_r}
+
+
+Mass spectrometry metabolomics (Metabolon) with over 1300 markers from neonatal bloods. Paired mother pregnancy sample data also available. Raw values.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metms_pairc_r'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## MS metabolomics paired child samples header {#BiB_Metabolomics.metms_pairc_h}
+
+
+Sample header information (meta data) from mass spectrometry metabolomics (Metabolon) on paired child samples.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metms_pairc_h'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## MS metabolomics paired child samples compound metadata {#BiB_Metabolomics.metms_pairc_c}
+
+
+Meta data about compounds (markers) from mass spectrometry metabolomics (Metabolon) on paired child samples.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metms_pairc_c'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## MS metabolomics 2000 mothers scaled {#BiB_Metabolomics.metms_2k_s}
+
+
+Mass spectrometry metabolomics (Metabolon) with over 1200 markers from 2000 selected pregnancy samples. Scaled values.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metms_2k_s'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## MS metabolomics 2000 mothers raw {#BiB_Metabolomics.metms_2k_r}
+
+
+Mass spectrometry metabolomics (Metabolon) with over 1200 markers from 2000 selected pregnancy samples. Raw values.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metms_2k_r'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## MS metabolomics 2000 mothers header {#BiB_Metabolomics.metms_2k_h}
+
+
+Sample header information (meta data) from mass spectrometry metabolomics (Metabolon) on 2000 pregnancy samples.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metms_2k_h'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## MS metabolomics 2000 mothers compound metadata {#BiB_Metabolomics.metms_2k_c}
+
+
+Meta data about compounds (markers) from mass spectrometry metabolomics (Metabolon) on 2000 pregnancy samples.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metms_2k_c'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## NMR metabolomics mother data {#BiB_Metabolomics.metnmr_mother_d}
+
+
+Nuclear magnetic resonance metabolomics (Nightingale) with 227 markers from mother pregnancy bloods.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metnmr_mother_d'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## NMR metabolomics mother annotations {#BiB_Metabolomics.metnmr_mother_a}
+
+
+Compound annotations for nuclear magnetic resonance metabolomics (Nightingale) with 227 markers from mother pregnancy bloods.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metnmr_mother_a'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## NMR metabolomics baby data {#BiB_Metabolomics.metnmr_baby_d}
+
+
+Nuclear magnetic resonance metabolomics (Nightingale) with 85 markers from neonatal cord bloods.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metnmr_baby_d'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## NMR metabolomics baby annotations {#BiB_Metabolomics.metnmr_baby_a}
+
+
+Compound annotations for nuclear magnetic resonance metabolomics (Nightingale) with 85 markers from neonatal cord bloods.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metnmr_baby_a'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## NMR metabolomics infant 12m data {#BiB_Metabolomics.metnmr_infant12_d}
+
+
+Nuclear magnetic resonance metabolomics (Nightingale) with 228 markers from infant bloods collected at the 12m wave.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metnmr_infant12_d'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## NMR metabolomics infant 12m annotations {#BiB_Metabolomics.metnmr_infant12_a}
+
+
+Compound annotations for nuclear magnetic resonance metabolomics (Nightingale) with 228 markers from infant bloods collected at the 12m wave.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metnmr_infant12_a'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## NMR metabolomics infant 24m data {#BiB_Metabolomics.metnmr_infant24_d}
+
+
+Nuclear magnetic resonance metabolomics (Nightingale) with 228 markers from infant bloods collected at the 24m wave.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metnmr_infant24_d'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## NMR metabolomics infant 24m annotations {#BiB_Metabolomics.metnmr_infant24_a}
+
+
+Compound annotations for nuclear magnetic resonance metabolomics (Nightingale) with 228 markers from infant bloods collected at the 24m wave.
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metnmr_infant24_a'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## NMR metabolomics Growing Up child results {#BiB_Metabolomics.metnmr_gu_child_results}
+
+
+NMR metabolomics Growing Up child results
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metnmr_gu_child_results'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## NMR metabolomics Growing Up child QC {#BiB_Metabolomics.metnmr_gu_child_qc}
+
+
+NMR metabolomics Growing Up child QC
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metnmr_gu_child_qc'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## NMR metabolomics Growing Up mother results {#BiB_Metabolomics.metnmr_gu_mother_results}
+
+
+NMR metabolomics Growing Up mother results
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metnmr_gu_mother_results'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## NMR metabolomics Growing Up mother QC {#BiB_Metabolomics.metnmr_gu_mother_qc}
+
+
+NMR metabolomics Growing Up mother QC
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metnmr_gu_mother_qc'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## NMR metabolomics Growing Up father results {#BiB_Metabolomics.metnmr_gu_father_results}
+
+
+NMR metabolomics Growing Up father results
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metnmr_gu_father_results'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## NMR metabolomics Growing Up father QC {#BiB_Metabolomics.metnmr_gu_father_qc}
+
+
+NMR metabolomics Growing Up father QC
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metnmr_gu_father_qc'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## NMR metabolomics Growing Up biomarker annotations {#BiB_Metabolomics.metnmr_gu_biomarker_annotations}
+
+
+NMR metabolomics Growing Up biomarker annotations
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metnmr_gu_biomarker_annotations'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## NMR metabolomics Growing Up compound QC tags {#BiB_Metabolomics.metnmr_gu_qc_tag}
+
+
+NMR metabolomics Growing Up compound QC tags
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_Metabolomics.metnmr_gu_qc_tag'
+prj_name <- 'BiB_Metabolomics'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+

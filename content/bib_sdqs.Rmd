@@ -1,0 +1,282 @@
+---
+params:
+  project_name: BiB_SDQs
+---
+
+
+
+# BiB SDQs {#BiB_SDQs}
+
+
+The Strength and Difficulties Questionnaires from all projects
+
+
+
+```{r, include=FALSE}
+prj_name <- 'BiB_SDQs'
+source('../R/get_all_project_metadata.R', local = knitr::knit_global())
+```
+## Strength and Difficulties questionnaire from the BiB1000 survey {#BiB_SDQs.BiB1000_sdq}
+
+
+Contains SDQ data for those aged 2-4 years and was completed by the parent of the child
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_SDQs.BiB1000_sdq'
+prj_name <- 'BiB_SDQs'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Strength and Difficulties questionnaire from the COVID phase 1 survey {#BiB_SDQs.COVID_phase1_sdq}
+
+
+Contains SDQ data for those aged 4+  years and was completed by the parent of the child
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_SDQs.COVID_phase1_sdq'
+prj_name <- 'BiB_SDQs'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Strength and Difficulties questionnaire from the COVID phase 2 survey {#BiB_SDQs.COVID_phase2_sdq}
+
+
+Contains SDQ data for those aged 4+  years and was completed by the parent of the child
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_SDQs.COVID_phase2_sdq'
+prj_name <- 'BiB_SDQs'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Strength and Difficulties questionnaire from the COVID phase 3 survey {#BiB_SDQs.COVID_phase3_sdq}
+
+
+Contains SDQ data for those aged 4+  years and was completed by the parent of the child
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_SDQs.COVID_phase3_sdq'
+prj_name <- 'BiB_SDQs'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Strength and Difficulties questionnaire from the Growing Up survey {#BiB_SDQs.GrowingUp_sdq}
+
+
+Contains SDQ data for those aged 4+  years and was completed by the parent of the child
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_SDQs.GrowingUp_sdq'
+prj_name <- 'BiB_SDQs'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Strength and Difficulties questionnaire from the MeDALL survey {#BiB_SDQs.MeDALL_sdq}
+
+
+Contains SDQ data for those aged 4+  years and was completed by the parent of the child
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_SDQs.MeDALL_sdq'
+prj_name <- 'BiB_SDQs'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Strength and Difficulties questionnaire from the Primary School Years surve {#BiB_SDQs.PrimarySchoolYears_sdq}
+
+
+Contains SDQ data for those aged 4+  years and was completed by the teacher of the child
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_SDQs.PrimarySchoolYears_sdq'
+prj_name <- 'BiB_SDQs'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
+## Strength and Difficulties questionnaire from the Starting School survey {#BiB_SDQs.StartingSchool_sdq}
+
+
+Contains SDQ data for those aged 4+  years and was completed by the teacher of the child
+
+
+
+```{r, include=FALSE}
+tab_id <- 'BiB_SDQs.StartingSchool_sdq'
+prj_name <- 'BiB_SDQs'
+source('../R/make_table_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(tab_display)
+```
+
+
+
+```{r, include=FALSE}
+source('../R/make_var_info_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE}
+reactable(vars_display)
+```
+
+
+
