@@ -5,7 +5,9 @@ params:
 
 
 
-# BiB Metabolomics {#BiB_Metabolomics}
+
+
+# BiB Metabolomics
 
 
 Nuclear magnetic resonance (NMR) and mass spectrometry (MS) metabolomics on BiB pregnancy, neonatal and infant samples.
@@ -16,7 +18,12 @@ Nuclear magnetic resonance (NMR) and mass spectrometry (MS) metabolomics on BiB 
 prj_name <- 'BiB_Metabolomics'
 source('../R/get_all_project_metadata.R', local = knitr::knit_global())
 ```
-## MS metabolomics paired mother samples scaled {#BiB_Metabolomics.metms_pairm_s}
+
+
+
+
+
+## MS metabolomics paired mother samples scaled
 
 
 Mass spectrometry metabolomics (Metabolon) with over 1300 markers from mother pregnancy bloods. Paired neonatal sample data also available. Scaled values.
@@ -32,7 +39,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -44,12 +51,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## MS metabolomics paired mother samples raw {#BiB_Metabolomics.metms_pairm_r}
+
+
+## MS metabolomics paired mother samples raw
 
 
 Mass spectrometry metabolomics (Metabolon) with over 1300 markers from mother pregnancy bloods. Paired neonatal sample data also available. Raw values.
@@ -65,7 +74,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -77,12 +86,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## MS metabolomics paired mother samples header {#BiB_Metabolomics.metms_pairm_h}
+
+
+## MS metabolomics paired mother samples header
 
 
 Sample header information (meta data) from mass spectrometry metabolomics (Metabolon) on paired mother samples.
@@ -98,7 +109,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -110,12 +121,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## MS metabolomics paired mother samples compound metadata {#BiB_Metabolomics.metms_pairm_c}
+
+
+## MS metabolomics paired mother samples compound metadata
 
 
 Meta data about compounds (markers) from mass spectrometry metabolomics (Metabolon) on paired mother samples.
@@ -131,7 +144,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -143,12 +156,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## MS metabolomics paired child samples scaled {#BiB_Metabolomics.metms_pairc_s}
+
+
+## MS metabolomics paired child samples scaled
 
 
 Mass spectrometry metabolomics (Metabolon) with over 1300 markers from neonatal bloods. Paired mother pregnancy sample data also available. Scaled values.
@@ -164,7 +179,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -176,12 +191,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## MS metabolomics paired child samples raw {#BiB_Metabolomics.metms_pairc_r}
+
+
+## MS metabolomics paired child samples raw
 
 
 Mass spectrometry metabolomics (Metabolon) with over 1300 markers from neonatal bloods. Paired mother pregnancy sample data also available. Raw values.
@@ -197,7 +214,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -209,12 +226,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## MS metabolomics paired child samples header {#BiB_Metabolomics.metms_pairc_h}
+
+
+## MS metabolomics paired child samples header
 
 
 Sample header information (meta data) from mass spectrometry metabolomics (Metabolon) on paired child samples.
@@ -230,7 +249,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -242,12 +261,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## MS metabolomics paired child samples compound metadata {#BiB_Metabolomics.metms_pairc_c}
+
+
+## MS metabolomics paired child samples compound metadata
 
 
 Meta data about compounds (markers) from mass spectrometry metabolomics (Metabolon) on paired child samples.
@@ -263,7 +284,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -275,12 +296,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## MS metabolomics 2000 mothers scaled {#BiB_Metabolomics.metms_2k_s}
+
+
+## MS metabolomics 2000 mothers scaled
 
 
 Mass spectrometry metabolomics (Metabolon) with over 1200 markers from 2000 selected pregnancy samples. Scaled values.
@@ -296,7 +319,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -308,12 +331,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## MS metabolomics 2000 mothers raw {#BiB_Metabolomics.metms_2k_r}
+
+
+## MS metabolomics 2000 mothers raw
 
 
 Mass spectrometry metabolomics (Metabolon) with over 1200 markers from 2000 selected pregnancy samples. Raw values.
@@ -329,7 +354,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -341,12 +366,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## MS metabolomics 2000 mothers header {#BiB_Metabolomics.metms_2k_h}
+
+
+## MS metabolomics 2000 mothers header
 
 
 Sample header information (meta data) from mass spectrometry metabolomics (Metabolon) on 2000 pregnancy samples.
@@ -362,7 +389,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -374,12 +401,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## MS metabolomics 2000 mothers compound metadata {#BiB_Metabolomics.metms_2k_c}
+
+
+## MS metabolomics 2000 mothers compound metadata
 
 
 Meta data about compounds (markers) from mass spectrometry metabolomics (Metabolon) on 2000 pregnancy samples.
@@ -395,7 +424,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -407,12 +436,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## NMR metabolomics mother data {#BiB_Metabolomics.metnmr_mother_d}
+
+
+## NMR metabolomics mother data
 
 
 Nuclear magnetic resonance metabolomics (Nightingale) with 227 markers from mother pregnancy bloods.
@@ -428,7 +459,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -440,12 +471,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## NMR metabolomics mother annotations {#BiB_Metabolomics.metnmr_mother_a}
+
+
+## NMR metabolomics mother annotations
 
 
 Compound annotations for nuclear magnetic resonance metabolomics (Nightingale) with 227 markers from mother pregnancy bloods.
@@ -461,7 +494,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -473,12 +506,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## NMR metabolomics baby data {#BiB_Metabolomics.metnmr_baby_d}
+
+
+## NMR metabolomics baby data
 
 
 Nuclear magnetic resonance metabolomics (Nightingale) with 85 markers from neonatal cord bloods.
@@ -494,7 +529,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -506,12 +541,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## NMR metabolomics baby annotations {#BiB_Metabolomics.metnmr_baby_a}
+
+
+## NMR metabolomics baby annotations
 
 
 Compound annotations for nuclear magnetic resonance metabolomics (Nightingale) with 85 markers from neonatal cord bloods.
@@ -527,7 +564,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -539,12 +576,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## NMR metabolomics infant 12m data {#BiB_Metabolomics.metnmr_infant12_d}
+
+
+## NMR metabolomics infant 12m data
 
 
 Nuclear magnetic resonance metabolomics (Nightingale) with 228 markers from infant bloods collected at the 12m wave.
@@ -560,7 +599,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -572,12 +611,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## NMR metabolomics infant 12m annotations {#BiB_Metabolomics.metnmr_infant12_a}
+
+
+## NMR metabolomics infant 12m annotations
 
 
 Compound annotations for nuclear magnetic resonance metabolomics (Nightingale) with 228 markers from infant bloods collected at the 12m wave.
@@ -593,7 +634,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -605,12 +646,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## NMR metabolomics infant 24m data {#BiB_Metabolomics.metnmr_infant24_d}
+
+
+## NMR metabolomics infant 24m data
 
 
 Nuclear magnetic resonance metabolomics (Nightingale) with 228 markers from infant bloods collected at the 24m wave.
@@ -626,7 +669,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -638,12 +681,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## NMR metabolomics infant 24m annotations {#BiB_Metabolomics.metnmr_infant24_a}
+
+
+## NMR metabolomics infant 24m annotations
 
 
 Compound annotations for nuclear magnetic resonance metabolomics (Nightingale) with 228 markers from infant bloods collected at the 24m wave.
@@ -659,7 +704,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -671,12 +716,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## NMR metabolomics Growing Up child results {#BiB_Metabolomics.metnmr_gu_child_results}
+
+
+## NMR metabolomics Growing Up child results
 
 
 NMR metabolomics Growing Up child results
@@ -692,7 +739,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -704,12 +751,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## NMR metabolomics Growing Up child QC {#BiB_Metabolomics.metnmr_gu_child_qc}
+
+
+## NMR metabolomics Growing Up child QC
 
 
 NMR metabolomics Growing Up child QC
@@ -725,7 +774,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -737,12 +786,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## NMR metabolomics Growing Up mother results {#BiB_Metabolomics.metnmr_gu_mother_results}
+
+
+## NMR metabolomics Growing Up mother results
 
 
 NMR metabolomics Growing Up mother results
@@ -758,7 +809,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -770,12 +821,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## NMR metabolomics Growing Up mother QC {#BiB_Metabolomics.metnmr_gu_mother_qc}
+
+
+## NMR metabolomics Growing Up mother QC
 
 
 NMR metabolomics Growing Up mother QC
@@ -791,7 +844,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -803,12 +856,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## NMR metabolomics Growing Up father results {#BiB_Metabolomics.metnmr_gu_father_results}
+
+
+## NMR metabolomics Growing Up father results
 
 
 NMR metabolomics Growing Up father results
@@ -824,7 +879,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -836,12 +891,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## NMR metabolomics Growing Up father QC {#BiB_Metabolomics.metnmr_gu_father_qc}
+
+
+## NMR metabolomics Growing Up father QC
 
 
 NMR metabolomics Growing Up father QC
@@ -857,7 +914,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -869,12 +926,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## NMR metabolomics Growing Up biomarker annotations {#BiB_Metabolomics.metnmr_gu_biomarker_annotations}
+
+
+## NMR metabolomics Growing Up biomarker annotations
 
 
 NMR metabolomics Growing Up biomarker annotations
@@ -890,7 +949,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -902,12 +961,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## NMR metabolomics Growing Up compound QC tags {#BiB_Metabolomics.metnmr_gu_qc_tag}
+
+
+## NMR metabolomics Growing Up compound QC tags
 
 
 NMR metabolomics Growing Up compound QC tags
@@ -923,7 +984,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -935,7 +996,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 

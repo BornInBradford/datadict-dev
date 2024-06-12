@@ -5,7 +5,9 @@ params:
 
 
 
-# BiB SDQs {#BiB_SDQs}
+
+
+# BiB SDQs
 
 
 The Strength and Difficulties Questionnaires from all projects
@@ -16,7 +18,12 @@ The Strength and Difficulties Questionnaires from all projects
 prj_name <- 'BiB_SDQs'
 source('../R/get_all_project_metadata.R', local = knitr::knit_global())
 ```
-## Strength and Difficulties questionnaire from the BiB1000 survey {#BiB_SDQs.BiB1000_sdq}
+
+
+
+
+
+## Strength and Difficulties questionnaire from the BiB1000 survey
 
 
 Contains SDQ data for those aged 2-4 years and was completed by the parent of the child
@@ -32,7 +39,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -44,12 +51,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Strength and Difficulties questionnaire from the COVID phase 1 survey {#BiB_SDQs.COVID_phase1_sdq}
+
+
+## Strength and Difficulties questionnaire from the COVID phase 1 survey
 
 
 Contains SDQ data for those aged 4+  years and was completed by the parent of the child
@@ -65,7 +74,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -77,12 +86,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Strength and Difficulties questionnaire from the COVID phase 2 survey {#BiB_SDQs.COVID_phase2_sdq}
+
+
+## Strength and Difficulties questionnaire from the COVID phase 2 survey
 
 
 Contains SDQ data for those aged 4+  years and was completed by the parent of the child
@@ -98,7 +109,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -110,12 +121,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Strength and Difficulties questionnaire from the COVID phase 3 survey {#BiB_SDQs.COVID_phase3_sdq}
+
+
+## Strength and Difficulties questionnaire from the COVID phase 3 survey
 
 
 Contains SDQ data for those aged 4+  years and was completed by the parent of the child
@@ -131,7 +144,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -143,12 +156,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Strength and Difficulties questionnaire from the Growing Up survey {#BiB_SDQs.GrowingUp_sdq}
+
+
+## Strength and Difficulties questionnaire from the Growing Up survey
 
 
 Contains SDQ data for those aged 4+  years and was completed by the parent of the child
@@ -164,7 +179,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -176,12 +191,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Strength and Difficulties questionnaire from the MeDALL survey {#BiB_SDQs.MeDALL_sdq}
+
+
+## Strength and Difficulties questionnaire from the MeDALL survey
 
 
 Contains SDQ data for those aged 4+  years and was completed by the parent of the child
@@ -197,7 +214,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -209,12 +226,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Strength and Difficulties questionnaire from the Primary School Years surve {#BiB_SDQs.PrimarySchoolYears_sdq}
+
+
+## Strength and Difficulties questionnaire from the Primary School Years surve
 
 
 Contains SDQ data for those aged 4+  years and was completed by the teacher of the child
@@ -230,7 +249,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -242,12 +261,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Strength and Difficulties questionnaire from the Starting School survey {#BiB_SDQs.StartingSchool_sdq}
+
+
+## Strength and Difficulties questionnaire from the Starting School survey
 
 
 Contains SDQ data for those aged 4+  years and was completed by the teacher of the child
@@ -263,7 +284,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -275,7 +296,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 

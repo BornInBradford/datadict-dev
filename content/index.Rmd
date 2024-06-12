@@ -11,6 +11,7 @@ library(knitr)
 library(reactable)
 library(V8)
 library(here)
+library(htmltools)
 
 source("../R/setup/datadict-functions.R")
 

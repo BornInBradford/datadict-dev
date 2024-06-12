@@ -5,7 +5,9 @@ params:
 
 
 
-# BiB Primary School Years {#BiB_PrimarySchoolYears}
+
+
+# BiB Primary School Years
 
 
 The BiB Primary School Years follow-up.
@@ -16,7 +18,12 @@ The BiB Primary School Years follow-up.
 prj_name <- 'BiB_PrimarySchoolYears'
 source('../R/get_all_project_metadata.R', local = knitr::knit_global())
 ```
-## Primary School Years child information {#BiB_PrimarySchoolYears.child_info}
+
+
+
+
+
+## Primary School Years child information
 
 
 This table contains basic information about the Primary School Years children.
@@ -32,7 +39,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -44,12 +51,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Primary School Years SDQ data {#BiB_PrimarySchoolYears.sdq_data}
+
+
+## Primary School Years SDQ data
 
 
 Teacher completed Strengths and Difficulties Questionnaire for children in the Primary School Years study.
@@ -65,7 +74,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -77,12 +86,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Primary School Years child quiz {#BiB_PrimarySchoolYears.child_quiz}
+
+
+## Primary School Years child quiz
 
 
 This table contains the results of the Child Quiz, also known as the Child Wellbeing Survey.
@@ -98,7 +109,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -110,12 +121,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Primary School Years EF BDR task data {#BiB_PrimarySchoolYears.ef_task_bdr}
+
+
+## Primary School Years EF BDR task data
 
 
 Primary School Years Executive Function tasks. This table contains data from the Backward Digit Recall (BDR) task.
@@ -131,7 +144,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -143,12 +156,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Primary School Years EF FDR task data {#BiB_PrimarySchoolYears.ef_task_fdr}
+
+
+## Primary School Years EF FDR task data
 
 
 Primary School Years Executive Function tasks. This table contains data from the Forward Digit Recall (FDR) task.
@@ -164,7 +179,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -176,12 +191,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Primary School Years EF Corsi task data {#BiB_PrimarySchoolYears.ef_task_corsi}
+
+
+## Primary School Years EF Corsi task data
 
 
 Primary School Years Executive Function tasks. This table contains data from the Corsi task.
@@ -197,7 +214,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -209,12 +226,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Primary School Years EF Inhibition task data {#BiB_PrimarySchoolYears.ef_task_inhibition}
+
+
+## Primary School Years EF Inhibition task data
 
 
 Primary School Years Executive Function tasks. This table contains data from the Inhibition task.
@@ -230,7 +249,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -242,12 +261,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Primary School Years EF PS task data {#BiB_PrimarySchoolYears.ef_task_ps}
+
+
+## Primary School Years EF PS task data
 
 
 Primary School Years Executive Function tasks. This table contains data from the Processing Speed (PS) task.
@@ -263,7 +284,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -275,12 +296,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Primary School Years CKAT data {#BiB_PrimarySchoolYears.ckat_data}
+
+
+## Primary School Years CKAT data
 
 
 Main CKAT dataset from the Primary School Years study age 7-10 yrs
@@ -296,7 +319,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -308,7 +331,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 

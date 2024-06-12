@@ -5,7 +5,9 @@ params:
 
 
 
-# BiBBS Cohort Information {#BiBBS_CohortInfo}
+
+
+# BiBBS Cohort Information
 
 
 Information about BiBBS cohort participants
@@ -16,7 +18,12 @@ Information about BiBBS cohort participants
 prj_name <- 'BiBBS_CohortInfo'
 source('../R/get_all_project_metadata.R', local = knitr::knit_global())
 ```
-## Pregnancy recruitment {#BiBBS_CohortInfo.recruitment}
+
+
+
+
+
+## Pregnancy recruitment
 
 
 Data describing patient pathway through the recruitment process for all booked pregnancies in the target period. (2019-11-30 datafreeze)
@@ -32,7 +39,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -44,12 +51,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Recruited pregnancy information {#BiBBS_CohortInfo.pregnancy}
+
+
+## Recruited pregnancy information
 
 
 Information for administrative and linkage purposes regarding recruited pregnancies (2019-11-30 datafreeze)
@@ -65,7 +74,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -77,12 +86,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Recruited mother information {#BiBBS_CohortInfo.mother}
+
+
+## Recruited mother information
 
 
 Information for administrative and linkage purposes regarding recruited Mother participants (2019-11-30 datafreeze)
@@ -98,7 +109,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -110,12 +121,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Child information {#BiBBS_CohortInfo.child}
+
+
+## Child information
 
 
 Information for administrative and linkage purposes regarding recruited Child participants (2019-11-30 datafreeze)
@@ -131,7 +144,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -143,12 +156,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Partner information {#BiBBS_CohortInfo.partner}
+
+
+## Partner information
 
 
 Information for administrative and linkage purposes regarding recruited Partner participants (2019-11-30 datafreeze)
@@ -164,7 +179,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -176,7 +191,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 

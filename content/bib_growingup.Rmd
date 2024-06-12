@@ -5,7 +5,9 @@ params:
 
 
 
-# BiB Growing Up {#BiB_GrowingUp}
+
+
+# BiB Growing Up
 
 
 Research clinics and surveys data from the BiB Growing Up follow-up.
@@ -16,7 +18,12 @@ Research clinics and surveys data from the BiB Growing Up follow-up.
 prj_name <- 'BiB_GrowingUp'
 source('../R/get_all_project_metadata.R', local = knitr::knit_global())
 ```
-## BiB Growing Up participant pathway {#BiB_GrowingUp.participant_pathway}
+
+
+
+
+
+## BiB Growing Up participant pathway
 
 
 BiB Growing Up participant pathway - contacts, recruitment, completions, withdrawals etc
@@ -32,7 +39,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -44,12 +51,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## BiB Growing Up adult survey {#BiB_GrowingUp.adult_survey}
+
+
+## BiB Growing Up adult survey
 
 
 BiB Growing Up adult survey
@@ -65,7 +74,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -77,12 +86,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## BiB Growing Up adult survey - BiB1000 sample {#BiB_GrowingUp.adult_survey_BiB1000_sample}
+
+
+## BiB Growing Up adult survey - BiB1000 sample
 
 
 BiB Growing Up adult survey - BiB1000 sample
@@ -98,7 +109,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -110,12 +121,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## BiB Growing Up adult survey - MeDALL sample {#BiB_GrowingUp.adult_survey_MeDALL_sample}
+
+
+## BiB Growing Up adult survey - MeDALL sample
 
 
 BiB Growing Up adult survey - MeDALL sample
@@ -131,7 +144,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -143,12 +156,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## BiB Growing Up child survey (adult completed) {#BiB_GrowingUp.child_survey_adult_comp}
+
+
+## BiB Growing Up child survey (adult completed)
 
 
 BiB Growing Up child survey, completed by adult
@@ -164,7 +179,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -176,12 +191,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## BiB Growing Up child survey (child completed) {#BiB_GrowingUp.child_survey_child_comp}
+
+
+## BiB Growing Up child survey (child completed)
 
 
 BiB Growing Up child survey, completed by child
@@ -197,7 +214,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -209,12 +226,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## BiB Growing Up DXA scan (mother) {#BiB_GrowingUp.dxa_scan_m}
+
+
+## BiB Growing Up DXA scan (mother)
 
 
 DXA scan on cohort mothers completed during the BiB Growing Up study.
@@ -230,7 +249,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -242,12 +261,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## BiB Growing Up DXA scan (child) {#BiB_GrowingUp.dxa_scan_c}
+
+
+## BiB Growing Up DXA scan (child)
 
 
 DXA scan on cohort children completed during the BiB Growing Up study.
@@ -263,7 +284,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -275,12 +296,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## BiB Growing Up DXA scan (father) {#BiB_GrowingUp.dxa_scan_f}
+
+
+## BiB Growing Up DXA scan (father)
 
 
 DXA scan on cohort fathers completed during the BiB Growing Up study.
@@ -296,7 +319,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -308,12 +331,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## BiB Growing Up child blood pressures {#BiB_GrowingUp.blood_pressure}
+
+
+## BiB Growing Up child blood pressures
 
 
 BiB Growing Up child blood pressures
@@ -329,7 +354,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -341,12 +366,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## BiB Growing Up renal study urine analyses {#BiB_GrowingUp.renal_urines}
+
+
+## BiB Growing Up renal study urine analyses
 
 
 BiB Growing Up urine tests for participants enrolled in the UK Kidney Research renal study. Mostly carried out at Bradford Teaching Hospitals, except RBP, which was carried out at Sheffield Teaching Hospitals.
@@ -362,7 +389,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -374,7 +401,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 

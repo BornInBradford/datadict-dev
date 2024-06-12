@@ -42,14 +42,15 @@ yaml_block <- function(project_name) {
 
 project_section <- function(df_project) {
   
-  md <- paste0("# ", df_project$display_name, " {#", df_project$project_name, "}\n\n")
+  md <- paste0("\n\n# ", df_project$display_name, "\n\n")#" {#", df_project$project_name, "}\n\n")
   
   md <- md |> c(df_project$project_description,
                 "\n\n",
                 "```{r, include=FALSE}",
                 paste0("prj_name <- '", df_project$project_name, "'"),
                 "source('../R/get_all_project_metadata.R', local = knitr::knit_global())",
-                "```"
+                "```",
+                "\n\n"
   )
   
   return(md)
@@ -59,7 +60,7 @@ project_section <- function(df_project) {
 
 table_section <- function(df_table) {
   
-  md <- paste0("## ", df_table$display_name, " {#", df_table$table_id, "}\n\n")
+  md <- paste0("\n\n## ", df_table$display_name, "\n\n")#" {#", df_table$table_id, "}\n\n")
 
   md <- md |> c(df_table$table_description,
                 "\n\n",
@@ -70,7 +71,7 @@ table_section <- function(df_table) {
                 "```",
                 "\n\n",
                 "```{r, echo=FALSE}",
-                "reactable(tab_display)",
+                "source('../R/reactable_table_info.R', local = knitr::knit_global())",
                 "```",
                 "\n\n",
                 "```{r, include=FALSE}",
@@ -78,7 +79,7 @@ table_section <- function(df_table) {
                 "```",
                 "\n\n",
                 "```{r, echo=FALSE}",
-                "reactable(vars_display)",
+                "source('../R/reactable_vars.R', local = knitr::knit_global())",
                 "```",
                 "\n\n")
   

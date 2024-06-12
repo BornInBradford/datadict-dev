@@ -5,7 +5,9 @@ params:
 
 
 
-# BiB Biosamples {#BiB_Biosamples}
+
+
+# BiB Biosamples
 
 
 Contains all data derived from assays of BiB blood and urine samples. Also contains manifests of samples stored in the biobank.
@@ -16,7 +18,12 @@ Contains all data derived from assays of BiB blood and urine samples. Also conta
 prj_name <- 'BiB_Biosamples'
 source('../R/get_all_project_metadata.R', local = knitr::knit_global())
 ```
-## Biochemistry hospital bloods taken during pregnancy {#BiB_Biosamples.hosp_biochem}
+
+
+
+
+
+## Biochemistry hospital bloods taken during pregnancy
 
 
 Hospital bloods from mother taken during pregnancy. Biochemistry data.
@@ -32,7 +39,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -44,12 +51,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Haematology hospital bloods taken during pregnancy {#BiB_Biosamples.hosp_haem}
+
+
+## Haematology hospital bloods taken during pregnancy
 
 
 Hospital bloods from mother taken during pregnancy. Haematology data.
@@ -65,7 +74,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -77,12 +86,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## HbA1c hospital bloods taken during pregnancy {#BiB_Biosamples.hosp_hba1c}
+
+
+## HbA1c hospital bloods taken during pregnancy
 
 
 Hospital bloods from mother taken during pregnancy. HbA1c data.
@@ -98,7 +109,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -110,12 +121,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Pregnancy blood biomarkers {#BiB_Biosamples.pregnancy_bloods}
+
+
+## Pregnancy blood biomarkers
 
 
 Biomarkers taken from baseline maternal bloods for whole cohort
@@ -131,7 +144,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -143,12 +156,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Pregnancy bloods vitamin D {#BiB_Biosamples.pregnancy_bloods_vitd}
+
+
+## Pregnancy bloods vitamin D
 
 
 Extra biomarkers taken from baseline maternal bloods for vitamin D study
@@ -164,7 +179,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -176,12 +191,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Maternal baseline GTT {#BiB_Biosamples.pregnancy_gtt}
+
+
+## Maternal baseline GTT
 
 
 Maternal baseline glucose tolerance test
@@ -197,7 +214,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -209,12 +226,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## BiB Growing Up main blood tests {#BiB_Biosamples.blood_tests}
+
+
+## BiB Growing Up main blood tests
 
 
 BiB Growing Up main blood tests carried out at Bradford Teaching Hospitals
@@ -230,7 +249,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -242,12 +261,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Baby cord blood biomarkers {#BiB_Biosamples.cord_bloods}
+
+
+## Baby cord blood biomarkers
 
 
 Biomarkers taken from baby cord bloods for a subcohort of 2176 between Oct 2008 and Oct 2009.
@@ -263,7 +284,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -275,12 +296,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## BiB COVID19 child covid antibody blood tests {#BiB_Biosamples.covid_antibody_blood_tests}
+
+
+## BiB COVID19 child covid antibody blood tests
 
 
 Results of antibody blood tests taken during COVID19 pandemic
@@ -296,7 +319,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -308,12 +331,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## BiB maternal iodine {#BiB_Biosamples.maternal_iodine}
+
+
+## BiB maternal iodine
 
 
 Urine samples were collected at ~26 weeks gestation from 7,060 participants. Urinary iodine was estimated at the Leeds Institute of Cardiovascular and Metabolic Medicine, University of Leeds. For further details refer to the following citation: https://doi.org/10.1111/ppe.12719
@@ -329,7 +354,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -341,12 +366,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## BiB Growing Up renal study blood tests {#BiB_Biosamples.renal_blood_tests}
+
+
+## BiB Growing Up renal study blood tests
 
 
 BiB Growing Up blood tests for participants enrolled in the UK Kidney Research renal study, carried out at Bradford Teaching Hospitals
@@ -362,7 +389,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -374,12 +401,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## BiB Growing Up renal study Cystatin C {#BiB_Biosamples.renal_cystatinc}
+
+
+## BiB Growing Up renal study Cystatin C
 
 
 Cystatin C analysis for the BiB Growing Up UK Kindey Research renal study. Specs: Cobas 8000 made by Roche Diagnostics calibrated against international
@@ -397,7 +426,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -409,7 +438,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 

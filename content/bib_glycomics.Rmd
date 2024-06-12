@@ -5,7 +5,9 @@ params:
 
 
 
-# BiB Glycomics {#BiB_Glycomics}
+
+
+# BiB Glycomics
 
 
 Glycomics samples for BiB participants
@@ -16,7 +18,12 @@ Glycomics samples for BiB participants
 prj_name <- 'BiB_Glycomics'
 source('../R/get_all_project_metadata.R', local = knitr::knit_global())
 ```
-## Total plasma glycome analyses using HILIC-UHPLC-FLR method {#BiB_Glycomics.glycomics}
+
+
+
+
+
+## Total plasma glycome analyses using HILIC-UHPLC-FLR method
 
 
 Total plasma glycome analyses using HILIC-UHPLC-FLR method
@@ -32,7 +39,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -44,7 +51,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 

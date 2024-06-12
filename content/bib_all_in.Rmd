@@ -5,7 +5,9 @@ params:
 
 
 
-# BiB ALL IN {#BiB_ALL_IN}
+
+
+# BiB ALL IN
 
 
 The ALL IN study (ALLergy and INfection) dataset contains surveys of BiB mothers when the child was12m and 24m old.
@@ -16,7 +18,12 @@ The ALL IN study (ALLergy and INfection) dataset contains surveys of BiB mothers
 prj_name <- 'BiB_ALL_IN'
 source('../R/get_all_project_metadata.R', local = knitr::knit_global())
 ```
-## ALL IN 12m Questionnaire {#BiB_ALL_IN.allin12_qs}
+
+
+
+
+
+## ALL IN 12m Questionnaire
 
 
 ALL IN 12 month questionnaire - questionnaire - main wide format sections
@@ -32,7 +39,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -44,12 +51,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## ALL IN 12m Current Childcare {#BiB_ALL_IN.allin12_cc}
+
+
+## ALL IN 12m Current Childcare
 
 
 ALL IN 12 month questionnaire - current childcare - long format section
@@ -65,7 +74,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -77,12 +86,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## ALL IN 12m Child Travel {#BiB_ALL_IN.allin12_ct}
+
+
+## ALL IN 12m Child Travel
 
 
 ALL IN 12 month questionnaire - children's travel - long format section
@@ -98,7 +109,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -110,12 +121,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## ALL IN 12m Doctor Diagnoses {#BiB_ALL_IN.allin12_dd}
+
+
+## ALL IN 12m Doctor Diagnoses
 
 
 ALL IN 12 month questionnaire - doctor diagnoses - long format section
@@ -131,7 +144,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -143,12 +156,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## ALL IN 12m Extra Immunisations {#BiB_ALL_IN.allin12_ei}
+
+
+## ALL IN 12m Extra Immunisations
 
 
 ALL IN 12 month questionnaire - extra immunisations - long format section
@@ -164,7 +179,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -176,12 +191,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## ALL IN 12m Household {#BiB_ALL_IN.allin12_hh}
+
+
+## ALL IN 12m Household
 
 
 ALL IN 12 month questionnaire - household - long format section
@@ -197,7 +214,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -209,12 +226,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## ALL IN 12m Previous Childcare {#BiB_ALL_IN.allin12_pc}
+
+
+## ALL IN 12m Previous Childcare
 
 
 ALL IN 12 month questionnaire - previous childcare - long format section
@@ -230,7 +249,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -242,12 +261,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## ALL IN 24m Questionnaire {#BiB_ALL_IN.allin24_qs}
+
+
+## ALL IN 24m Questionnaire
 
 
 ALL IN 24 month questionnaire - questionnaire -main wide format sections
@@ -263,7 +284,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -275,12 +296,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## ALL IN 24m Current Childcare {#BiB_ALL_IN.allin24_cc}
+
+
+## ALL IN 24m Current Childcare
 
 
 ALL IN 24 month questionnaire - current childcare - long format section
@@ -296,7 +319,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -308,12 +331,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## ALL IN 24m Child Travel {#BiB_ALL_IN.allin24_ct}
+
+
+## ALL IN 24m Child Travel
 
 
 ALL IN 24 month questionnaire - children's travel - long format section
@@ -329,7 +354,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -341,12 +366,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## ALL IN 24m Doctor Diagnoses {#BiB_ALL_IN.allin24_dd}
+
+
+## ALL IN 24m Doctor Diagnoses
 
 
 ALL IN 24 month questionnaire - doctor diagnoses - long format section
@@ -362,7 +389,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -374,12 +401,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## ALL IN 24m Extra Immunisations {#BiB_ALL_IN.allin24_ei}
+
+
+## ALL IN 24m Extra Immunisations
 
 
 ALL IN 24 month questionnaire - extra immunisations - long format section
@@ -395,7 +424,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -407,12 +436,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## ALL IN 24m Food Allergy {#BiB_ALL_IN.allin24_fa}
+
+
+## ALL IN 24m Food Allergy
 
 
 ALL IN 24 month questionnaire - food allergy - long format section
@@ -428,7 +459,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -440,12 +471,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## ALL IN 24m Household {#BiB_ALL_IN.allin24_hh}
+
+
+## ALL IN 24m Household
 
 
 ALL IN 24 month questionnaire - household - long format section
@@ -461,7 +494,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -473,12 +506,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## ALL IN 24m Previous Childcare {#BiB_ALL_IN.allin24_pc}
+
+
+## ALL IN 24m Previous Childcare
 
 
 ALL IN 24 month questionnaire - previous childcare - long format section
@@ -494,7 +529,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -506,12 +541,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## ALL IN 24m Treatment Abroad {#BiB_ALL_IN.allin24_ta}
+
+
+## ALL IN 24m Treatment Abroad
 
 
 ALL IN 24 month questionnaire - treatment abroad - long format section
@@ -527,7 +564,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -539,7 +576,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 

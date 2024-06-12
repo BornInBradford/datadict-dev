@@ -5,7 +5,9 @@ params:
 
 
 
-# BiB Child Growth {#BiB_ChildGrowth}
+
+
+# BiB Child Growth
 
 
 BiB child growth, anthropometry and bioimpedance data from a variety of sources across the lifecourse.
@@ -16,7 +18,12 @@ BiB child growth, anthropometry and bioimpedance data from a variety of sources 
 prj_name <- 'BiB_ChildGrowth'
 source('../R/get_all_project_metadata.R', local = knitr::knit_global())
 ```
-## Child anthropometry {#BiB_ChildGrowth.anthropometry}
+
+
+
+
+
+## Child anthropometry
 
 
 Child anthropometry from a variety of sources taken from across the lifecourse
@@ -32,7 +39,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -44,12 +51,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Child growth NCMP data {#BiB_ChildGrowth.growth_NCMP}
+
+
+## Child growth NCMP data
 
 
 Child growth data from the National Child Measurement Programme taken from across the lifecourse
@@ -65,7 +74,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -77,12 +86,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Child growth research data {#BiB_ChildGrowth.growth_ResearchData}
+
+
+## Child growth research data
 
 
 Child growth data from surveys taken from across the lifecourse
@@ -98,7 +109,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -110,12 +121,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Child growth primary care data {#BiB_ChildGrowth.growth_PrimaryCare}
+
+
+## Child growth primary care data
 
 
 Child growth data from primary care taken from across the lifecourse
@@ -131,7 +144,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -143,12 +156,14 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
 
-## Child bioimpedance {#BiB_ChildGrowth.bioimpedance}
+
+
+## Child bioimpedance
 
 
 Child bioimpedance measures mostly aged 7-10y
@@ -164,7 +179,7 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(tab_display)
+source('../R/reactable_table_info.R', local = knitr::knit_global())
 ```
 
 
@@ -176,7 +191,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ```{r, echo=FALSE}
-reactable(vars_display)
+source('../R/reactable_vars.R', local = knitr::knit_global())
 ```
 
 
