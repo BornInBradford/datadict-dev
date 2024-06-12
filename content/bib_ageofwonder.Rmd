@@ -23,7 +23,7 @@ source('../R/get_all_project_metadata.R', local = knitr::knit_global())
 
 
 
-## AoW recruitment denominator 2023 release
+## AoW recruitment denominator 2023 release {#BiB_AgeOfWonder.recruitment_dr23}
 
 
 [Annual data release 2023](https://github.com/BornInBradford/aow_datarelease/releases/tag/v2023.1.0) full recruitment denominator. Contains records for all consented participants in the period of the data release, regardless of data collected. Includes ages, dates, school id and form tutor id plus some other contextual indicators (free school meals, SEN) and IMD (2019). Also has data availability indicators for each participant. <br> Each record contains a unique recruitment event, with a new recuitment event occuring at each new school year, and at each new school. Therefore, it's possible that participants will be listed multiple times in this table. aow_recruitment_id is unique at each record, whilst aow_person_id can be used to identify unique participants in AoW. BiBPersonID can be used to link BiB participants in AoW to other BiB study data.
@@ -38,8 +38,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -50,15 +50,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## AoW survey module 1 2023 release
+## AoW survey module 1 2023 release {#BiB_AgeOfWonder.survey_mod01_dr23}
 
 
 [Annual data release 2023](https://github.com/BornInBradford/aow_datarelease/releases/tag/v2023.0.0) student survey module 1
@@ -73,8 +73,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -85,15 +85,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## AoW survey module 2 2023 release
+## AoW survey module 2 2023 release {#BiB_AgeOfWonder.survey_mod02_dr23}
 
 
 [Annual data release 2023](https://github.com/BornInBradford/aow_datarelease/releases/tag/v2023.0.0) student survey module 2
@@ -108,8 +108,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -120,15 +120,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## AoW survey module 3 2023 release
+## AoW survey module 3 2023 release {#BiB_AgeOfWonder.survey_mod03_dr23}
 
 
 [Annual data release 2023](https://github.com/BornInBradford/aow_datarelease/releases/tag/v2023.0.0) student survey module 3
@@ -143,8 +143,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -155,15 +155,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## AoW survey module 4 2023 release
+## AoW survey module 4 2023 release {#BiB_AgeOfWonder.survey_mod04_dr23}
 
 
 [Annual data release 2023](https://github.com/BornInBradford/aow_datarelease/releases/tag/v2023.0.0) student survey module 4
@@ -178,8 +178,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -190,15 +190,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## AoW school visit height and weight 2023 release
+## AoW school visit height and weight 2023 release {#BiB_AgeOfWonder.heightweight_dr23}
 
 
 [Annual data release 2023](https://github.com/BornInBradford/aow_datarelease/releases/tag/v2023.0.0) school visit height and weight measures.
@@ -213,8 +213,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -225,15 +225,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## AoW school visit bioimpedance 2023 release
+## AoW school visit bioimpedance 2023 release {#BiB_AgeOfWonder.bioimpedance_dr23}
 
 
 [Annual data release 2023](https://github.com/BornInBradford/aow_datarelease/releases/tag/v2023.0.0) school visit bioimpedance data.
@@ -248,8 +248,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -260,15 +260,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## AoW school visit skinfold 2023 release
+## AoW school visit skinfold 2023 release {#BiB_AgeOfWonder.skinfold_dr23}
 
 
 [Annual data release 2023](https://github.com/BornInBradford/aow_datarelease/releases/tag/v2023.0.0) school visit skinfold measures.
@@ -283,8 +283,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -295,15 +295,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## AoW school visit blood pressure 2023 release
+## AoW school visit blood pressure 2023 release {#BiB_AgeOfWonder.bloodpressure_dr23}
 
 
 [Annual data release 2023](https://github.com/BornInBradford/aow_datarelease/releases/tag/v2023.0.0) school visit blood pressure data.
@@ -318,8 +318,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -330,8 +330,8 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 

@@ -23,7 +23,7 @@ source('../R/get_all_project_metadata.R', local = knitr::knit_global())
 
 
 
-## BiB person-level information
+## BiB person-level information {#BiB_CohortInfo.person_info}
 
 
 BiB person-level information, including parent-child and sibling linkage.
@@ -38,8 +38,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -50,15 +50,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## Ethnicity information about BiB cohort participants
+## Ethnicity information about BiB cohort participants {#BiB_CohortInfo.ethnicity}
 
 
 Ethnicity information about BiB cohort participants
@@ -73,8 +73,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -85,15 +85,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## BiB participant related pairs
+## BiB participant related pairs {#BiB_CohortInfo.related_pairs}
 
 
 Related pairs of BiB participants, e.g. mother-child relationships, child-parent relationships
@@ -108,8 +108,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -120,15 +120,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## Person information Child
+## Person information Child {#BiB_CohortInfo.child_info}
 
 
 Administrative cohort information on Child participants.
@@ -143,8 +143,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -155,15 +155,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## Person information Father
+## Person information Father {#BiB_CohortInfo.father_info}
 
 
 Administrative cohort information on Father participants.
@@ -178,8 +178,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -190,15 +190,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## Person information Mother
+## Person information Mother {#BiB_CohortInfo.mother_info}
 
 
 Administrative cohort information on Mother participants.
@@ -213,8 +213,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -225,15 +225,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## ID Linkage
+## ID Linkage {#BiB_CohortInfo.id_linkage}
 
 
 Identifiers for BiB cohort participants
@@ -248,8 +248,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -260,15 +260,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## Pregnancy information
+## Pregnancy information {#BiB_CohortInfo.preg_info}
 
 
 Information from administrative records about the BiB pregnancy
@@ -283,8 +283,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -295,15 +295,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## BiB genotyping data linkage
+## BiB genotyping data linkage {#BiB_CohortInfo.genotyping_info}
 
 
 Information about available genotyping data including links to sample IDs.
@@ -318,8 +318,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -330,15 +330,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## BiB exome sequencing data linkage
+## BiB exome sequencing data linkage {#BiB_CohortInfo.exomeseq_info}
 
 
 Information about available exome sequencing data including links to sample IDs.
@@ -353,8 +353,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -365,15 +365,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## BiB DNA methylation data linkage
+## BiB DNA methylation data linkage {#BiB_CohortInfo.dnam_info}
 
 
 Information about available DNA methylation data including links to sample IDs.
@@ -388,8 +388,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -400,15 +400,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## BiB DNA methylation control sample IDs
+## BiB DNA methylation control sample IDs {#BiB_CohortInfo.dnam_controls}
 
 
 BiB DNA methylation control sample IDs
@@ -423,8 +423,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -435,8 +435,8 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 

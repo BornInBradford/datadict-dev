@@ -17,6 +17,7 @@ yml_output_dir <- "docs"
 index_md <- "resources/index.Rmd"
 output_yml <- "resources/_output.yml"
 nojekyll <- "resources/.nojekyll"
+dict_css <- "resources/datadict.css"
 
 yaml_handlers = list(
   logical = function(x) {

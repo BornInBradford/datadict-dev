@@ -23,7 +23,7 @@ source('../R/get_all_project_metadata.R', local = knitr::knit_global())
 
 
 
-## COVID19 Adult  Survey Phase 1
+## COVID19 Adult  Survey Phase 1 {#COVID19_Survey.adult_phase1}
 
 
 COVID19 adult-completed survey phase 1. Combines respondents from both the BiB and BiBBS cohorts.
@@ -38,8 +38,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -50,15 +50,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## COVID19 Adult Survey Phase 2 (BiB)
+## COVID19 Adult Survey Phase 2 (BiB) {#COVID19_Survey.adult_bib_phase2}
 
 
 COVID19 adult-completed survey phase 2. Just respondents from the BiB cohort.
@@ -73,8 +73,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -85,15 +85,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## COVID19 Adult Survey Phase 2 (BiBBS)
+## COVID19 Adult Survey Phase 2 (BiBBS) {#COVID19_Survey.adult_bibbs_phase2}
 
 
 COVID19 adult-completed survey phase 2. Just respondents from the BiBBS cohort.
@@ -108,8 +108,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -120,15 +120,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## COVID19 Adult Survey Phase 3 (BiB and general public)
+## COVID19 Adult Survey Phase 3 (BiB and general public) {#COVID19_Survey.adult_bibplus_phase3}
 
 
 COVID19 adult-completed survey phase 3. Respondents from the BiB cohort and the general public. This table is constructed from questions 20:50 of the BiB Breathes survey.
@@ -143,8 +143,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -155,15 +155,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## COVID19 Adult Survey Phase 3 (BiBBS)
+## COVID19 Adult Survey Phase 3 (BiBBS) {#COVID19_Survey.adult_bibbs_phase3}
 
 
 COVID19 adult-completed survey phase 3. Just respondents from the BiBBS cohort.
@@ -178,8 +178,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -190,15 +190,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## COVID19 Child Survey Phase 1
+## COVID19 Child Survey Phase 1 {#COVID19_Survey.child_phase1_covid}
 
 
 COVID19 child survey. Respondents from the BiB cohort. Phase 1.
@@ -213,8 +213,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -225,15 +225,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## COVID19 Child Survey Phase 2
+## COVID19 Child Survey Phase 2 {#COVID19_Survey.child_phase2_covid}
 
 
 COVID19 child survey. Respondents from the BiB cohort. Phase 2.
@@ -248,8 +248,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -260,15 +260,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## COVID19 Child Survey Phase 3
+## COVID19 Child Survey Phase 3 {#COVID19_Survey.child_phase3_covid}
 
 
 COVID19 child survey. Respondents from the BiB cohort. Phase 3.
@@ -283,8 +283,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -295,8 +295,8 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 

@@ -23,7 +23,7 @@ source('../R/get_all_project_metadata.R', local = knitr::knit_global())
 
 
 
-## Yorkshire and Humber Congenital Anomalies Register
+## Yorkshire and Humber Congenital Anomalies Register {#BiB_Congenital_Anomalies.conganom_yhcar}
 
 
 Contains data entered into the Yorkshire and Humber Congenital Anomalies Register database. This source holds long data at child level, one ICD10 code per row. These are the final codes, which are not always the same as those initially notified. Note that not all of these were confirmed post-natally, see variable yhcarlConfirmedPostnatally.
@@ -38,8 +38,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -50,15 +50,15 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 
 
 
 
-## Congenital Anomalies GP record linkage to 5yo
+## Congenital Anomalies GP record linkage to 5yo {#BiB_Congenital_Anomalies.conganom_gp}
 
 
 Congenital anomalies up to 5 years of age, identified in GP records by Bishop et al (doi: 10.1136/bmjpo-2017-000171) following EUROCAT guidelines (https://bit.ly/2SS1gVc). ICD10 codes were mapped to CTV3 prior to extraction from GP records.
@@ -73,8 +73,8 @@ source('../R/make_table_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_table_info.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_table_info.R'}
+
 ```
 
 
@@ -85,8 +85,8 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-```{r, echo=FALSE}
-source('../R/reactable_vars.R', local = knitr::knit_global())
+```{r, echo=FALSE, file='../R/reactable_vars.R'}
+
 ```
 
 

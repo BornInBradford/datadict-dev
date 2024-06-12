@@ -60,7 +60,7 @@ project_section <- function(df_project) {
 
 table_section <- function(df_table) {
   
-  md <- paste0("\n\n## ", df_table$display_name, "\n\n")#" {#", df_table$table_id, "}\n\n")
+  md <- paste0("\n\n## ", df_table$display_name, " {#", df_table$table_id, "}\n\n")
 
   md <- md |> c(df_table$table_description,
                 "\n\n",
@@ -70,16 +70,16 @@ table_section <- function(df_table) {
                 "source('../R/make_table_info_display.R', local = knitr::knit_global())",
                 "```",
                 "\n\n",
-                "```{r, echo=FALSE}",
-                "source('../R/reactable_table_info.R', local = knitr::knit_global())",
+                "```{r, echo=FALSE, file='../R/reactable_table_info.R'}",
+                "",
                 "```",
                 "\n\n",
                 "```{r, include=FALSE}",
                 "source('../R/make_var_info_display.R', local = knitr::knit_global())",
                 "```",
                 "\n\n",
-                "```{r, echo=FALSE}",
-                "source('../R/reactable_vars.R', local = knitr::knit_global())",
+                "```{r, echo=FALSE, file='../R/reactable_vars.R'}",
+                "",
                 "```",
                 "\n\n")
   
@@ -115,6 +115,7 @@ add_fixed_files <- function() {
   
   if(!file.copy(index_md, paste0(output_dir, "index.Rmd"), overwrite = TRUE)) warning("index.Rmd failed to copy to output directory")
   if(!file.copy(output_yml, paste0(output_dir, "_output.yml"), overwrite = TRUE)) warning("_output.yml failed to copy to output directory")
+  if(!file.copy(dict_css, paste0(output_dir, "datadict.css"), overwrite = TRUE)) warning("datadict.css failed to copy to output directory")
   
 }
 
