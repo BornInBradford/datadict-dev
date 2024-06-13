@@ -50,6 +50,14 @@ project_section <- function(df_project) {
                 paste0("prj_name <- '", df_project$project_name, "'"),
                 "source('../R/get_all_project_metadata.R', local = knitr::knit_global())",
                 "```",
+                "\n\n",
+                "```{r, include=FALSE}",
+                "source('../R/make_project_tables_display.R', local = knitr::knit_global())",
+                "```",
+                "\n\n",
+                "```{r, echo=FALSE, file='../R/reactable_project_tables.R'}",
+                "",
+                "```",
                 "\n\n"
   )
   

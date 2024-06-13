@@ -21,6 +21,18 @@ source('../R/get_all_project_metadata.R', local = knitr::knit_global())
 
 
 
+```{r, include=FALSE}
+source('../R/make_project_tables_display.R', local = knitr::knit_global())
+```
+
+
+
+```{r, echo=FALSE, file='../R/reactable_project_tables.R'}
+
+```
+
+
+
 
 
 ## BiB person level geographic information {#BiB_Geographic.bib_geog_person}

@@ -4,20 +4,34 @@ var <- tab_vars |> filter(table_id == tab_id)
 cat <- tab_cats |> filter(table_id == tab_id)
 
 vars_display <- var |> arrange(display_order) |>
+  left_join(terms_closer) |>
   transmute(variable,
             label,
-            closer_term)
+            closer_title)
 
-vars_details <- var |> transmute(variable,
-                                 varfullname,
-                                 required,
-                                 description = coalesce(description, label, ""),
-                                 value_type,
-                                 min_len,
-                                 max_len,
-                                 min,
-                                 max,
-                                 min_date,
-                                 max_date,
-                                 closer_term,
-                                 bib_term)
+vars_details <- var |> left_join(terms_closer) |>
+  left_join(terms_bib) |>
+  transmute(variable,
+            varfullname,
+            table_id,
+            required,
+            description = coalesce(description, label, ""),
+            value_type,
+            min_len,
+            max_len,
+            min,
+            max,
+            min_date,
+            max_date,
+            closer_term,
+            closer_title,
+            closer_desc,
+            parent_closer_term,
+            closer_title_parent,
+            closer_desc_parent,
+            bib_term,
+            bib_title,
+            bib_desc)
+
+cats_details <- cat |> select(variable, value, label)
+

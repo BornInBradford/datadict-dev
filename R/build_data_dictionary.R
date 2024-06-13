@@ -14,6 +14,18 @@ tables <- ev_simple_fetch(con, "DataDictionary", "metadata_table")
 terms_closer <- ev_simple_fetch(con, "DataDictionary", "terms_closer")
 terms_bib <- ev_simple_fetch(con, "DataDictionary", "terms_bib")
 
+terms_closer <- terms_closer |> select(closer_term = name,
+                                       closer_title = title,
+                                       closer_desc = description,
+                                       parent_closer_term = parent_name)
+terms_closer <- terms_closer |>
+  left_join(terms_closer, by = c("parent_closer_term" = "closer_term"), suffix = c("", "_parent")) |>
+  select(-parent_closer_term_parent)
+
+terms_bib <- terms_bib |> select(bib_term = name,
+                                 bib_title = title,
+                                 bib_desc = description)
+
 projects <- projects |> filter(publish == 1) |> arrange(display_order)
 
 if(max_chapters) projects <- head(projects, max_chapters)
