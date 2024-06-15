@@ -21,11 +21,11 @@ prj_tab_details <- function(index) {
   prj_details <- div(
     class = "var-detail",
     div(class = "var-header", span(class = "var-header-tableid", paste0(prj_tab$project_name, ".")), prj_tab$table_name),
-    tab_field("Cohort membership", prj_tab$cohort_membership),
-    tab_field("Entity", prj_tab$entity_type),
-    tab_field("Respondents", prj_tab$data_respondents),
-    tab_field("Subject of responses", prj_tab$data_subjects),
-    tab_field("Dimensions", prj_tab_table),
+    prj_field("Cohort membership", prj_tab$cohort_membership),
+    prj_field("Entity", prj_tab$entity_type),
+    prj_field("Respondents", prj_tab$data_respondents),
+    prj_field("Subject of responses", prj_tab$data_subjects),
+    prj_field("Dimensions", prj_tab_table),
     div(class = "table-updated", paste0("Updated ", as.Date(prj_tab$last_updated)))
   )
   

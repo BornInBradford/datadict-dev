@@ -13,6 +13,7 @@ library(V8)
 library(here)
 library(htmltools)
 library(stringr)
+library(ggplot2)
 
 source("../R/setup/datadict-functions.R")
 
