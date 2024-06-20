@@ -82,7 +82,12 @@
 }
 
 .var-required {
-  font-size: 1rem;
+  font-size: 1.1rem;
+}
+
+.var-restricted {
+  font-size: 1.1rem;
+  color: rgba(255, 10, 35, 0.8);
 }
 
 .stats-table {

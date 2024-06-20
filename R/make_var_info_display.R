@@ -6,6 +6,8 @@ cat <- tab_cats |> filter(table_id == tab_id)
 vars_display <- var |> arrange(display_order) |>
   left_join(terms_closer) |>
   transmute(variable,
+            variable_display = paste0(variable, ifelse(visibility > 0, "<div class='var-restricted'>(restricted access)</div>",
+                                                       ifelse(required == 1, "<div class='var-required'>(required)</div>", ""))),
             label,
             closer_title)
 
@@ -18,6 +20,8 @@ vars_details <- var |> left_join(terms_closer) |>
             required,
             description = coalesce(description, label, ""),
             value_type,
+            required,
+            visibility,
             min_len,
             max_len,
             min,

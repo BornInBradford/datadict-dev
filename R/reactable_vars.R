@@ -22,6 +22,16 @@ row_details <- function(index) {
   stats_table <- data.frame()
   stats_cols <- list()
   
+  if(row_data$visibility == 0) {
+    
+    show_stats <- TRUE
+    
+  } else {
+    
+    show_stats <- FALSE
+    
+  }
+  
   if(row_data$value_type == "text") {
     
     stats_table <- row_data |> transmute(n_complete = sprintf("%i (%.1f%%)", n_complete, pc_complete),
@@ -45,9 +55,9 @@ row_details <- function(index) {
 
     stats_cols <- list(n_complete = colDef(name = "Observations", minWidth = 150),
                        n_entities_complete = colDef(name = "Entities", minWidth = 150),
-                       mean = colDef(name = "Mean"),
-                       min = colDef(name = "Min"),
-                       max = colDef(name = "Max"))
+                       mean = colDef(show = show_stats, name = "Mean (sd)"),
+                       min = colDef(show = show_stats, name = "Min"),
+                       max = colDef(show = show_stats, name = "Max"))
     
   }
   if(row_data$value_type == "date") {
@@ -59,8 +69,8 @@ row_details <- function(index) {
     
     stats_cols <- list(n_complete = colDef(name = "Observations", minWidth = 150),
                        n_entities_complete = colDef(name = "Entities", minWidth = 150),
-                       min_date = colDef(name = "From"),
-                       max_date = colDef(name = "To"))
+                       min_date = colDef(show = show_stats, name = "From"),
+                       max_date = colDef(show = show_stats, name = "To"))
     
   }
   if(row_data$value_type == "categorical") {
@@ -76,10 +86,26 @@ row_details <- function(index) {
   detail <- div(
     class = "var-detail",
     div(class = "var-header", span(class = "var-header-tableid", paste0(row_data$table_id, ".")), row_data$variable),
-    div(class = "var-required", ifelse(row_data$required == 1, "  (required)", "")),
     var_field("Value type", row_data$value_type))
   
-  if(nchar(row_data$description) > 0) {
+  if(row_data$required == 1) {
+    
+    req <- var_field("Required", "This variable will always be supplied as it is required for linking or analysis.")
+    
+    detail <- tagAppendChild(detail, req)
+    
+  }
+  
+  if(row_data$visibility > 0) {
+    
+    restr <- var_field("Restricted", paste0("This variable is subject to access restrictions (level ",
+                                            row_data$visibility, "). It may not be possible to supply it directly."))
+    
+    detail <- tagAppendChild(detail, restr)
+    
+  }
+
+    if(nchar(row_data$description) > 0) {
     
     desc <- var_field("Description", row_data$description)
     
@@ -89,17 +115,27 @@ row_details <- function(index) {
   
   if(nrow(value_labels) > 0) {
     
+    if(row_data$visibility == 0) {
+      
+      show_freqs <- TRUE
+      
+    } else {
+      
+      show_freqs <- FALSE
+      
+    }
+    
     cats <- var_field("Value labels and frequencies", reactable(value_labels,
                                                 defaultColDef = colDef(headerClass = "hidden-column-headers"),
                                                 columns = list(value = colDef(name = "Value", width = 50),
-                                                               label = colDef(name = "Label", minWidth = 200),
-                                                               frequency = colDef(name = "Frequency", vAlign = "center", align = "right", minWidth = 50),
-                                                               perc = colDef(name = "Percent", vAlign = "center", align = "left",
+                                                               label = colDef(name = "Label", minWidth = ifelse(show_freqs, 200, 300)),
+                                                               frequency = colDef(show = show_freqs, name = "Frequency", vAlign = "center", align = "right", minWidth = 50),
+                                                               perc = colDef(show = show_freqs, name = "Percent", vAlign = "center", align = "left",
                                                                                   cell = function(value) {
                                                                                     sprintf("(%.1f%%)", value)
                                                                                   },
                                                                              minWidth = 50),
-                                                               bar = colDef(name = "Bar", vAlign = "center",
+                                                               bar = colDef(show = show_freqs, name = "Bar", vAlign = "center",
                                                                             cell = function(value) {
                                                                               width <- paste0(value / max(value_labels$frequency) * 100, "%")
                                                                               cats_bars(width = width)
@@ -107,7 +143,7 @@ row_details <- function(index) {
                                                                             minWidth = 150)),
                                                 class = "cats-table",
                                                 compact = TRUE,
-                                                fullWidth = TRUE,
+                                                fullWidth = show_freqs,
                                                 sortable = FALSE,
                                                 resizable = TRUE,
                                                 wrap = TRUE,
@@ -125,6 +161,8 @@ row_details <- function(index) {
                                                                  minWidth = 100),
                                           columns = stats_cols,
                                           columnGroups = list(colGroup(name = "Complete n(%)", columns = c("n_complete", "n_entities_complete"))),
+                                          sortable = FALSE,
+                                          resizable = TRUE,
                                           class = "stats-table",
                                           fullWidth = FALSE)
     )
@@ -171,8 +209,10 @@ topic_details <- function(index) {
 vars_table <- reactable(
   vars_display,
   defaultColDef = colDef(headerClass = "header"),
-  columns = list(variable = colDef(name = "Variable", minWidth = 100, maxWidth = 200,
-                                   filterable = FALSE),
+  columns = list(variable = colDef(show = FALSE),
+                 variable_display = colDef(name = "Variable", minWidth = 100, maxWidth = 200,
+                                           filterable = FALSE,
+                                           html = TRUE),
                  label = colDef(name = "Label", minWidth = 200,
                                 filterable = FALSE),
                  closer_title = colDef(name = "Topic", minWidth = 100, maxWidth = 200,
