@@ -7,7 +7,7 @@ params:
 
 
 
-# BiBBS Cohort Information
+# BiBBS Cohort Information {#bibbs_cohortinfo}
 
 
 Information about BiBBS cohort participants
@@ -35,7 +35,7 @@ source('../R/make_project_tables_display.R', local = knitr::knit_global())
 
 
 
-## Pregnancy recruitment {#BiBBS_CohortInfo.recruitment}
+## Pregnancy recruitment {#bibbs_cohortinfo_recruitment}
 
 
 Data describing patient pathway through the recruitment process for all booked pregnancies in the target period. (2019-11-30 datafreeze)
@@ -70,7 +70,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Recruited pregnancy information {#BiBBS_CohortInfo.pregnancy}
+## Recruited pregnancy information {#bibbs_cohortinfo_pregnancy}
 
 
 Information for administrative and linkage purposes regarding recruited pregnancies (2019-11-30 datafreeze)
@@ -105,7 +105,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Recruited mother information {#BiBBS_CohortInfo.mother}
+## Recruited mother information {#bibbs_cohortinfo_mother}
 
 
 Information for administrative and linkage purposes regarding recruited Mother participants (2019-11-30 datafreeze)
@@ -140,7 +140,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Child information {#BiBBS_CohortInfo.child}
+## Child information {#bibbs_cohortinfo_child}
 
 
 Information for administrative and linkage purposes regarding recruited Child participants (2019-11-30 datafreeze)
@@ -175,7 +175,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Partner information {#BiBBS_CohortInfo.partner}
+## Partner information {#bibbs_cohortinfo_partner}
 
 
 Information for administrative and linkage purposes regarding recruited Partner participants (2019-11-30 datafreeze)

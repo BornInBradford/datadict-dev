@@ -7,7 +7,7 @@ params:
 
 
 
-# BiB Dental
+# BiB Dental {#bib_dental}
 
 
 Child dental surveys and linked dental records.
@@ -35,7 +35,7 @@ source('../R/make_project_tables_display.R', local = knitr::knit_global())
 
 
 
-## 5yo Dental Survey {#BiB_Dental.dsurvey_5yo}
+## 5yo Dental Survey {#bib_dental_dsurvey_5yo}
 
 
 Records from the National Dental Epidemiology Programme for England survey of 5 year-olds, matched to BiB IDs
@@ -70,7 +70,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Dental extractions under GA {#BiB_Dental.dental_ga}
+## Dental extractions under GA {#bib_dental_dental_ga}
 
 
 Data from linked dental records indicating dental extraction procedures under general anaesthetic
@@ -105,7 +105,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## PLATOON dental study participant data {#BiB_Dental.plat_person}
+## PLATOON dental study participant data {#bib_dental_plat_person}
 
 
 PLATOON dental study participant data
@@ -140,7 +140,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## PLATOON dental study tooth observations {#BiB_Dental.plat_teeth}
+## PLATOON dental study tooth observations {#bib_dental_plat_teeth}
 
 
 PLATOON dental study tooth observations
@@ -175,7 +175,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## PLATOON dental study orthodontic assessment {#BiB_Dental.plat_ortho}
+## PLATOON dental study orthodontic assessment {#bib_dental_plat_ortho}
 
 
 PLATOON dental study orthodontic assessment
@@ -210,7 +210,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## PLATOON dental study survey {#BiB_Dental.plat_survey}
+## PLATOON dental study survey {#bib_dental_plat_survey}
 
 
 PLATOON dental study survey

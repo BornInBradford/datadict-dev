@@ -7,7 +7,7 @@ params:
 
 
 
-# BiB Proteomics
+# BiB Proteomics {#bib_proteomics}
 
 
 Proteomics datasets contain protein expression and associated sample selection and quality control data.
@@ -35,7 +35,7 @@ source('../R/make_project_tables_display.R', local = knitr::knit_global())
 
 
 
-## Next generation sequencing controls {#BiB_Proteomics.ngs_control}
+## Next generation sequencing controls {#bib_proteomics_ngs_control}
 
 
 Next generation sequenced proteomics data controls
@@ -70,7 +70,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Next generation sequencing project 1 {#BiB_Proteomics.ngs_project1}
+## Next generation sequencing project 1 {#bib_proteomics_ngs_project1}
 
 
 Next generation sequenced proteomics data in White European and Pakistani mothers who also have genotype data
@@ -105,7 +105,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Next generation sequencing project 2 {#BiB_Proteomics.ngs_project2}
+## Next generation sequencing project 2 {#bib_proteomics_ngs_project2}
 
 
 Next generation sequenced proteomics data White British and Pakistani mothers who have genotype and metabolomics data, and specific pregnancy or birth outcomes
@@ -140,7 +140,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## QPCR controls {#BiB_Proteomics.qpcr_control}
+## QPCR controls {#bib_proteomics_qpcr_control}
 
 
 QPCR proteomics data controls
@@ -175,7 +175,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## QPCR project 1 {#BiB_Proteomics.qpcr_project1}
+## QPCR project 1 {#bib_proteomics_qpcr_project1}
 
 
 QPCR proteomics data in White European and Pakistani mothers who also have genotype data
@@ -210,7 +210,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## QPCR project 2 {#BiB_Proteomics.qpcr_project2}
+## QPCR project 2 {#bib_proteomics_qpcr_project2}
 
 
 QPCR proteomics data White British and Pakistani mothers who have genotype and metabolomics data, and specific pregnancy or birth outcomes

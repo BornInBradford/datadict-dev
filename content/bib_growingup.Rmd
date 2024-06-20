@@ -7,7 +7,7 @@ params:
 
 
 
-# BiB Growing Up
+# BiB Growing Up {#bib_growingup}
 
 
 Research clinics and surveys data from the BiB Growing Up follow-up.
@@ -35,7 +35,7 @@ source('../R/make_project_tables_display.R', local = knitr::knit_global())
 
 
 
-## BiB Growing Up participant pathway {#BiB_GrowingUp.participant_pathway}
+## BiB Growing Up participant pathway {#bib_growingup_participant_pathway}
 
 
 BiB Growing Up participant pathway - contacts, recruitment, completions, withdrawals etc
@@ -70,7 +70,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## BiB Growing Up adult survey {#BiB_GrowingUp.adult_survey}
+## BiB Growing Up adult survey {#bib_growingup_adult_survey}
 
 
 BiB Growing Up adult survey
@@ -105,7 +105,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## BiB Growing Up adult survey - BiB1000 sample {#BiB_GrowingUp.adult_survey_BiB1000_sample}
+## BiB Growing Up adult survey - BiB1000 sample {#bib_growingup_adult_survey_bib1000_sample}
 
 
 BiB Growing Up adult survey - BiB1000 sample
@@ -140,7 +140,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## BiB Growing Up adult survey - MeDALL sample {#BiB_GrowingUp.adult_survey_MeDALL_sample}
+## BiB Growing Up adult survey - MeDALL sample {#bib_growingup_adult_survey_medall_sample}
 
 
 BiB Growing Up adult survey - MeDALL sample
@@ -175,7 +175,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## BiB Growing Up child survey (adult completed) {#BiB_GrowingUp.child_survey_adult_comp}
+## BiB Growing Up child survey (adult completed) {#bib_growingup_child_survey_adult_comp}
 
 
 BiB Growing Up child survey, completed by adult
@@ -210,7 +210,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## BiB Growing Up child survey (child completed) {#BiB_GrowingUp.child_survey_child_comp}
+## BiB Growing Up child survey (child completed) {#bib_growingup_child_survey_child_comp}
 
 
 BiB Growing Up child survey, completed by child
@@ -245,7 +245,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## BiB Growing Up DXA scan (mother) {#BiB_GrowingUp.dxa_scan_m}
+## BiB Growing Up DXA scan (mother) {#bib_growingup_dxa_scan_m}
 
 
 DXA scan on cohort mothers completed during the BiB Growing Up study.
@@ -280,7 +280,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## BiB Growing Up DXA scan (child) {#BiB_GrowingUp.dxa_scan_c}
+## BiB Growing Up DXA scan (child) {#bib_growingup_dxa_scan_c}
 
 
 DXA scan on cohort children completed during the BiB Growing Up study.
@@ -315,7 +315,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## BiB Growing Up DXA scan (father) {#BiB_GrowingUp.dxa_scan_f}
+## BiB Growing Up DXA scan (father) {#bib_growingup_dxa_scan_f}
 
 
 DXA scan on cohort fathers completed during the BiB Growing Up study.
@@ -350,7 +350,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## BiB Growing Up child blood pressures {#BiB_GrowingUp.blood_pressure}
+## BiB Growing Up child blood pressures {#bib_growingup_blood_pressure}
 
 
 BiB Growing Up child blood pressures
@@ -385,7 +385,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## BiB Growing Up renal study urine analyses {#BiB_GrowingUp.renal_urines}
+## BiB Growing Up renal study urine analyses {#bib_growingup_renal_urines}
 
 
 BiB Growing Up urine tests for participants enrolled in the UK Kidney Research renal study. Mostly carried out at Bradford Teaching Hospitals, except RBP, which was carried out at Sheffield Teaching Hospitals.

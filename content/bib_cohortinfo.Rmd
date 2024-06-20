@@ -7,7 +7,7 @@ params:
 
 
 
-# BiB Cohort Information
+# BiB Cohort Information {#bib_cohortinfo}
 
 
 Information about BiB cohort participants
@@ -35,7 +35,7 @@ source('../R/make_project_tables_display.R', local = knitr::knit_global())
 
 
 
-## BiB person-level information {#BiB_CohortInfo.person_info}
+## BiB person-level information {#bib_cohortinfo_person_info}
 
 
 BiB person-level information, including parent-child and sibling linkage.
@@ -70,7 +70,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Ethnicity information about BiB cohort participants {#BiB_CohortInfo.ethnicity}
+## Ethnicity information about BiB cohort participants {#bib_cohortinfo_ethnicity}
 
 
 Ethnicity information about BiB cohort participants
@@ -105,7 +105,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## BiB participant related pairs {#BiB_CohortInfo.related_pairs}
+## BiB participant related pairs {#bib_cohortinfo_related_pairs}
 
 
 Related pairs of BiB participants, e.g. mother-child relationships, child-parent relationships
@@ -140,7 +140,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Person information Child {#BiB_CohortInfo.child_info}
+## Person information Child {#bib_cohortinfo_child_info}
 
 
 Administrative cohort information on Child participants.
@@ -175,7 +175,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Person information Father {#BiB_CohortInfo.father_info}
+## Person information Father {#bib_cohortinfo_father_info}
 
 
 Administrative cohort information on Father participants.
@@ -210,7 +210,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Person information Mother {#BiB_CohortInfo.mother_info}
+## Person information Mother {#bib_cohortinfo_mother_info}
 
 
 Administrative cohort information on Mother participants.
@@ -245,7 +245,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## ID Linkage {#BiB_CohortInfo.id_linkage}
+## ID Linkage {#bib_cohortinfo_id_linkage}
 
 
 Identifiers for BiB cohort participants
@@ -280,7 +280,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Pregnancy information {#BiB_CohortInfo.preg_info}
+## Pregnancy information {#bib_cohortinfo_preg_info}
 
 
 Information from administrative records about the BiB pregnancy
@@ -315,7 +315,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## BiB genotyping data linkage {#BiB_CohortInfo.genotyping_info}
+## BiB genotyping data linkage {#bib_cohortinfo_genotyping_info}
 
 
 Information about available genotyping data including links to sample IDs.
@@ -350,7 +350,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## BiB exome sequencing data linkage {#BiB_CohortInfo.exomeseq_info}
+## BiB exome sequencing data linkage {#bib_cohortinfo_exomeseq_info}
 
 
 Information about available exome sequencing data including links to sample IDs.
@@ -385,7 +385,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## BiB DNA methylation data linkage {#BiB_CohortInfo.dnam_info}
+## BiB DNA methylation data linkage {#bib_cohortinfo_dnam_info}
 
 
 Information about available DNA methylation data including links to sample IDs.
@@ -420,7 +420,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## BiB DNA methylation control sample IDs {#BiB_CohortInfo.dnam_controls}
+## BiB DNA methylation control sample IDs {#bib_cohortinfo_dnam_controls}
 
 
 BiB DNA methylation control sample IDs

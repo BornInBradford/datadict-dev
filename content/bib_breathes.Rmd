@@ -7,7 +7,7 @@ params:
 
 
 
-# BiB Breathes
+# BiB Breathes {#bib_breathes}
 
 
 BiB Breathes survey and associated data
@@ -35,7 +35,7 @@ source('../R/make_project_tables_display.R', local = knitr::knit_global())
 
 
 
-## BREATHES Air quality survey Phase 1 {#BiB_Breathes.BiBBr_Phase1}
+## BREATHES Air quality survey Phase 1 {#bib_breathes_bibbr_phase1}
 
 
 Air quality survey from the BiB BREATHES study
@@ -70,7 +70,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## BREATHES Air quality survey Phase 2 {#BiB_Breathes.BiBBr_Phase2}
+## BREATHES Air quality survey Phase 2 {#bib_breathes_bibbr_phase2}
 
 
 Air quality survey from the BiB BREATHES study

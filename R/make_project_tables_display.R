@@ -3,7 +3,7 @@
 
 prj_display <- prj_tabs |> transmute(table_name,
                                      project_name,
-                                     table_id,
+                                     table_id = format_crossref(table_id),
                                      display_name,
                                      cohort_membership = case_when(cohort_membership == "bib" ~ "BiB",
                                                                    cohort_membership == "bibbs" ~ "BiBBS",

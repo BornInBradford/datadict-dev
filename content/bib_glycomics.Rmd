@@ -7,7 +7,7 @@ params:
 
 
 
-# BiB Glycomics
+# BiB Glycomics {#bib_glycomics}
 
 
 Glycomics samples for BiB participants
@@ -35,7 +35,7 @@ source('../R/make_project_tables_display.R', local = knitr::knit_global())
 
 
 
-## Total plasma glycome analyses using HILIC-UHPLC-FLR method {#BiB_Glycomics.glycomics}
+## Total plasma glycome analyses using HILIC-UHPLC-FLR method {#bib_glycomics_glycomics}
 
 
 Total plasma glycome analyses using HILIC-UHPLC-FLR method

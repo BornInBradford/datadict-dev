@@ -85,6 +85,11 @@
   font-size: 1rem;
 }
 
+.var-restricted {
+  font-size: 1rem;
+  color: rgba(255, 10, 35, 0.8);
+}
+
 .stats-table {
   border: 1px solid hsl(213, 33%, 93%);
   border-radius: 4px;

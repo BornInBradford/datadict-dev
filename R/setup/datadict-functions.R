@@ -42,7 +42,7 @@ yaml_block <- function(project_name) {
 
 project_section <- function(df_project) {
   
-  md <- paste0("\n\n# ", df_project$display_name, "\n\n")#" {#", df_project$project_name, "}\n\n")
+  md <- paste0("\n\n# ", df_project$display_name, " {#", format_crossref(df_project$project_name), "}\n\n")
   
   md <- md |> c(df_project$project_description,
                 "\n\n",
@@ -68,7 +68,7 @@ project_section <- function(df_project) {
 
 table_section <- function(df_table) {
   
-  md <- paste0("\n\n## ", df_table$display_name, " {#", df_table$table_id, "}\n\n")
+  md <- paste0("\n\n## ", df_table$display_name, " {#", format_crossref(df_table$table_id), "}\n\n")
 
   md <- md |> c(df_table$table_description,
                 "\n\n",
@@ -101,6 +101,17 @@ project_md_name <- function(project_name) {
   md_name <- paste0(tolower(project_name), ".Rmd")
   
   return(md_name)
+  
+}
+
+
+format_crossref <- function(crossref) {
+  
+  crossref <- gsub("\\.", "_", crossref)
+  
+  crossref <- tolower(crossref)
+  
+  return(crossref)
   
 }
 

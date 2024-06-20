@@ -7,7 +7,7 @@ params:
 
 
 
-# BiB Metabolomics
+# BiB Metabolomics {#bib_metabolomics}
 
 
 Nuclear magnetic resonance (NMR) and mass spectrometry (MS) metabolomics on BiB pregnancy, neonatal and infant samples.
@@ -35,7 +35,7 @@ source('../R/make_project_tables_display.R', local = knitr::knit_global())
 
 
 
-## MS metabolomics paired mother samples scaled {#BiB_Metabolomics.metms_pairm_s}
+## MS metabolomics paired mother samples scaled {#bib_metabolomics_metms_pairm_s}
 
 
 Mass spectrometry metabolomics (Metabolon) with over 1300 markers from mother pregnancy bloods. Paired neonatal sample data also available. Scaled values.
@@ -70,7 +70,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## MS metabolomics paired mother samples raw {#BiB_Metabolomics.metms_pairm_r}
+## MS metabolomics paired mother samples raw {#bib_metabolomics_metms_pairm_r}
 
 
 Mass spectrometry metabolomics (Metabolon) with over 1300 markers from mother pregnancy bloods. Paired neonatal sample data also available. Raw values.
@@ -105,7 +105,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## MS metabolomics paired mother samples header {#BiB_Metabolomics.metms_pairm_h}
+## MS metabolomics paired mother samples header {#bib_metabolomics_metms_pairm_h}
 
 
 Sample header information (meta data) from mass spectrometry metabolomics (Metabolon) on paired mother samples.
@@ -140,7 +140,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## MS metabolomics paired mother samples compound metadata {#BiB_Metabolomics.metms_pairm_c}
+## MS metabolomics paired mother samples compound metadata {#bib_metabolomics_metms_pairm_c}
 
 
 Meta data about compounds (markers) from mass spectrometry metabolomics (Metabolon) on paired mother samples.
@@ -175,7 +175,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## MS metabolomics paired child samples scaled {#BiB_Metabolomics.metms_pairc_s}
+## MS metabolomics paired child samples scaled {#bib_metabolomics_metms_pairc_s}
 
 
 Mass spectrometry metabolomics (Metabolon) with over 1300 markers from neonatal bloods. Paired mother pregnancy sample data also available. Scaled values.
@@ -210,7 +210,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## MS metabolomics paired child samples raw {#BiB_Metabolomics.metms_pairc_r}
+## MS metabolomics paired child samples raw {#bib_metabolomics_metms_pairc_r}
 
 
 Mass spectrometry metabolomics (Metabolon) with over 1300 markers from neonatal bloods. Paired mother pregnancy sample data also available. Raw values.
@@ -245,7 +245,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## MS metabolomics paired child samples header {#BiB_Metabolomics.metms_pairc_h}
+## MS metabolomics paired child samples header {#bib_metabolomics_metms_pairc_h}
 
 
 Sample header information (meta data) from mass spectrometry metabolomics (Metabolon) on paired child samples.
@@ -280,7 +280,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## MS metabolomics paired child samples compound metadata {#BiB_Metabolomics.metms_pairc_c}
+## MS metabolomics paired child samples compound metadata {#bib_metabolomics_metms_pairc_c}
 
 
 Meta data about compounds (markers) from mass spectrometry metabolomics (Metabolon) on paired child samples.
@@ -315,7 +315,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## MS metabolomics 2000 mothers scaled {#BiB_Metabolomics.metms_2k_s}
+## MS metabolomics 2000 mothers scaled {#bib_metabolomics_metms_2k_s}
 
 
 Mass spectrometry metabolomics (Metabolon) with over 1200 markers from 2000 selected pregnancy samples. Scaled values.
@@ -350,7 +350,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## MS metabolomics 2000 mothers raw {#BiB_Metabolomics.metms_2k_r}
+## MS metabolomics 2000 mothers raw {#bib_metabolomics_metms_2k_r}
 
 
 Mass spectrometry metabolomics (Metabolon) with over 1200 markers from 2000 selected pregnancy samples. Raw values.
@@ -385,7 +385,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## MS metabolomics 2000 mothers header {#BiB_Metabolomics.metms_2k_h}
+## MS metabolomics 2000 mothers header {#bib_metabolomics_metms_2k_h}
 
 
 Sample header information (meta data) from mass spectrometry metabolomics (Metabolon) on 2000 pregnancy samples.
@@ -420,7 +420,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## MS metabolomics 2000 mothers compound metadata {#BiB_Metabolomics.metms_2k_c}
+## MS metabolomics 2000 mothers compound metadata {#bib_metabolomics_metms_2k_c}
 
 
 Meta data about compounds (markers) from mass spectrometry metabolomics (Metabolon) on 2000 pregnancy samples.
@@ -455,7 +455,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## NMR metabolomics mother data {#BiB_Metabolomics.metnmr_mother_d}
+## NMR metabolomics mother data {#bib_metabolomics_metnmr_mother_d}
 
 
 Nuclear magnetic resonance metabolomics (Nightingale) with 227 markers from mother pregnancy bloods.
@@ -490,7 +490,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## NMR metabolomics mother annotations {#BiB_Metabolomics.metnmr_mother_a}
+## NMR metabolomics mother annotations {#bib_metabolomics_metnmr_mother_a}
 
 
 Compound annotations for nuclear magnetic resonance metabolomics (Nightingale) with 227 markers from mother pregnancy bloods.
@@ -525,7 +525,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## NMR metabolomics baby data {#BiB_Metabolomics.metnmr_baby_d}
+## NMR metabolomics baby data {#bib_metabolomics_metnmr_baby_d}
 
 
 Nuclear magnetic resonance metabolomics (Nightingale) with 85 markers from neonatal cord bloods.
@@ -560,7 +560,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## NMR metabolomics baby annotations {#BiB_Metabolomics.metnmr_baby_a}
+## NMR metabolomics baby annotations {#bib_metabolomics_metnmr_baby_a}
 
 
 Compound annotations for nuclear magnetic resonance metabolomics (Nightingale) with 85 markers from neonatal cord bloods.
@@ -595,7 +595,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## NMR metabolomics infant 12m data {#BiB_Metabolomics.metnmr_infant12_d}
+## NMR metabolomics infant 12m data {#bib_metabolomics_metnmr_infant12_d}
 
 
 Nuclear magnetic resonance metabolomics (Nightingale) with 228 markers from infant bloods collected at the 12m wave.
@@ -630,7 +630,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## NMR metabolomics infant 12m annotations {#BiB_Metabolomics.metnmr_infant12_a}
+## NMR metabolomics infant 12m annotations {#bib_metabolomics_metnmr_infant12_a}
 
 
 Compound annotations for nuclear magnetic resonance metabolomics (Nightingale) with 228 markers from infant bloods collected at the 12m wave.
@@ -665,7 +665,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## NMR metabolomics infant 24m data {#BiB_Metabolomics.metnmr_infant24_d}
+## NMR metabolomics infant 24m data {#bib_metabolomics_metnmr_infant24_d}
 
 
 Nuclear magnetic resonance metabolomics (Nightingale) with 228 markers from infant bloods collected at the 24m wave.
@@ -700,7 +700,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## NMR metabolomics infant 24m annotations {#BiB_Metabolomics.metnmr_infant24_a}
+## NMR metabolomics infant 24m annotations {#bib_metabolomics_metnmr_infant24_a}
 
 
 Compound annotations for nuclear magnetic resonance metabolomics (Nightingale) with 228 markers from infant bloods collected at the 24m wave.
@@ -735,7 +735,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## NMR metabolomics Growing Up child results {#BiB_Metabolomics.metnmr_gu_child_results}
+## NMR metabolomics Growing Up child results {#bib_metabolomics_metnmr_gu_child_results}
 
 
 NMR metabolomics Growing Up child results
@@ -770,7 +770,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## NMR metabolomics Growing Up child QC {#BiB_Metabolomics.metnmr_gu_child_qc}
+## NMR metabolomics Growing Up child QC {#bib_metabolomics_metnmr_gu_child_qc}
 
 
 NMR metabolomics Growing Up child QC
@@ -805,7 +805,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## NMR metabolomics Growing Up mother results {#BiB_Metabolomics.metnmr_gu_mother_results}
+## NMR metabolomics Growing Up mother results {#bib_metabolomics_metnmr_gu_mother_results}
 
 
 NMR metabolomics Growing Up mother results
@@ -840,7 +840,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## NMR metabolomics Growing Up mother QC {#BiB_Metabolomics.metnmr_gu_mother_qc}
+## NMR metabolomics Growing Up mother QC {#bib_metabolomics_metnmr_gu_mother_qc}
 
 
 NMR metabolomics Growing Up mother QC
@@ -875,7 +875,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## NMR metabolomics Growing Up father results {#BiB_Metabolomics.metnmr_gu_father_results}
+## NMR metabolomics Growing Up father results {#bib_metabolomics_metnmr_gu_father_results}
 
 
 NMR metabolomics Growing Up father results
@@ -910,7 +910,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## NMR metabolomics Growing Up father QC {#BiB_Metabolomics.metnmr_gu_father_qc}
+## NMR metabolomics Growing Up father QC {#bib_metabolomics_metnmr_gu_father_qc}
 
 
 NMR metabolomics Growing Up father QC
@@ -945,7 +945,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## NMR metabolomics Growing Up biomarker annotations {#BiB_Metabolomics.metnmr_gu_biomarker_annotations}
+## NMR metabolomics Growing Up biomarker annotations {#bib_metabolomics_metnmr_gu_biomarker_annotations}
 
 
 NMR metabolomics Growing Up biomarker annotations
@@ -980,7 +980,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## NMR metabolomics Growing Up compound QC tags {#BiB_Metabolomics.metnmr_gu_qc_tag}
+## NMR metabolomics Growing Up compound QC tags {#bib_metabolomics_metnmr_gu_qc_tag}
 
 
 NMR metabolomics Growing Up compound QC tags

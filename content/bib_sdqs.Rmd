@@ -7,7 +7,7 @@ params:
 
 
 
-# BiB SDQs
+# BiB SDQs {#bib_sdqs}
 
 
 The Strength and Difficulties Questionnaires from all projects
@@ -35,7 +35,7 @@ source('../R/make_project_tables_display.R', local = knitr::knit_global())
 
 
 
-## Strength and Difficulties questionnaire from the BiB1000 survey {#BiB_SDQs.BiB1000_sdq}
+## Strength and Difficulties questionnaire from the BiB1000 survey {#bib_sdqs_bib1000_sdq}
 
 
 Contains SDQ data for those aged 2-4 years and was completed by the parent of the child
@@ -70,7 +70,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Strength and Difficulties questionnaire from the COVID phase 1 survey {#BiB_SDQs.COVID_phase1_sdq}
+## Strength and Difficulties questionnaire from the COVID phase 1 survey {#bib_sdqs_covid_phase1_sdq}
 
 
 Contains SDQ data for those aged 4+  years and was completed by the parent of the child
@@ -105,7 +105,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Strength and Difficulties questionnaire from the COVID phase 2 survey {#BiB_SDQs.COVID_phase2_sdq}
+## Strength and Difficulties questionnaire from the COVID phase 2 survey {#bib_sdqs_covid_phase2_sdq}
 
 
 Contains SDQ data for those aged 4+  years and was completed by the parent of the child
@@ -140,7 +140,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Strength and Difficulties questionnaire from the COVID phase 3 survey {#BiB_SDQs.COVID_phase3_sdq}
+## Strength and Difficulties questionnaire from the COVID phase 3 survey {#bib_sdqs_covid_phase3_sdq}
 
 
 Contains SDQ data for those aged 4+  years and was completed by the parent of the child
@@ -175,7 +175,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Strength and Difficulties questionnaire from the Growing Up survey {#BiB_SDQs.GrowingUp_sdq}
+## Strength and Difficulties questionnaire from the Growing Up survey {#bib_sdqs_growingup_sdq}
 
 
 Contains SDQ data for those aged 4+  years and was completed by the parent of the child
@@ -210,7 +210,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Strength and Difficulties questionnaire from the MeDALL survey {#BiB_SDQs.MeDALL_sdq}
+## Strength and Difficulties questionnaire from the MeDALL survey {#bib_sdqs_medall_sdq}
 
 
 Contains SDQ data for those aged 4+  years and was completed by the parent of the child
@@ -245,7 +245,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Strength and Difficulties questionnaire from the Primary School Years surve {#BiB_SDQs.PrimarySchoolYears_sdq}
+## Strength and Difficulties questionnaire from the Primary School Years surve {#bib_sdqs_primaryschoolyears_sdq}
 
 
 Contains SDQ data for those aged 4+  years and was completed by the teacher of the child
@@ -280,7 +280,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Strength and Difficulties questionnaire from the Starting School survey {#BiB_SDQs.StartingSchool_sdq}
+## Strength and Difficulties questionnaire from the Starting School survey {#bib_sdqs_startingschool_sdq}
 
 
 Contains SDQ data for those aged 4+  years and was completed by the teacher of the child

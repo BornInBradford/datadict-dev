@@ -6,8 +6,8 @@ if(nrow(prj_tabs) > 0) {
   
   ev_vars <- make_ev_variables(table_request)
   
-  tab_vars <- fetch_ev_meta_vars(con, ev_vars, cats = FALSE)
-  tab_cats <- fetch_ev_meta_vars(con, ev_vars, cats = TRUE)
+  tab_vars <- fetch_ev_meta_vars(con, ev_vars, visibility = 9, cats = FALSE)
+  tab_cats <- fetch_ev_meta_vars(con, ev_vars, visibility = 9, cats = TRUE)
   
 } else {
 

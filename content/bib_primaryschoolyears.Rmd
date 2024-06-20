@@ -7,7 +7,7 @@ params:
 
 
 
-# BiB Primary School Years
+# BiB Primary School Years {#bib_primaryschoolyears}
 
 
 The BiB Primary School Years follow-up.
@@ -35,7 +35,7 @@ source('../R/make_project_tables_display.R', local = knitr::knit_global())
 
 
 
-## Primary School Years child information {#BiB_PrimarySchoolYears.child_info}
+## Primary School Years child information {#bib_primaryschoolyears_child_info}
 
 
 This table contains basic information about the Primary School Years children.
@@ -70,7 +70,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Primary School Years SDQ data {#BiB_PrimarySchoolYears.sdq_data}
+## Primary School Years SDQ data {#bib_primaryschoolyears_sdq_data}
 
 
 Teacher completed Strengths and Difficulties Questionnaire for children in the Primary School Years study.
@@ -105,7 +105,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Primary School Years child quiz {#BiB_PrimarySchoolYears.child_quiz}
+## Primary School Years child quiz {#bib_primaryschoolyears_child_quiz}
 
 
 This table contains the results of the Child Quiz, also known as the Child Wellbeing Survey.
@@ -140,7 +140,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Primary School Years EF BDR task data {#BiB_PrimarySchoolYears.ef_task_bdr}
+## Primary School Years EF BDR task data {#bib_primaryschoolyears_ef_task_bdr}
 
 
 Primary School Years Executive Function tasks. This table contains data from the Backward Digit Recall (BDR) task.
@@ -175,7 +175,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Primary School Years EF FDR task data {#BiB_PrimarySchoolYears.ef_task_fdr}
+## Primary School Years EF FDR task data {#bib_primaryschoolyears_ef_task_fdr}
 
 
 Primary School Years Executive Function tasks. This table contains data from the Forward Digit Recall (FDR) task.
@@ -210,7 +210,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Primary School Years EF Corsi task data {#BiB_PrimarySchoolYears.ef_task_corsi}
+## Primary School Years EF Corsi task data {#bib_primaryschoolyears_ef_task_corsi}
 
 
 Primary School Years Executive Function tasks. This table contains data from the Corsi task.
@@ -245,7 +245,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Primary School Years EF Inhibition task data {#BiB_PrimarySchoolYears.ef_task_inhibition}
+## Primary School Years EF Inhibition task data {#bib_primaryschoolyears_ef_task_inhibition}
 
 
 Primary School Years Executive Function tasks. This table contains data from the Inhibition task.
@@ -280,7 +280,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Primary School Years EF PS task data {#BiB_PrimarySchoolYears.ef_task_ps}
+## Primary School Years EF PS task data {#bib_primaryschoolyears_ef_task_ps}
 
 
 Primary School Years Executive Function tasks. This table contains data from the Processing Speed (PS) task.
@@ -315,7 +315,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Primary School Years CKAT data {#BiB_PrimarySchoolYears.ckat_data}
+## Primary School Years CKAT data {#bib_primaryschoolyears_ckat_data}
 
 
 Main CKAT dataset from the Primary School Years study age 7-10 yrs

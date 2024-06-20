@@ -7,7 +7,7 @@ params:
 
 
 
-# BiB Education Record
+# BiB Education Record {#bib_education_record}
 
 
 School contextual and assessments data from BiB child linked education records.
@@ -35,7 +35,7 @@ source('../R/make_project_tables_display.R', local = knitr::knit_global())
 
 
 
-## Local Authority Education Record Contextual Data {#BiB_Education_Record.edrecs_annual_context}
+## Local Authority Education Record Contextual Data {#bib_education_record_edrecs_annual_context}
 
 
 Data set in long form with contextual information for each academic year a child is at school and data is available. Collected information includes school identifieers, SEN status, free school meals status and 'Gifted and Talented' status. edcont_schoolid provides a unqiue ID for each school; as this is based on UPRN this ID will not be affected by academisation/name changes. edcont_psuedoURN can be used to link to the edrecs_additional_school_info table to obtain school level information  for each child
@@ -70,7 +70,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Additional school level data {#BiB_Education_Record.edrecs_additional_school_info}
+## Additional school level data {#bib_education_record_edrecs_additional_school_info}
 
 
 Additional school level information for Bradford schools. Can be linked to edrecs_annual_context using pseudoURN. Variables prefixed with "dfe_" are sourced from the Department for Education (downloaded October 2022; https://www.get-information-schools.service.gov.uk/Establishments/Search?SelectedTab=Establishments), whilst those prefixed with "ofsted_" contain results of 2021 Ofsead inspections (dowloaded October 2022; https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1064054/State_funded_schools_inspections_and_outcomes_between_1_September_2021_and_31_December_2021.csv/preview; sheet: "Most recent inspection"). <br> Please note, this data has not been processed by BiB beyond any required data linkage. Users are advised to sense check all variables prior to inclusion in any analysis.
@@ -105,7 +105,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Early Years Foundation Stage Profile Pre 2013 {#BiB_Education_Record.edrecs_eyfsp_1}
+## Early Years Foundation Stage Profile Pre 2013 {#bib_education_record_edrecs_eyfsp_1}
 
 
 The Early Years Foundation Stage Profile is a teacher-led assessment conducted towards the end of the child's Reception year at school. This version was used up to the end of the 2011/2012 academic year.
@@ -140,7 +140,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Early Years Foundation Stage Profile 2013 Plus {#BiB_Education_Record.edrecs_eyfsp_2}
+## Early Years Foundation Stage Profile 2013 Plus {#bib_education_record_edrecs_eyfsp_2}
 
 
 The Early Years Foundation Stage Profile is a teacher-led assessment conducted towards the end of the child's Reception year at school. This version was used from the start of the 2012/2013 academic year.
@@ -175,7 +175,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Year 1 Phonics Assessment {#BiB_Education_Record.edrecs_y1_phonics}
+## Year 1 Phonics Assessment {#bib_education_record_edrecs_y1_phonics}
 
 
 The Phonics Assessment is a teacher-led assessment of phonics ability. It is usually completed towards the end of Year 1 at school, but it can be re-attempted in Year 2 if the standard is not met.
@@ -210,7 +210,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Key Stage 1 Assessment Pre 2016 {#BiB_Education_Record.edrecs_ks1_1}
+## Key Stage 1 Assessment Pre 2016 {#bib_education_record_edrecs_ks1_1}
 
 
 The Key Stage 1 Assessment is a standardised test conducted under exam condition and set by the Standards and Testing Agency. It is completed towards the end of Year 2 at school. This version was used up to the end of the 2014/2015 academic year.
@@ -245,7 +245,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Key Stage 1 Assessment 2016 Plus {#BiB_Education_Record.edrecs_ks1_2}
+## Key Stage 1 Assessment 2016 Plus {#bib_education_record_edrecs_ks1_2}
 
 
 The Key Stage 1 Assessment is a standardised test conducted under exam condition and set by the Standards and Testing Agency. It is completed towards the end of Year 2 at school. This version was used from the start of the 2015/2016 academic year.
@@ -280,7 +280,7 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 
-## Key Stage 2 Assessment 2018/19 {#BiB_Education_Record.edrecs_ks2}
+## Key Stage 2 Assessment 2018/19 {#bib_education_record_edrecs_ks2}
 
 
 The Key Stage 2 Assessment is a standardised test conducted under exam condition and set by the Standards and Testing Agency. It is completed towards the end of Year 6 at school.

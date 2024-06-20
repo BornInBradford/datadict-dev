@@ -7,7 +7,7 @@ params:
 
 
 
-# BiB Biobank
+# BiB Biobank {#bib_biobank}
 
 
 Biosamples collected for storage in the BiB biobank. Contains details of samples collected and samples currently available for use in studies.
@@ -35,7 +35,7 @@ source('../R/make_project_tables_display.R', local = knitr::knit_global())
 
 
 
-## BiB biobank current samples {#BiB_Biobank.current_samples}
+## BiB biobank current samples {#bib_biobank_current_samples}
 
 
 A catalogue of current sample availability in the BiB biobank. Includes information about sample types, age at collection and study wave of collection for each person.
