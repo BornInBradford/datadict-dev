@@ -6,6 +6,16 @@ t <- proc.time()
 
 source("R/setup/datadict-setup.R")
 
+if(file.exists('dev')) {
+  
+  dict_title <- "BiB Data Dictionary <span class='dev-version'>Development Version</span>"
+  
+} else {
+  
+  dict_title <- "BiB Data Dictionary"
+  
+}
+
 # empty sources directory
 unlink(paste0(output_dir, "*"), recursive = TRUE)
 
@@ -83,8 +93,8 @@ if(do_render_book) {
   
   # empty output directories
   unlink(paste0(yml_output_dir, "/*"), recursive = TRUE)
-  unlink(paste0(build_csv_dir, "*"), recursive = TRUE)
-  
+  dir.create(build_csv_dir)
+
   # write tables csv
   tables_csv <- tables |> format_tables_csv()
   vroom_write(tables_csv, paste0(build_csv_dir, "all_tables.csv"), delim = ",", na = "")
@@ -95,7 +105,8 @@ if(do_render_book) {
   
   add_nojekyll()
   
-  bookdown::render_book(output_dir)
+  bookdown::render_book(output_dir,
+                        params = list(dict_title))
   
   vroom_write(all_varmeta_csv, paste0(build_csv_dir, "all_variables_meta.csv"), delim = ",", na = "")
   vroom_write(all_varnames_csv, paste0(build_csv_dir, "all_variables_names.csv"), delim = ",", na = "")

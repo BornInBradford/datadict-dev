@@ -12,9 +12,9 @@ options(ev_server = "BHTS-RESRCH22DV")
 options(ev_database = "ResearchWarehouse")
 
 output_dir <- "content/"
-build_csv_dir <- "csv/"
+build_csv_dir <- "docs/csv/"
 
-yml_book_filename <- "bib-datadict-dev"
+yml_book_filename <- "bib-datadict"
 yml_output_dir <- "docs"
 
 index_md <- "resources/index.Rmd"

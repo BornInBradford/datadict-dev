@@ -1,8 +1,3 @@
-prj_field <- function(name, ...) {
-  if (any(is.na(...))) NULL
-  else tagList(div(class = "detail-label", name), ...)
-}
-
 prj_tab_details <- function(index) {
   
   prj_tab <- prj_display[index, ]

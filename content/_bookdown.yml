@@ -1,4 +1,5 @@
-book_filename: bib-datadict-dev
+book_filename: bib-datadict
+title: test-title
 rmd_files:
   - index.Rmd
   - bib_cohortinfo.Rmd

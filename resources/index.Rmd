@@ -1,7 +1,3 @@
----
-title: BiB Data Dictionary [DEVELOPMENT VERSION]
----
-
 
 ```{r setup, message=FALSE, warning=FALSE, include=FALSE}
 
@@ -18,7 +14,9 @@ library(tidyr)
 
 source("../R/setup/datadict-functions.R")
 
-csv_dir <- "../csv/"
+csv_dir <- "../docs/csv/"
+
+csv_link_dir <- "csv/"
 
 options(ev_server = "BHTS-RESRCH22DV")
 options(ev_database = "ResearchWarehouse")
@@ -53,13 +51,22 @@ tables <- tables |> filter(publish == 1) |>
 projects <- projects |> semi_join(tables, by = "project_name")
 
 
+
 ```
-
-
 
 
 # Introduction
 
 This is the development version of the BiB data dictionary.
+
+```{r echo=FALSE}
+
+dl_types <- c("All tables", "All variables")
+dl_csvs <- c("all_tables.csv", "all_variables.csv")
+
+make_download_table(dl_types, dl_csvs)
+
+```
+
 
 

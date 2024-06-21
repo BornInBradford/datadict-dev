@@ -119,6 +119,7 @@ format_crossref <- function(crossref) {
 make_book_yaml <- function(projects) {
   
   bk_yaml <- list(book_filename = yml_book_filename,
+                  title = "test-title",
                   rmd_files = c("index.Rmd", project_md_name(projects)),
                   output_dir = paste0("../", yml_output_dir),
                   delete_merged_file = TRUE
@@ -132,7 +133,14 @@ make_book_yaml <- function(projects) {
 
 add_fixed_files <- function() {
   
-  if(!file.copy(index_md, paste0(output_dir, "index.Rmd"), overwrite = TRUE)) warning("index.Rmd failed to copy to output directory")
+  index_yaml <- c("---", paste0("title: ", dict_title), "---")
+  
+  index_file <- c(index_yaml, readLines(index_md))
+  
+  unlink(paste0(output_dir, "index.Rmd"))
+  
+  writeLines(index_file, paste0(output_dir, "index.Rmd"))
+  
   if(!file.copy(output_yml, paste0(output_dir, "_output.yml"), overwrite = TRUE)) warning("_output.yml failed to copy to output directory")
   if(!file.copy(dict_css, paste0(output_dir, "datadict.css"), overwrite = TRUE)) warning("datadict.css failed to copy to output directory")
   
@@ -200,3 +208,54 @@ format_varnames_csv <- function(var_df) {
   return(var_df)
   
 }
+
+
+var_field <- function(name, ...) {
+  if (any(is.na(...))) NULL
+  else tagList(div(class = "detail-label", name), ...)
+}
+
+
+tab_field <- function(name, ...) {
+  if (any(is.na(...))) NULL
+  else tagList(div(class = "detail-label", name), ...)
+}
+
+
+prj_field <- function(name, ...) {
+  if (any(is.na(...))) NULL
+  else tagList(div(class = "detail-label", name), ...)
+}
+
+
+make_download_table <- function(types, csvs) {
+  
+  github_path <- paste0("https://github.com/BornInBradford/datadict",
+                        ifelse(file.exists('../dev'), '-dev', ''),
+                        "/blob/main/docs/csv/")
+
+  dl <- data.frame(type = types,
+                   csv = paste0("csv/", csvs),
+                   github = paste0(github_path, csvs))
+  
+  dl_tab <- reactable(dl,
+                      defaultColDef = colDef(headerClass = "hidden-column-headers"),
+                      columns = list(type = colDef(width = 100),
+                                     csv = colDef(width = 60, cell = function(value) {
+                                       htmltools::tags$a(href = value, target = "_blank", "csv")
+                                     }),
+                                     github = colDef(width = 60, cell = function(value) {
+                                       htmltools::tags$a(href = value, target = "_blank", "github")
+                                     })),
+                      class = "dl-table",
+                      compact = TRUE,
+                      fullWidth = FALSE,
+                      sortable = FALSE,
+                      resizable = FALSE,
+                      wrap = TRUE)
+  
+  return(tagList(div(class = "dl-panel", dl_tab)))
+  
+}
+
+

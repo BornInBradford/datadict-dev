@@ -1,8 +1,3 @@
-tab_field <- function(name, ...) {
-  if (any(is.na(...))) NULL
-  else tagList(div(class = "detail-label", name), ...)
-}
-
 tab_table <- reactable(select(tab_display, n_entities, n_rows, n_variables),
                        columns = list(n_entities = colDef(name = "Entities"),
                                       n_rows = colDef(name = "Rows"),

@@ -90,6 +90,11 @@
   color: rgba(255, 10, 35, 0.8);
 }
 
+.var-restricted {
+  font-size: 1.1rem;
+  color: rgba(255, 10, 35, 0.8);
+}
+
 .stats-table {
   border: 1px solid hsl(213, 33%, 93%);
   border-radius: 4px;
@@ -104,6 +109,20 @@
   box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.05);
   font-size: 1.3rem;
 }
+
+
+.dl-panel {
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.dl-table {
+  border: 1px solid hsl(213, 33%, 93%);
+  border-radius: 4px;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.05);
+  font-size: 1.3rem;
+}
+
 
 
 .hidden-column-headers {
@@ -132,9 +151,10 @@ h1, h2, h3, h4, p {
   font-weight: 600;
  }
 
-.subtitle {
-  font-family: "Encode Sans Semi Expanded", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #2c6793;
+.dev-version {
+  font-size: 0.6em;
+  color: #cc2515;
+  font-weight: 400;
 }
 
 

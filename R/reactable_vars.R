@@ -8,11 +8,6 @@ row_details <- function(index) {
     arrange(value) |> select(-variable) |> mutate(perc = (frequency / sum(frequency)) * 100,
                                                   bar = frequency)
   
-  var_field <- function(name, ...) {
-    if (any(is.na(...))) NULL
-    else tagList(div(class = "detail-label", name), ...)
-  }
-
   cats_bars <- function(width = "100%", height = "1rem", fill = "#076fa2", background = NULL) {
     bar <- div(style = list(background = fill, width = width, height = height))
     chart <- div(style = list(flexGrow = 1, marginLeft = "0.5rem", background = background), bar)
