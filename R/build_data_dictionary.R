@@ -36,6 +36,19 @@ tables <- tables |> filter(publish == 1) |>
 # remove projects with no tables
 projects <- projects |> semi_join(tables, by = "project_name")
 
+# write tables csv
+tables_csv <- tables |> select(-display_order, 
+                               -publish,
+                               -full_visibility, 
+                               -starts_with("partitions_vis"), 
+                               -starts_with("sql_"), 
+                               -project_display_order,
+                               -table_description,
+                               -required_variables,
+                               -ends_with("_keywords"))
+
+vroom_write(tables_csv, paste0(csv_dir, "all_tables.csv"), delim = ",", na = "")
+
 # empty source directory
 unlink(paste0(output_dir, "*"), recursive = TRUE)
 
