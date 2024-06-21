@@ -6,6 +6,9 @@ t <- proc.time()
 
 source("R/setup/datadict-setup.R")
 
+# empty sources directory
+unlink(paste0(output_dir, "*"), recursive = TRUE)
+
 con <- ev_connect()
 
 projects <- ev_simple_fetch(con, "DataDictionary", "metadata_project")
@@ -36,21 +39,6 @@ tables <- tables |> filter(publish == 1) |>
 # remove projects with no tables
 projects <- projects |> semi_join(tables, by = "project_name")
 
-# write tables csv
-tables_csv <- tables |> select(-display_order, 
-                               -publish,
-                               -full_visibility, 
-                               -starts_with("partitions_vis"), 
-                               -starts_with("sql_"), 
-                               -project_display_order,
-                               -table_description,
-                               -required_variables,
-                               -ends_with("_keywords"))
-
-vroom_write(tables_csv, paste0(csv_dir, "all_tables.csv"), delim = ",", na = "")
-
-# empty source directory
-unlink(paste0(output_dir, "*"), recursive = TRUE)
 
 for(p in 1:nrow(projects)) {
   
@@ -93,13 +81,25 @@ message(paste0("Time to create sources: ", (proc.time() - t)[3]))
 
 if(do_render_book) {
   
-  # empty output directory
+  # empty output directories
   unlink(paste0(yml_output_dir, "/*"), recursive = TRUE)
+  unlink(paste0(build_csv_dir, "*"), recursive = TRUE)
+  
+  # write tables csv
+  tables_csv <- tables |> format_tables_csv()
+  vroom_write(tables_csv, paste0(build_csv_dir, "all_tables.csv"), delim = ",", na = "")
+  
+  # create vars csv containers
+  all_varmeta_csv <- data.frame()
+  all_varnames_csv <- data.frame()
   
   add_nojekyll()
   
   bookdown::render_book(output_dir)
-
+  
+  vroom_write(all_varmeta_csv, paste0(build_csv_dir, "all_variables_meta.csv"), delim = ",", na = "")
+  vroom_write(all_varnames_csv, paste0(build_csv_dir, "all_variables_names.csv"), delim = ",", na = "")
+  
 }
 
 message(paste0("Total time elapsed: ", (proc.time() - t)[3]))

@@ -6,12 +6,13 @@ library(reactable)
 library(V8)
 library(here)
 library(vroom)
+library(tidyr)
 
 options(ev_server = "BHTS-RESRCH22DV")
 options(ev_database = "ResearchWarehouse")
 
 output_dir <- "content/"
-csv_dir <- "csv/"
+build_csv_dir <- "csv/"
 
 yml_book_filename <- "bib-datadict-dev"
 yml_output_dir <- "docs"

@@ -3,6 +3,15 @@
 var <- tab_vars |> filter(table_id == tab_id)
 cat <- tab_cats |> filter(table_id == tab_id)
 
+varmeta_csv <- format_varmeta_csv(var, cat)
+varnames_csv <- format_varnames_csv(var)
+
+all_varmeta_csv <- all_varmeta_csv |> bind_rows(varmeta_csv)
+all_varnames_csv <- all_varnames_csv |> bind_rows(varnames_csv)
+
+vroom_write(varmeta_csv, paste0(csv_dir, format_crossref(tab_id), "_variables_meta.csv"), delim = ",", na = "")
+vroom_write(varnames_csv, paste0(csv_dir, format_crossref(tab_id), "_variables_names.csv"), delim = ",", na = "")
+
 vars_display <- var |> arrange(display_order) |>
   left_join(terms_closer) |>
   transmute(variable,

@@ -144,3 +144,59 @@ add_nojekyll <- function() {
 
 }
 
+
+format_tables_csv <- function(tab_df) {
+  
+  tab_df <- tab_df |> select(-display_order, 
+                     -publish,
+                     -full_visibility, 
+                     -starts_with("partitions_vis"), 
+                     -starts_with("sql_"), 
+                     -project_display_order,
+                     -table_description,
+                     -required_variables,
+                     -ends_with("_keywords"))
+  
+  return(tab_df)
+  
+}
+
+
+format_varmeta_csv <- function(var_df, cat_df) {
+  
+  cats <- data.frame(varfullname = character(0), categories = character(0))
+  
+  if(nrow(cat_df) > 0) {
+    cats <- cat_df |> select(varfullname,
+                             value,
+                             label) |>
+      mutate(cat = paste0("[", value, " ", label, "]")) |> 
+      group_by(varfullname) |> 
+      summarise(categories = paste0(cat, collapse = " "))
+  }
+  
+  var_df <- var_df |> left_join(cats) |>
+    select(variable_id = varfullname,
+           table_id,
+           project,
+           table,
+           variable,
+           label,
+           value_type,
+           categories,
+           topic = closer_term,
+           n_complete,
+           n_entities_complete)
+  
+  return(var_df)
+  
+}
+
+
+format_varnames_csv <- function(var_df) {
+  
+  var_df <- var_df |> select(project, table, variable)
+  
+  return(var_df)
+  
+}

@@ -14,8 +14,11 @@ library(here)
 library(htmltools)
 library(stringr)
 library(ggplot2)
+library(tidyr)
 
 source("../R/setup/datadict-functions.R")
+
+csv_dir <- "../csv/"
 
 options(ev_server = "BHTS-RESRCH22DV")
 options(ev_database = "ResearchWarehouse")

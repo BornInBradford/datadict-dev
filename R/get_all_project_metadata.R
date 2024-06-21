@@ -17,3 +17,12 @@ if(nrow(prj_tabs) > 0) {
   tab_cats <- data.frame()
   
 }
+
+tabs_csv <- format_tables_csv(prj_tabs)
+varmeta_csv <- format_varmeta_csv(tab_vars, tab_cats)
+varnames_csv <- format_varnames_csv(tab_vars)
+
+vroom_write(tabs_csv, paste0(csv_dir, format_crossref(prj_name), "_tables.csv"), delim = ",", na = "")
+vroom_write(varmeta_csv, paste0(csv_dir, format_crossref(prj_name), "_variables_meta.csv"), delim = ",", na = "")
+vroom_write(varnames_csv, paste0(csv_dir, format_crossref(prj_name), "_variables_names.csv"), delim = ",", na = "")
+
