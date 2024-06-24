@@ -10,6 +10,20 @@ params:
 # BiB Cohort Information {#bib_cohortinfo}
 
 
+```{r echo=FALSE}
+dl_types <- c('Table detail', 'Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_cohortinfo
+_tables.csv', '
+bib_cohortinfo
+variables_meta.csv', '
+bib_cohortinfo
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Information about BiB cohort participants
 
 
@@ -36,6 +50,18 @@ source('../R/make_project_tables_display.R', local = knitr::knit_global())
 
 
 ## BiB person-level information {#bib_cohortinfo_person_info}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_cohortinfo_person_info
+_variables_meta.csv', '
+bib_cohortinfo_person_info
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 BiB person-level information, including parent-child and sibling linkage.
@@ -73,6 +99,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## Ethnicity information about BiB cohort participants {#bib_cohortinfo_ethnicity}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_cohortinfo_ethnicity
+_variables_meta.csv', '
+bib_cohortinfo_ethnicity
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Ethnicity information about BiB cohort participants
 
 
@@ -106,6 +144,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## BiB participant related pairs {#bib_cohortinfo_related_pairs}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_cohortinfo_related_pairs
+_variables_meta.csv', '
+bib_cohortinfo_related_pairs
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Related pairs of BiB participants, e.g. mother-child relationships, child-parent relationships
@@ -143,6 +193,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## Person information Child {#bib_cohortinfo_child_info}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_cohortinfo_child_info
+_variables_meta.csv', '
+bib_cohortinfo_child_info
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Administrative cohort information on Child participants.
 
 
@@ -176,6 +238,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## Person information Father {#bib_cohortinfo_father_info}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_cohortinfo_father_info
+_variables_meta.csv', '
+bib_cohortinfo_father_info
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Administrative cohort information on Father participants.
@@ -213,6 +287,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## Person information Mother {#bib_cohortinfo_mother_info}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_cohortinfo_mother_info
+_variables_meta.csv', '
+bib_cohortinfo_mother_info
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Administrative cohort information on Mother participants.
 
 
@@ -246,6 +332,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## ID Linkage {#bib_cohortinfo_id_linkage}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_cohortinfo_id_linkage
+_variables_meta.csv', '
+bib_cohortinfo_id_linkage
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Identifiers for BiB cohort participants
@@ -283,6 +381,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## Pregnancy information {#bib_cohortinfo_preg_info}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_cohortinfo_preg_info
+_variables_meta.csv', '
+bib_cohortinfo_preg_info
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Information from administrative records about the BiB pregnancy
 
 
@@ -316,6 +426,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## BiB genotyping data linkage {#bib_cohortinfo_genotyping_info}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_cohortinfo_genotyping_info
+_variables_meta.csv', '
+bib_cohortinfo_genotyping_info
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Information about available genotyping data including links to sample IDs.
@@ -353,6 +475,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## BiB exome sequencing data linkage {#bib_cohortinfo_exomeseq_info}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_cohortinfo_exomeseq_info
+_variables_meta.csv', '
+bib_cohortinfo_exomeseq_info
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Information about available exome sequencing data including links to sample IDs.
 
 
@@ -388,6 +522,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## BiB DNA methylation data linkage {#bib_cohortinfo_dnam_info}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_cohortinfo_dnam_info
+_variables_meta.csv', '
+bib_cohortinfo_dnam_info
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Information about available DNA methylation data including links to sample IDs.
 
 
@@ -421,6 +567,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## BiB DNA methylation control sample IDs {#bib_cohortinfo_dnam_controls}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_cohortinfo_dnam_controls
+_variables_meta.csv', '
+bib_cohortinfo_dnam_controls
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 BiB DNA methylation control sample IDs

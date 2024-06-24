@@ -10,6 +10,20 @@ params:
 # BiB Proteomics {#bib_proteomics}
 
 
+```{r echo=FALSE}
+dl_types <- c('Table detail', 'Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_proteomics
+_tables.csv', '
+bib_proteomics
+variables_meta.csv', '
+bib_proteomics
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Proteomics datasets contain protein expression and associated sample selection and quality control data.
 
 
@@ -36,6 +50,18 @@ source('../R/make_project_tables_display.R', local = knitr::knit_global())
 
 
 ## Next generation sequencing controls {#bib_proteomics_ngs_control}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_proteomics_ngs_control
+_variables_meta.csv', '
+bib_proteomics_ngs_control
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Next generation sequenced proteomics data controls
@@ -73,6 +99,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## Next generation sequencing project 1 {#bib_proteomics_ngs_project1}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_proteomics_ngs_project1
+_variables_meta.csv', '
+bib_proteomics_ngs_project1
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Next generation sequenced proteomics data in White European and Pakistani mothers who also have genotype data
 
 
@@ -106,6 +144,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## Next generation sequencing project 2 {#bib_proteomics_ngs_project2}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_proteomics_ngs_project2
+_variables_meta.csv', '
+bib_proteomics_ngs_project2
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Next generation sequenced proteomics data White British and Pakistani mothers who have genotype and metabolomics data, and specific pregnancy or birth outcomes
@@ -143,6 +193,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## QPCR controls {#bib_proteomics_qpcr_control}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_proteomics_qpcr_control
+_variables_meta.csv', '
+bib_proteomics_qpcr_control
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 QPCR proteomics data controls
 
 
@@ -178,6 +240,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## QPCR project 1 {#bib_proteomics_qpcr_project1}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_proteomics_qpcr_project1
+_variables_meta.csv', '
+bib_proteomics_qpcr_project1
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 QPCR proteomics data in White European and Pakistani mothers who also have genotype data
 
 
@@ -211,6 +285,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## QPCR project 2 {#bib_proteomics_qpcr_project2}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_proteomics_qpcr_project2
+_variables_meta.csv', '
+bib_proteomics_qpcr_project2
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 QPCR proteomics data White British and Pakistani mothers who have genotype and metabolomics data, and specific pregnancy or birth outcomes

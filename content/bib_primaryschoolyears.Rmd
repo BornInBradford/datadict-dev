@@ -10,6 +10,20 @@ params:
 # BiB Primary School Years {#bib_primaryschoolyears}
 
 
+```{r echo=FALSE}
+dl_types <- c('Table detail', 'Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_primaryschoolyears
+_tables.csv', '
+bib_primaryschoolyears
+variables_meta.csv', '
+bib_primaryschoolyears
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 The BiB Primary School Years follow-up.
 
 
@@ -36,6 +50,18 @@ source('../R/make_project_tables_display.R', local = knitr::knit_global())
 
 
 ## Primary School Years child information {#bib_primaryschoolyears_child_info}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_primaryschoolyears_child_info
+_variables_meta.csv', '
+bib_primaryschoolyears_child_info
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 This table contains basic information about the Primary School Years children.
@@ -73,6 +99,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## Primary School Years SDQ data {#bib_primaryschoolyears_sdq_data}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_primaryschoolyears_sdq_data
+_variables_meta.csv', '
+bib_primaryschoolyears_sdq_data
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Teacher completed Strengths and Difficulties Questionnaire for children in the Primary School Years study.
 
 
@@ -106,6 +144,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## Primary School Years child quiz {#bib_primaryschoolyears_child_quiz}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_primaryschoolyears_child_quiz
+_variables_meta.csv', '
+bib_primaryschoolyears_child_quiz
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 This table contains the results of the Child Quiz, also known as the Child Wellbeing Survey.
@@ -143,6 +193,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## Primary School Years EF BDR task data {#bib_primaryschoolyears_ef_task_bdr}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_primaryschoolyears_ef_task_bdr
+_variables_meta.csv', '
+bib_primaryschoolyears_ef_task_bdr
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Primary School Years Executive Function tasks. This table contains data from the Backward Digit Recall (BDR) task.
 
 
@@ -176,6 +238,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## Primary School Years EF FDR task data {#bib_primaryschoolyears_ef_task_fdr}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_primaryschoolyears_ef_task_fdr
+_variables_meta.csv', '
+bib_primaryschoolyears_ef_task_fdr
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Primary School Years Executive Function tasks. This table contains data from the Forward Digit Recall (FDR) task.
@@ -213,6 +287,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## Primary School Years EF Corsi task data {#bib_primaryschoolyears_ef_task_corsi}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_primaryschoolyears_ef_task_corsi
+_variables_meta.csv', '
+bib_primaryschoolyears_ef_task_corsi
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Primary School Years Executive Function tasks. This table contains data from the Corsi task.
 
 
@@ -246,6 +332,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## Primary School Years EF Inhibition task data {#bib_primaryschoolyears_ef_task_inhibition}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_primaryschoolyears_ef_task_inhibition
+_variables_meta.csv', '
+bib_primaryschoolyears_ef_task_inhibition
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Primary School Years Executive Function tasks. This table contains data from the Inhibition task.
@@ -283,6 +381,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## Primary School Years EF PS task data {#bib_primaryschoolyears_ef_task_ps}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_primaryschoolyears_ef_task_ps
+_variables_meta.csv', '
+bib_primaryschoolyears_ef_task_ps
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Primary School Years Executive Function tasks. This table contains data from the Processing Speed (PS) task.
 
 
@@ -316,6 +426,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## Primary School Years CKAT data {#bib_primaryschoolyears_ckat_data}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_primaryschoolyears_ckat_data
+_variables_meta.csv', '
+bib_primaryschoolyears_ckat_data
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Main CKAT dataset from the Primary School Years study age 7-10 yrs

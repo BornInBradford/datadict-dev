@@ -10,6 +10,20 @@ params:
 # BiB Growing Up {#bib_growingup}
 
 
+```{r echo=FALSE}
+dl_types <- c('Table detail', 'Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_growingup
+_tables.csv', '
+bib_growingup
+variables_meta.csv', '
+bib_growingup
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Research clinics and surveys data from the BiB Growing Up follow-up.
 
 
@@ -36,6 +50,18 @@ source('../R/make_project_tables_display.R', local = knitr::knit_global())
 
 
 ## BiB Growing Up participant pathway {#bib_growingup_participant_pathway}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_growingup_participant_pathway
+_variables_meta.csv', '
+bib_growingup_participant_pathway
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 BiB Growing Up participant pathway - contacts, recruitment, completions, withdrawals etc
@@ -73,6 +99,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## BiB Growing Up adult survey {#bib_growingup_adult_survey}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_growingup_adult_survey
+_variables_meta.csv', '
+bib_growingup_adult_survey
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 BiB Growing Up adult survey
 
 
@@ -106,6 +144,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## BiB Growing Up adult survey - BiB1000 sample {#bib_growingup_adult_survey_bib1000_sample}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_growingup_adult_survey_bib1000_sample
+_variables_meta.csv', '
+bib_growingup_adult_survey_bib1000_sample
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 BiB Growing Up adult survey - BiB1000 sample
@@ -143,6 +193,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## BiB Growing Up adult survey - MeDALL sample {#bib_growingup_adult_survey_medall_sample}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_growingup_adult_survey_medall_sample
+_variables_meta.csv', '
+bib_growingup_adult_survey_medall_sample
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 BiB Growing Up adult survey - MeDALL sample
 
 
@@ -176,6 +238,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## BiB Growing Up child survey (adult completed) {#bib_growingup_child_survey_adult_comp}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_growingup_child_survey_adult_comp
+_variables_meta.csv', '
+bib_growingup_child_survey_adult_comp
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 BiB Growing Up child survey, completed by adult
@@ -213,6 +287,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## BiB Growing Up child survey (child completed) {#bib_growingup_child_survey_child_comp}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_growingup_child_survey_child_comp
+_variables_meta.csv', '
+bib_growingup_child_survey_child_comp
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 BiB Growing Up child survey, completed by child
 
 
@@ -246,6 +332,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## BiB Growing Up DXA scan (mother) {#bib_growingup_dxa_scan_m}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_growingup_dxa_scan_m
+_variables_meta.csv', '
+bib_growingup_dxa_scan_m
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 DXA scan on cohort mothers completed during the BiB Growing Up study.
@@ -283,6 +381,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## BiB Growing Up DXA scan (child) {#bib_growingup_dxa_scan_c}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_growingup_dxa_scan_c
+_variables_meta.csv', '
+bib_growingup_dxa_scan_c
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 DXA scan on cohort children completed during the BiB Growing Up study.
 
 
@@ -316,6 +426,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## BiB Growing Up DXA scan (father) {#bib_growingup_dxa_scan_f}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_growingup_dxa_scan_f
+_variables_meta.csv', '
+bib_growingup_dxa_scan_f
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 DXA scan on cohort fathers completed during the BiB Growing Up study.
@@ -353,6 +475,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## BiB Growing Up child blood pressures {#bib_growingup_blood_pressure}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_growingup_blood_pressure
+_variables_meta.csv', '
+bib_growingup_blood_pressure
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 BiB Growing Up child blood pressures
 
 
@@ -386,6 +520,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## BiB Growing Up renal study urine analyses {#bib_growingup_renal_urines}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_growingup_renal_urines
+_variables_meta.csv', '
+bib_growingup_renal_urines
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 BiB Growing Up urine tests for participants enrolled in the UK Kidney Research renal study. Mostly carried out at Bradford Teaching Hospitals, except RBP, which was carried out at Sheffield Teaching Hospitals.

@@ -64,8 +64,8 @@ This is the development version of the BiB data dictionary.
 
 ```{r echo=FALSE}
 
-dl_types <- c("All tables", "All variables")
-dl_csvs <- c("all_tables.csv", "all_variables.csv")
+dl_types <- c("Table detail", "Variable detail", "Variable names")
+dl_csvs <- c("all_tables.csv", "all_variables_meta.csv", "all_variables_names.csv")
 
 make_download_table(dl_types, dl_csvs)
 

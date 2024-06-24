@@ -10,6 +10,20 @@ params:
 # BiB Biobank {#bib_biobank}
 
 
+```{r echo=FALSE}
+dl_types <- c('Table detail', 'Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_biobank
+_tables.csv', '
+bib_biobank
+variables_meta.csv', '
+bib_biobank
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Biosamples collected for storage in the BiB biobank. Contains details of samples collected and samples currently available for use in studies.
 
 
@@ -36,6 +50,18 @@ source('../R/make_project_tables_display.R', local = knitr::knit_global())
 
 
 ## BiB biobank current samples {#bib_biobank_current_samples}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_biobank_current_samples
+_variables_meta.csv', '
+bib_biobank_current_samples
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 A catalogue of current sample availability in the BiB biobank. Includes information about sample types, age at collection and study wave of collection for each person.

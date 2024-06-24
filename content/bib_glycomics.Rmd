@@ -10,6 +10,20 @@ params:
 # BiB Glycomics {#bib_glycomics}
 
 
+```{r echo=FALSE}
+dl_types <- c('Table detail', 'Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_glycomics
+_tables.csv', '
+bib_glycomics
+variables_meta.csv', '
+bib_glycomics
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Glycomics samples for BiB participants
 
 
@@ -36,6 +50,18 @@ source('../R/make_project_tables_display.R', local = knitr::knit_global())
 
 
 ## Total plasma glycome analyses using HILIC-UHPLC-FLR method {#bib_glycomics_glycomics}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_glycomics_glycomics
+_variables_meta.csv', '
+bib_glycomics_glycomics
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Total plasma glycome analyses using HILIC-UHPLC-FLR method

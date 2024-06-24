@@ -10,6 +10,20 @@ params:
 # BiB Metabolomics {#bib_metabolomics}
 
 
+```{r echo=FALSE}
+dl_types <- c('Table detail', 'Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics
+_tables.csv', '
+bib_metabolomics
+variables_meta.csv', '
+bib_metabolomics
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Nuclear magnetic resonance (NMR) and mass spectrometry (MS) metabolomics on BiB pregnancy, neonatal and infant samples.
 
 
@@ -36,6 +50,18 @@ source('../R/make_project_tables_display.R', local = knitr::knit_global())
 
 
 ## MS metabolomics paired mother samples scaled {#bib_metabolomics_metms_pairm_s}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metms_pairm_s
+_variables_meta.csv', '
+bib_metabolomics_metms_pairm_s
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Mass spectrometry metabolomics (Metabolon) with over 1300 markers from mother pregnancy bloods. Paired neonatal sample data also available. Scaled values.
@@ -73,6 +99,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## MS metabolomics paired mother samples raw {#bib_metabolomics_metms_pairm_r}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metms_pairm_r
+_variables_meta.csv', '
+bib_metabolomics_metms_pairm_r
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Mass spectrometry metabolomics (Metabolon) with over 1300 markers from mother pregnancy bloods. Paired neonatal sample data also available. Raw values.
 
 
@@ -106,6 +144,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## MS metabolomics paired mother samples header {#bib_metabolomics_metms_pairm_h}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metms_pairm_h
+_variables_meta.csv', '
+bib_metabolomics_metms_pairm_h
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Sample header information (meta data) from mass spectrometry metabolomics (Metabolon) on paired mother samples.
@@ -143,6 +193,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## MS metabolomics paired mother samples compound metadata {#bib_metabolomics_metms_pairm_c}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metms_pairm_c
+_variables_meta.csv', '
+bib_metabolomics_metms_pairm_c
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Meta data about compounds (markers) from mass spectrometry metabolomics (Metabolon) on paired mother samples.
 
 
@@ -176,6 +238,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## MS metabolomics paired child samples scaled {#bib_metabolomics_metms_pairc_s}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metms_pairc_s
+_variables_meta.csv', '
+bib_metabolomics_metms_pairc_s
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Mass spectrometry metabolomics (Metabolon) with over 1300 markers from neonatal bloods. Paired mother pregnancy sample data also available. Scaled values.
@@ -213,6 +287,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## MS metabolomics paired child samples raw {#bib_metabolomics_metms_pairc_r}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metms_pairc_r
+_variables_meta.csv', '
+bib_metabolomics_metms_pairc_r
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Mass spectrometry metabolomics (Metabolon) with over 1300 markers from neonatal bloods. Paired mother pregnancy sample data also available. Raw values.
 
 
@@ -246,6 +332,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## MS metabolomics paired child samples header {#bib_metabolomics_metms_pairc_h}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metms_pairc_h
+_variables_meta.csv', '
+bib_metabolomics_metms_pairc_h
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Sample header information (meta data) from mass spectrometry metabolomics (Metabolon) on paired child samples.
@@ -283,6 +381,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## MS metabolomics paired child samples compound metadata {#bib_metabolomics_metms_pairc_c}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metms_pairc_c
+_variables_meta.csv', '
+bib_metabolomics_metms_pairc_c
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Meta data about compounds (markers) from mass spectrometry metabolomics (Metabolon) on paired child samples.
 
 
@@ -316,6 +426,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## MS metabolomics 2000 mothers scaled {#bib_metabolomics_metms_2k_s}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metms_2k_s
+_variables_meta.csv', '
+bib_metabolomics_metms_2k_s
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Mass spectrometry metabolomics (Metabolon) with over 1200 markers from 2000 selected pregnancy samples. Scaled values.
@@ -353,6 +475,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## MS metabolomics 2000 mothers raw {#bib_metabolomics_metms_2k_r}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metms_2k_r
+_variables_meta.csv', '
+bib_metabolomics_metms_2k_r
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Mass spectrometry metabolomics (Metabolon) with over 1200 markers from 2000 selected pregnancy samples. Raw values.
 
 
@@ -386,6 +520,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## MS metabolomics 2000 mothers header {#bib_metabolomics_metms_2k_h}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metms_2k_h
+_variables_meta.csv', '
+bib_metabolomics_metms_2k_h
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Sample header information (meta data) from mass spectrometry metabolomics (Metabolon) on 2000 pregnancy samples.
@@ -423,6 +569,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## MS metabolomics 2000 mothers compound metadata {#bib_metabolomics_metms_2k_c}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metms_2k_c
+_variables_meta.csv', '
+bib_metabolomics_metms_2k_c
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Meta data about compounds (markers) from mass spectrometry metabolomics (Metabolon) on 2000 pregnancy samples.
 
 
@@ -456,6 +614,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## NMR metabolomics mother data {#bib_metabolomics_metnmr_mother_d}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metnmr_mother_d
+_variables_meta.csv', '
+bib_metabolomics_metnmr_mother_d
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Nuclear magnetic resonance metabolomics (Nightingale) with 227 markers from mother pregnancy bloods.
@@ -493,6 +663,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## NMR metabolomics mother annotations {#bib_metabolomics_metnmr_mother_a}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metnmr_mother_a
+_variables_meta.csv', '
+bib_metabolomics_metnmr_mother_a
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Compound annotations for nuclear magnetic resonance metabolomics (Nightingale) with 227 markers from mother pregnancy bloods.
 
 
@@ -526,6 +708,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## NMR metabolomics baby data {#bib_metabolomics_metnmr_baby_d}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metnmr_baby_d
+_variables_meta.csv', '
+bib_metabolomics_metnmr_baby_d
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Nuclear magnetic resonance metabolomics (Nightingale) with 85 markers from neonatal cord bloods.
@@ -563,6 +757,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## NMR metabolomics baby annotations {#bib_metabolomics_metnmr_baby_a}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metnmr_baby_a
+_variables_meta.csv', '
+bib_metabolomics_metnmr_baby_a
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Compound annotations for nuclear magnetic resonance metabolomics (Nightingale) with 85 markers from neonatal cord bloods.
 
 
@@ -596,6 +802,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## NMR metabolomics infant 12m data {#bib_metabolomics_metnmr_infant12_d}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metnmr_infant12_d
+_variables_meta.csv', '
+bib_metabolomics_metnmr_infant12_d
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Nuclear magnetic resonance metabolomics (Nightingale) with 228 markers from infant bloods collected at the 12m wave.
@@ -633,6 +851,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## NMR metabolomics infant 12m annotations {#bib_metabolomics_metnmr_infant12_a}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metnmr_infant12_a
+_variables_meta.csv', '
+bib_metabolomics_metnmr_infant12_a
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Compound annotations for nuclear magnetic resonance metabolomics (Nightingale) with 228 markers from infant bloods collected at the 12m wave.
 
 
@@ -666,6 +896,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## NMR metabolomics infant 24m data {#bib_metabolomics_metnmr_infant24_d}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metnmr_infant24_d
+_variables_meta.csv', '
+bib_metabolomics_metnmr_infant24_d
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Nuclear magnetic resonance metabolomics (Nightingale) with 228 markers from infant bloods collected at the 24m wave.
@@ -703,6 +945,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## NMR metabolomics infant 24m annotations {#bib_metabolomics_metnmr_infant24_a}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metnmr_infant24_a
+_variables_meta.csv', '
+bib_metabolomics_metnmr_infant24_a
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Compound annotations for nuclear magnetic resonance metabolomics (Nightingale) with 228 markers from infant bloods collected at the 24m wave.
 
 
@@ -736,6 +990,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## NMR metabolomics Growing Up child results {#bib_metabolomics_metnmr_gu_child_results}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metnmr_gu_child_results
+_variables_meta.csv', '
+bib_metabolomics_metnmr_gu_child_results
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 NMR metabolomics Growing Up child results
@@ -773,6 +1039,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## NMR metabolomics Growing Up child QC {#bib_metabolomics_metnmr_gu_child_qc}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metnmr_gu_child_qc
+_variables_meta.csv', '
+bib_metabolomics_metnmr_gu_child_qc
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 NMR metabolomics Growing Up child QC
 
 
@@ -806,6 +1084,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## NMR metabolomics Growing Up mother results {#bib_metabolomics_metnmr_gu_mother_results}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metnmr_gu_mother_results
+_variables_meta.csv', '
+bib_metabolomics_metnmr_gu_mother_results
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 NMR metabolomics Growing Up mother results
@@ -843,6 +1133,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## NMR metabolomics Growing Up mother QC {#bib_metabolomics_metnmr_gu_mother_qc}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metnmr_gu_mother_qc
+_variables_meta.csv', '
+bib_metabolomics_metnmr_gu_mother_qc
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 NMR metabolomics Growing Up mother QC
 
 
@@ -876,6 +1178,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## NMR metabolomics Growing Up father results {#bib_metabolomics_metnmr_gu_father_results}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metnmr_gu_father_results
+_variables_meta.csv', '
+bib_metabolomics_metnmr_gu_father_results
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 NMR metabolomics Growing Up father results
@@ -913,6 +1227,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## NMR metabolomics Growing Up father QC {#bib_metabolomics_metnmr_gu_father_qc}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metnmr_gu_father_qc
+_variables_meta.csv', '
+bib_metabolomics_metnmr_gu_father_qc
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 NMR metabolomics Growing Up father QC
 
 
@@ -948,6 +1274,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## NMR metabolomics Growing Up biomarker annotations {#bib_metabolomics_metnmr_gu_biomarker_annotations}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metnmr_gu_biomarker_annotations
+_variables_meta.csv', '
+bib_metabolomics_metnmr_gu_biomarker_annotations
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 NMR metabolomics Growing Up biomarker annotations
 
 
@@ -981,6 +1319,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## NMR metabolomics Growing Up compound QC tags {#bib_metabolomics_metnmr_gu_qc_tag}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_metabolomics_metnmr_gu_qc_tag
+_variables_meta.csv', '
+bib_metabolomics_metnmr_gu_qc_tag
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 NMR metabolomics Growing Up compound QC tags

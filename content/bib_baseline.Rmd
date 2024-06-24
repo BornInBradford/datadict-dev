@@ -10,6 +10,20 @@ params:
 # BiB Baseline {#bib_baseline}
 
 
+```{r echo=FALSE}
+dl_types <- c('Table detail', 'Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_baseline
+_tables.csv', '
+bib_baseline
+variables_meta.csv', '
+bib_baseline
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Baseline surveys completed on BiB cohort registration during pregnancy.
 
 
@@ -36,6 +50,18 @@ source('../R/make_project_tables_display.R', local = knitr::knit_global())
 
 
 ## Mother baseline survey {#bib_baseline_base_m_survey}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_baseline_base_m_survey
+_variables_meta.csv', '
+bib_baseline_base_m_survey
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Maternal baseline questionnaire. Main table, contains variables collected in all three questionnaire phases.
@@ -73,6 +99,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## Mother food frequency and knowledge survey questions phase 2 {#bib_baseline_base_m2_foodfrequency}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_baseline_base_m2_foodfrequency
+_variables_meta.csv', '
+bib_baseline_base_m2_foodfrequency
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 A series of food / diet survey questions from BiB Mothers Baseline survey (phase 2) relating to food frequency and knowledge
 
 
@@ -106,6 +144,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## Mother consumption of fats survey questions phase 1 {#bib_baseline_base_m1_consumptionoffats}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_baseline_base_m1_consumptionoffats
+_variables_meta.csv', '
+bib_baseline_base_m1_consumptionoffats
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 A series of food / diet survey questions from BiB Mothers Baseline survey (phase 1) relating to the consumption of fats
@@ -143,6 +193,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## Mother cooking methods survey questions phase 1 and phase 2 {#bib_baseline_base_m12_cookingmethods}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_baseline_base_m12_cookingmethods
+_variables_meta.csv', '
+bib_baseline_base_m12_cookingmethods
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 A series of food / diet survey questions from BiB Mothers Baseline survey (phase 1 and phase 2) relating to cooking methods
 
 
@@ -176,6 +238,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## BiB Baseline mother exercise phase 1 {#bib_baseline_base_m1_exercise}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_baseline_base_m1_exercise
+_variables_meta.csv', '
+bib_baseline_base_m1_exercise
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 A series of exercise survey questions from BiB Baseline exercise survey phase 1
@@ -213,6 +287,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## BiB Baseline mother food frequency phase 1 {#bib_baseline_base_m1_foodfrequency}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_baseline_base_m1_foodfrequency
+_variables_meta.csv', '
+bib_baseline_base_m1_foodfrequency
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 A series of exercise survey questions from BiB Baseline food frequency survey phase 1
 
 
@@ -246,6 +332,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## BiB Baseline mother exercise phase 2 and phase 3 {#bib_baseline_base_m23_exercise}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_baseline_base_m23_exercise
+_variables_meta.csv', '
+bib_baseline_base_m23_exercise
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 A series of exercise survey questions from BiB Baseline exercise survey phase 2 and phase 3
@@ -283,6 +381,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## Mother baseline phase 1 {#bib_baseline_base_m1_survey}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_baseline_base_m1_survey
+_variables_meta.csv', '
+bib_baseline_base_m1_survey
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Maternal baseline questionnaire. This source contains data collected only in Phase 1 (of 3 Phases). These items relate to Social Capital.
 
 
@@ -318,6 +428,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## Father baseline survey {#bib_baseline_base_f_survey}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_baseline_base_f_survey
+_variables_meta.csv', '
+bib_baseline_base_f_survey
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 BiB father baseline questionnaire, mostly completed at pregnancy recruitment appointment. There were problems with the stored questionnaire date, so date of questionnaire is set to pregnancy recruitment date.
 
 
@@ -351,6 +473,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## Mother baseline phase 2 and 3 {#bib_baseline_base_m23_survey}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_baseline_base_m23_survey
+_variables_meta.csv', '
+bib_baseline_base_m23_survey
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Maternal baseline questionnaire. Contains variables collected in phases 2 and 3.

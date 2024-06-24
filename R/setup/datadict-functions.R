@@ -44,7 +44,13 @@ project_section <- function(df_project) {
   
   md <- paste0("\n\n# ", df_project$display_name, " {#", format_crossref(df_project$project_name), "}\n\n")
   
-  md <- md |> c(df_project$project_description,
+  md <- md |> c("```{r echo=FALSE}",
+                "dl_types <- c('Table detail', 'Variable detail', 'Variable names')",
+                "dl_csvs <- c('", format_crossref(df_project$project_name), "_tables.csv', '", format_crossref(df_project$project_name), "variables_meta.csv', '", format_crossref(df_project$project_name), "_variables_names.csv')",
+                "make_download_table(dl_types, dl_csvs)",
+                "```",
+                "\n\n",
+                df_project$project_description,
                 "\n\n",
                 "```{r, include=FALSE}",
                 paste0("prj_name <- '", df_project$project_name, "'"),
@@ -70,7 +76,13 @@ table_section <- function(df_table) {
   
   md <- paste0("\n\n## ", df_table$display_name, " {#", format_crossref(df_table$table_id), "}\n\n")
 
-  md <- md |> c(df_table$table_description,
+  md <- md |> c("```{r echo=FALSE}",
+                "dl_types <- c('Variable detail', 'Variable names')",
+                "dl_csvs <- c('", format_crossref(df_table$table_id), "_variables_meta.csv', '", format_crossref(df_table$table_id), "_variables_names.csv')",
+                "make_download_table(dl_types, dl_csvs)",
+                "```",
+                "\n\n",
+                df_table$table_description,
                 "\n\n",
                 "```{r, include=FALSE}",
                 paste0("tab_id <- '", df_table$table_id, "'"),
@@ -241,10 +253,10 @@ make_download_table <- function(types, csvs) {
   dl_tab <- reactable(dl,
                       defaultColDef = colDef(headerClass = "hidden-column-headers"),
                       columns = list(type = colDef(width = 100),
-                                     csv = colDef(width = 60, cell = function(value) {
+                                     csv = colDef(width = 30, cell = function(value) {
                                        htmltools::tags$a(href = value, target = "_blank", "csv")
                                      }),
-                                     github = colDef(width = 60, cell = function(value) {
+                                     github = colDef(width = 50, cell = function(value) {
                                        htmltools::tags$a(href = value, target = "_blank", "github")
                                      })),
                       class = "dl-table",

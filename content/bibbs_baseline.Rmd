@@ -10,6 +10,20 @@ params:
 # BiBBS Baseline {#bibbs_baseline}
 
 
+```{r echo=FALSE}
+dl_types <- c('Table detail', 'Variable detail', 'Variable names')
+dl_csvs <- c('
+bibbs_baseline
+_tables.csv', '
+bibbs_baseline
+variables_meta.csv', '
+bibbs_baseline
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Baseline surveys completed on BiBBS cohort registration during pregnancy.
 
 
@@ -36,6 +50,18 @@ source('../R/make_project_tables_display.R', local = knitr::knit_global())
 
 
 ## Mother baseline pregnancy survey {#bibbs_baseline_pregnancy_survey}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bibbs_baseline_pregnancy_survey
+_variables_meta.csv', '
+bibbs_baseline_pregnancy_survey
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Maternal baseline pregnancy survey. Harmonised data across all survey versions up to the 2019-11-30 datafreeze.

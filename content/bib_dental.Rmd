@@ -10,6 +10,20 @@ params:
 # BiB Dental {#bib_dental}
 
 
+```{r echo=FALSE}
+dl_types <- c('Table detail', 'Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_dental
+_tables.csv', '
+bib_dental
+variables_meta.csv', '
+bib_dental
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Child dental surveys and linked dental records.
 
 
@@ -36,6 +50,18 @@ source('../R/make_project_tables_display.R', local = knitr::knit_global())
 
 
 ## 5yo Dental Survey {#bib_dental_dsurvey_5yo}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_dental_dsurvey_5yo
+_variables_meta.csv', '
+bib_dental_dsurvey_5yo
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Records from the National Dental Epidemiology Programme for England survey of 5 year-olds, matched to BiB IDs
@@ -73,6 +99,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## Dental extractions under GA {#bib_dental_dental_ga}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_dental_dental_ga
+_variables_meta.csv', '
+bib_dental_dental_ga
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Data from linked dental records indicating dental extraction procedures under general anaesthetic
 
 
@@ -106,6 +144,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## PLATOON dental study participant data {#bib_dental_plat_person}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_dental_plat_person
+_variables_meta.csv', '
+bib_dental_plat_person
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 PLATOON dental study participant data
@@ -143,6 +193,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## PLATOON dental study tooth observations {#bib_dental_plat_teeth}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_dental_plat_teeth
+_variables_meta.csv', '
+bib_dental_plat_teeth
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 PLATOON dental study tooth observations
 
 
@@ -178,6 +240,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## PLATOON dental study orthodontic assessment {#bib_dental_plat_ortho}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_dental_plat_ortho
+_variables_meta.csv', '
+bib_dental_plat_ortho
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 PLATOON dental study orthodontic assessment
 
 
@@ -211,6 +285,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## PLATOON dental study survey {#bib_dental_plat_survey}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_dental_plat_survey
+_variables_meta.csv', '
+bib_dental_plat_survey
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 PLATOON dental study survey

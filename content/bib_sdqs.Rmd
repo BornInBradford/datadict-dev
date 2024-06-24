@@ -10,6 +10,20 @@ params:
 # BiB SDQs {#bib_sdqs}
 
 
+```{r echo=FALSE}
+dl_types <- c('Table detail', 'Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_sdqs
+_tables.csv', '
+bib_sdqs
+variables_meta.csv', '
+bib_sdqs
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 The Strength and Difficulties Questionnaires from all projects
 
 
@@ -36,6 +50,18 @@ source('../R/make_project_tables_display.R', local = knitr::knit_global())
 
 
 ## Strength and Difficulties questionnaire from the BiB1000 survey {#bib_sdqs_bib1000_sdq}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_sdqs_bib1000_sdq
+_variables_meta.csv', '
+bib_sdqs_bib1000_sdq
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Contains SDQ data for those aged 2-4 years and was completed by the parent of the child
@@ -73,6 +99,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## Strength and Difficulties questionnaire from the COVID phase 1 survey {#bib_sdqs_covid_phase1_sdq}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_sdqs_covid_phase1_sdq
+_variables_meta.csv', '
+bib_sdqs_covid_phase1_sdq
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Contains SDQ data for those aged 4+  years and was completed by the parent of the child
 
 
@@ -106,6 +144,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## Strength and Difficulties questionnaire from the COVID phase 2 survey {#bib_sdqs_covid_phase2_sdq}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_sdqs_covid_phase2_sdq
+_variables_meta.csv', '
+bib_sdqs_covid_phase2_sdq
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Contains SDQ data for those aged 4+  years and was completed by the parent of the child
@@ -143,6 +193,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## Strength and Difficulties questionnaire from the COVID phase 3 survey {#bib_sdqs_covid_phase3_sdq}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_sdqs_covid_phase3_sdq
+_variables_meta.csv', '
+bib_sdqs_covid_phase3_sdq
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Contains SDQ data for those aged 4+  years and was completed by the parent of the child
 
 
@@ -176,6 +238,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## Strength and Difficulties questionnaire from the Growing Up survey {#bib_sdqs_growingup_sdq}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_sdqs_growingup_sdq
+_variables_meta.csv', '
+bib_sdqs_growingup_sdq
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Contains SDQ data for those aged 4+  years and was completed by the parent of the child
@@ -213,6 +287,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## Strength and Difficulties questionnaire from the MeDALL survey {#bib_sdqs_medall_sdq}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_sdqs_medall_sdq
+_variables_meta.csv', '
+bib_sdqs_medall_sdq
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Contains SDQ data for those aged 4+  years and was completed by the parent of the child
 
 
@@ -248,6 +334,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## Strength and Difficulties questionnaire from the Primary School Years surve {#bib_sdqs_primaryschoolyears_sdq}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_sdqs_primaryschoolyears_sdq
+_variables_meta.csv', '
+bib_sdqs_primaryschoolyears_sdq
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Contains SDQ data for those aged 4+  years and was completed by the teacher of the child
 
 
@@ -281,6 +379,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## Strength and Difficulties questionnaire from the Starting School survey {#bib_sdqs_startingschool_sdq}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_sdqs_startingschool_sdq
+_variables_meta.csv', '
+bib_sdqs_startingschool_sdq
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Contains SDQ data for those aged 4+  years and was completed by the teacher of the child

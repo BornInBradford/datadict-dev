@@ -10,6 +10,20 @@ params:
 # BiB Breathes {#bib_breathes}
 
 
+```{r echo=FALSE}
+dl_types <- c('Table detail', 'Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_breathes
+_tables.csv', '
+bib_breathes
+variables_meta.csv', '
+bib_breathes
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 BiB Breathes survey and associated data
 
 
@@ -36,6 +50,18 @@ source('../R/make_project_tables_display.R', local = knitr::knit_global())
 
 
 ## BREATHES Air quality survey Phase 1 {#bib_breathes_bibbr_phase1}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_breathes_bibbr_phase1
+_variables_meta.csv', '
+bib_breathes_bibbr_phase1
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Air quality survey from the BiB BREATHES study
@@ -71,6 +97,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## BREATHES Air quality survey Phase 2 {#bib_breathes_bibbr_phase2}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_breathes_bibbr_phase2
+_variables_meta.csv', '
+bib_breathes_bibbr_phase2
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Air quality survey from the BiB BREATHES study

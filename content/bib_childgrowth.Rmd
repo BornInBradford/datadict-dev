@@ -10,6 +10,20 @@ params:
 # BiB Child Growth {#bib_childgrowth}
 
 
+```{r echo=FALSE}
+dl_types <- c('Table detail', 'Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_childgrowth
+_tables.csv', '
+bib_childgrowth
+variables_meta.csv', '
+bib_childgrowth
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 BiB child growth, anthropometry and bioimpedance data from a variety of sources across the lifecourse.
 
 
@@ -36,6 +50,18 @@ source('../R/make_project_tables_display.R', local = knitr::knit_global())
 
 
 ## Child anthropometry {#bib_childgrowth_anthropometry}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_childgrowth_anthropometry
+_variables_meta.csv', '
+bib_childgrowth_anthropometry
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Child anthropometry from a variety of sources taken from across the lifecourse
@@ -73,6 +99,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## Child growth NCMP data {#bib_childgrowth_growth_ncmp}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_childgrowth_growth_ncmp
+_variables_meta.csv', '
+bib_childgrowth_growth_ncmp
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Child growth data from the National Child Measurement Programme taken from across the lifecourse
 
 
@@ -106,6 +144,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## Child growth research data {#bib_childgrowth_growth_researchdata}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_childgrowth_growth_researchdata
+_variables_meta.csv', '
+bib_childgrowth_growth_researchdata
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Child growth data from surveys taken from across the lifecourse
@@ -143,6 +193,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 ## Child growth primary care data {#bib_childgrowth_growth_primarycare}
 
 
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_childgrowth_growth_primarycare
+_variables_meta.csv', '
+bib_childgrowth_growth_primarycare
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
+
+
 Child growth data from primary care taken from across the lifecourse
 
 
@@ -176,6 +238,18 @@ source('../R/make_var_info_display.R', local = knitr::knit_global())
 
 
 ## Child bioimpedance {#bib_childgrowth_bioimpedance}
+
+
+```{r echo=FALSE}
+dl_types <- c('Variable detail', 'Variable names')
+dl_csvs <- c('
+bib_childgrowth_bioimpedance
+_variables_meta.csv', '
+bib_childgrowth_bioimpedance
+_variables_names.csv')
+make_download_table(dl_types, dl_csvs)
+```
+
 
 
 Child bioimpedance measures mostly aged 7-10y
