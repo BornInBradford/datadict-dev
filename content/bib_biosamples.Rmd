@@ -16,7 +16,7 @@ dl_csvs <- c('
 bib_biosamples
 _tables.csv', '
 bib_biosamples
-variables_meta.csv', '
+_variables_meta.csv', '
 bib_biosamples
 _variables_names.csv')
 make_download_table(dl_types, dl_csvs)

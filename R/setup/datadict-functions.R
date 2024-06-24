@@ -46,7 +46,7 @@ project_section <- function(df_project) {
   
   md <- md |> c("```{r echo=FALSE}",
                 "dl_types <- c('Table detail', 'Variable detail', 'Variable names')",
-                "dl_csvs <- c('", format_crossref(df_project$project_name), "_tables.csv', '", format_crossref(df_project$project_name), "variables_meta.csv', '", format_crossref(df_project$project_name), "_variables_names.csv')",
+                "dl_csvs <- c('", format_crossref(df_project$project_name), "_tables.csv', '", format_crossref(df_project$project_name), "_variables_meta.csv', '", format_crossref(df_project$project_name), "_variables_names.csv')",
                 "make_download_table(dl_types, dl_csvs)",
                 "```",
                 "\n\n",

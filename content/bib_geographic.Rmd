@@ -16,7 +16,7 @@ dl_csvs <- c('
 bib_geographic
 _tables.csv', '
 bib_geographic
-variables_meta.csv', '
+_variables_meta.csv', '
 bib_geographic
 _variables_names.csv')
 make_download_table(dl_types, dl_csvs)
