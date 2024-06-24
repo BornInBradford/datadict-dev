@@ -8,5 +8,6 @@ bookdown::gitbook:
     sharing:
       facebook: no
       twitter: no
+    search: false
     
   
