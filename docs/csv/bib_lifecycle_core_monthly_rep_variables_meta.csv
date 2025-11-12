@@ -1,0 +1,9 @@
+variable_id,table_id,project,table,variable,label,value_type,categories,topic,n_complete,n_entities_complete
+BiB_LifeCycle.core_monthly_rep.row_id,BiB_LifeCycle.core_monthly_rep,BiB_LifeCycle,core_monthly_rep,row_id,Unique identifier for the row in Opal,integer,,administration,129158,129158
+BiB_LifeCycle.core_monthly_rep.child_id,BiB_LifeCycle.core_monthly_rep,BiB_LifeCycle,core_monthly_rep,child_id,Unique identifier for the child,text,,administration,129158,129158
+BiB_LifeCycle.core_monthly_rep.age_years,BiB_LifeCycle.core_monthly_rep,BiB_LifeCycle,core_monthly_rep,age_years,Age of child in years,integer,,,129006,129006
+BiB_LifeCycle.core_monthly_rep.age_months,BiB_LifeCycle.core_monthly_rep,BiB_LifeCycle,core_monthly_rep,age_months,Age of child in months,integer,,,129158,129158
+BiB_LifeCycle.core_monthly_rep.height_,BiB_LifeCycle.core_monthly_rep,BiB_LifeCycle,core_monthly_rep,height_,Height of the child,float,,anthropometry,100986,100986
+BiB_LifeCycle.core_monthly_rep.height_age,BiB_LifeCycle.core_monthly_rep,BiB_LifeCycle,core_monthly_rep,height_age,Age of the child at height measurement,integer,,anthropometry,129006,129006
+BiB_LifeCycle.core_monthly_rep.weight_,BiB_LifeCycle.core_monthly_rep,BiB_LifeCycle,core_monthly_rep,weight_,Weight of the child,float,,anthropometry,126210,126210
+BiB_LifeCycle.core_monthly_rep.weight_age,BiB_LifeCycle.core_monthly_rep,BiB_LifeCycle,core_monthly_rep,weight_age,Age of the child at weight measurement,integer,,anthropometry,129006,129006

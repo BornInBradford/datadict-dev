@@ -260,6 +260,20 @@ BiB_AgeOfWonder.heightweight_dr23,BiB_AgeOfWonder,heightweight_dr23,AoW school v
 BiB_AgeOfWonder.bioimpedance_dr23,BiB_AgeOfWonder,bioimpedance_dr23,AoW school visit bioimpedance 2023 release,bib,participant,,,28,1583,1583,2024-05-14 16:40:29.736719
 BiB_AgeOfWonder.skinfold_dr23,BiB_AgeOfWonder,skinfold_dr23,AoW school visit skinfold 2023 release,bib,participant,,,19,1600,1519,2024-05-14 16:42:19.643574
 BiB_AgeOfWonder.bloodpressure_dr23,BiB_AgeOfWonder,bloodpressure_dr23,AoW school visit blood pressure 2023 release,bib,participant,,,21,1854,1747,2024-05-14 16:40:55.067242
+BiB_LifeCycle.core_monthly_rep,BiB_LifeCycle,core_monthly_rep,Core Monthly Varialbes,bib,participant,,,7,129158,129158,2025-11-11 22:08:39.882399
+BiB_LifeCycle.core_non_rep,BiB_LifeCycle,core_non_rep,Core Non Repetitive Variables,bib,participant,,,219,13858,13858,2025-11-11 22:08:41.057131
+BiB_LifeCycle.core_trimester_rep,BiB_LifeCycle,core_trimester_rep,Core Trimester Variables,bib,participant,,,4,25118,25118,2025-11-11 22:08:41.182724
+BiB_LifeCycle.core_yearly_rep,BiB_LifeCycle,core_yearly_rep,Core Yearly Variables,bib,participant,,,101,249444,249444,2025-11-11 22:08:47.395092
+BiB_LifeCycle.outcome_ath_non_rep,BiB_LifeCycle,outcome_ath_non_rep,Athlete Outcome Non Repetitive Variables,bib,participant,,,3,13858,13858,2025-11-11 22:08:47.491837
+BiB_LifeCycle.outcome_ath_trimester_rep,BiB_LifeCycle,outcome_ath_trimester_rep,Athlete Outcome Trimester Variables,bib,participant,,,20,33788,33788,2025-11-11 22:08:47.856508
+BiB_LifeCycle.outcome_ath_yearly_rep,BiB_LifeCycle,outcome_ath_yearly_rep,Athlete Outcome Yearly Variables,bib,participant,,,43,171012,171012,2025-11-11 22:08:49.284073
+BiB_LifeCycle.outcome_monthly_rep,BiB_LifeCycle,outcome_monthly_rep,Outcome Monthly Variables,bib,participant,,,50,133874,133874,2025-11-11 22:08:50.677082
+BiB_LifeCycle.outcome_non_rep,BiB_LifeCycle,outcome_non_rep,Outcome None Repetitive Variables,bib,participant,,,27,13858,13858,2025-11-11 22:08:50.869211
+BiB_LifeCycle.outcome_weekly_rep,BiB_LifeCycle,outcome_weekly_rep,Outcome Weekly Variables,bib,participant,,,9,164989,164989,2025-11-11 22:08:51.502129
+BiB_LifeCycle.outcome_yearly_rep,BiB_LifeCycle,outcome_yearly_rep,Outcome Yearly Variables,bib,participant,,,69,167794,167794,2025-11-11 22:08:53.434664
+BiB_LifeCycle.urban_ath_non_rep,BiB_LifeCycle,urban_ath_non_rep,Athlete Urban Exposures Non Repetitive,bib,participant,,,207,13858,13858,2025-11-11 22:08:55.149199
+BiB_LifeCycle.urban_ath_trimester_rep,BiB_LifeCycle,urban_ath_trimester_rep,Athlete Urban Trimester Variables,bib,participant,,,5,13858,13858,2025-11-11 22:08:55.295921
+BiB_LifeCycle.urban_ath_yearly_rep,BiB_LifeCycle,urban_ath_yearly_rep,Athlete Urban Yearly Variables,bib,participant,,,116,173105,173105,2025-11-11 22:09:02.537766
 BiBBS_CohortInfo.recruitment,BiBBS_CohortInfo,recruitment,Pregnancy recruitment,bibbs,hospital patient,,,21,24918,20887,2024-05-14 09:15:46
 BiBBS_CohortInfo.pregnancy,BiBBS_CohortInfo,pregnancy,Recruited pregnancy information,bibbs,participant,,,15,2626,2425,2024-05-14 09:15:46
 BiBBS_CohortInfo.mother,BiBBS_CohortInfo,mother,Recruited mother information,bibbs,participant,,,10,2425,2425,2024-05-14 09:15:46
