@@ -1,6 +1,6 @@
 table_id,project_name,table_name,display_name,cohort_membership,entity_type,data_subjects,data_respondents,n_variables,n_rows,n_entities,last_updated
 BiB_LifeCycle.core_monthly_rep,BiB_LifeCycle,core_monthly_rep,Core Monthly Varialbes,bib,participant,,,7,129158,129158,2025-11-11 22:08:39.882399
-BiB_LifeCycle.core_non_rep,BiB_LifeCycle,core_non_rep,Core Non Repetitive Variables,bib,participant,,,219,13858,13858,2025-11-11 22:08:41.057131
+BiB_LifeCycle.core_non_rep,BiB_LifeCycle,core_non_rep,Core Non Repetitive Variables,bib,participant,,,219,13858,13858,2025-11-11 22:11:57.749052
 BiB_LifeCycle.core_trimester_rep,BiB_LifeCycle,core_trimester_rep,Core Trimester Variables,bib,participant,,,4,25118,25118,2025-11-11 22:08:41.182724
 BiB_LifeCycle.core_yearly_rep,BiB_LifeCycle,core_yearly_rep,Core Yearly Variables,bib,participant,,,101,249444,249444,2025-11-11 22:08:47.395092
 BiB_LifeCycle.outcome_ath_non_rep,BiB_LifeCycle,outcome_ath_non_rep,Athlete Outcome Non Repetitive Variables,bib,participant,,,3,13858,13858,2025-11-11 22:08:47.491837

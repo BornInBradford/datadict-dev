@@ -261,7 +261,7 @@ BiB_AgeOfWonder.bioimpedance_dr23,BiB_AgeOfWonder,bioimpedance_dr23,AoW school v
 BiB_AgeOfWonder.skinfold_dr23,BiB_AgeOfWonder,skinfold_dr23,AoW school visit skinfold 2023 release,bib,participant,,,19,1600,1519,2024-05-14 16:42:19.643574
 BiB_AgeOfWonder.bloodpressure_dr23,BiB_AgeOfWonder,bloodpressure_dr23,AoW school visit blood pressure 2023 release,bib,participant,,,21,1854,1747,2024-05-14 16:40:55.067242
 BiB_LifeCycle.core_monthly_rep,BiB_LifeCycle,core_monthly_rep,Core Monthly Varialbes,bib,participant,,,7,129158,129158,2025-11-11 22:08:39.882399
-BiB_LifeCycle.core_non_rep,BiB_LifeCycle,core_non_rep,Core Non Repetitive Variables,bib,participant,,,219,13858,13858,2025-11-11 22:08:41.057131
+BiB_LifeCycle.core_non_rep,BiB_LifeCycle,core_non_rep,Core Non Repetitive Variables,bib,participant,,,219,13858,13858,2025-11-11 22:11:57.749052
 BiB_LifeCycle.core_trimester_rep,BiB_LifeCycle,core_trimester_rep,Core Trimester Variables,bib,participant,,,4,25118,25118,2025-11-11 22:08:41.182724
 BiB_LifeCycle.core_yearly_rep,BiB_LifeCycle,core_yearly_rep,Core Yearly Variables,bib,participant,,,101,249444,249444,2025-11-11 22:08:47.395092
 BiB_LifeCycle.outcome_ath_non_rep,BiB_LifeCycle,outcome_ath_non_rep,Athlete Outcome Non Repetitive Variables,bib,participant,,,3,13858,13858,2025-11-11 22:08:47.491837
