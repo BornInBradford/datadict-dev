@@ -1,6 +1,5 @@
 project,table,variable
-BiB_LifeCycle,core_non_rep,row_id
-BiB_LifeCycle,core_non_rep,child_id
+BiB_LifeCycle,core_non_rep,BiBPersonID
 BiB_LifeCycle,core_non_rep,mother_id
 BiB_LifeCycle,core_non_rep,abroad_child
 BiB_LifeCycle,core_non_rep,abroad_fa

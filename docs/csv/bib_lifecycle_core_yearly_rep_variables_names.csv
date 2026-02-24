@@ -1,6 +1,5 @@
 project,table,variable
-BiB_LifeCycle,core_yearly_rep,row_id
-BiB_LifeCycle,core_yearly_rep,child_id
+BiB_LifeCycle,core_yearly_rep,BiBPersonID
 BiB_LifeCycle,core_yearly_rep,age_years
 BiB_LifeCycle,core_yearly_rep,cohab_
 BiB_LifeCycle,core_yearly_rep,occup_m_
@@ -58,11 +57,11 @@ BiB_LifeCycle,core_yearly_rep,bus_stops_500_
 BiB_LifeCycle,core_yearly_rep,fdensity300_
 BiB_LifeCycle,core_yearly_rep,frichness300_
 BiB_LifeCycle,core_yearly_rep,landuseshan300_
+BiB_LifeCycle,core_yearly_rep,walkability_mean_
 BiB_LifeCycle,core_yearly_rep,agrgr_
 BiB_LifeCycle,core_yearly_rep,airpt_
 BiB_LifeCycle,core_yearly_rep,hdres_
 BiB_LifeCycle,core_yearly_rep,indtr_
-BiB_LifeCycle,core_yearly_rep,walkability_mean_
 BiB_LifeCycle,core_yearly_rep,ldres_
 BiB_LifeCycle,core_yearly_rep,natgr_
 BiB_LifeCycle,core_yearly_rep,other_

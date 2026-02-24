@@ -1,6 +1,5 @@
 project,table,variable
-BiB_LifeCycle,outcome_non_rep,row_id
-BiB_LifeCycle,outcome_non_rep,child_id
+BiB_LifeCycle,outcome_non_rep,BiBPersonID
 BiB_LifeCycle,outcome_non_rep,adipo_cord
 BiB_LifeCycle,outcome_non_rep,all_ever
 BiB_LifeCycle,outcome_non_rep,allergy_any_m

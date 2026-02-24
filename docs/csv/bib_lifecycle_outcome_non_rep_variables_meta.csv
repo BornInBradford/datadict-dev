@@ -1,6 +1,5 @@
 variable_id,table_id,project,table,variable,label,value_type,categories,topic,n_complete,n_entities_complete
-BiB_LifeCycle.outcome_non_rep.row_id,BiB_LifeCycle.outcome_non_rep,BiB_LifeCycle,outcome_non_rep,row_id,Unique identifer for the row in Opal,integer,,administration,13858,13858
-BiB_LifeCycle.outcome_non_rep.child_id,BiB_LifeCycle.outcome_non_rep,BiB_LifeCycle,outcome_non_rep,child_id,Unique identifer for the child,text,,administration,13858,13858
+BiB_LifeCycle.outcome_non_rep.BiBPersonID,BiB_LifeCycle.outcome_non_rep,BiB_LifeCycle,outcome_non_rep,BiBPersonID,Unique identifer for the child,text,,administration,13858,13858
 BiB_LifeCycle.outcome_non_rep.adipo_cord,BiB_LifeCycle.outcome_non_rep,BiB_LifeCycle,outcome_non_rep,adipo_cord,adiponectin measured in cord blood,float,,physical_health,2176,2176
 BiB_LifeCycle.outcome_non_rep.all_ever,BiB_LifeCycle.outcome_non_rep,BiB_LifeCycle,outcome_non_rep,all_ever,"Ever doctor diagnosis of allergy, type of allergen unspecified",categorical,[0 no] [1 yes],allergies,3036,3036
 BiB_LifeCycle.outcome_non_rep.allergy_any_m,BiB_LifeCycle.outcome_non_rep,BiB_LifeCycle,outcome_non_rep,allergy_any_m,Maternal history of any allergy before pregnancy (of index child),categorical,[0 no] [1 yes],allergies,2585,2585

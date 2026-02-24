@@ -1,6 +1,5 @@
 variable_id,table_id,project,table,variable,label,value_type,categories,topic,n_complete,n_entities_complete
-BiB_LifeCycle.core_non_rep.row_id,BiB_LifeCycle.core_non_rep,BiB_LifeCycle,core_non_rep,row_id,Unique identifer for the row in Opal,integer,,administration,13858,13858
-BiB_LifeCycle.core_non_rep.child_id,BiB_LifeCycle.core_non_rep,BiB_LifeCycle,core_non_rep,child_id,Unique identifer for the child,text,,administration,13858,13858
+BiB_LifeCycle.core_non_rep.BiBPersonID,BiB_LifeCycle.core_non_rep,BiB_LifeCycle,core_non_rep,BiBPersonID,Unique identifer for the child,text,,administration,13858,13858
 BiB_LifeCycle.core_non_rep.mother_id,BiB_LifeCycle.core_non_rep,BiB_LifeCycle,core_non_rep,mother_id,Unique identifer for the mother,text,,administration,13858,13858
 BiB_LifeCycle.core_non_rep.abroad_child,BiB_LifeCycle.core_non_rep,BiB_LifeCycle,core_non_rep,abroad_child,Child's born abroad,categorical,[0 No] [1 Yes],residential_mobility,13858,13858
 BiB_LifeCycle.core_non_rep.abroad_fa,BiB_LifeCycle.core_non_rep,BiB_LifeCycle,core_non_rep,abroad_fa,Father's born abroad,categorical,[0 No] [1 Yes],residential_mobility,11418,11418
@@ -8,7 +7,7 @@ BiB_LifeCycle.core_non_rep.abroad_mo,BiB_LifeCycle.core_non_rep,BiB_LifeCycle,co
 BiB_LifeCycle.core_non_rep.agebirth_m_d,BiB_LifeCycle.core_non_rep,BiB_LifeCycle,core_non_rep,agebirth_m_d,Maternal age at birth (in days),integer,,age,13858,13858
 BiB_LifeCycle.core_non_rep.agebirth_m_y,BiB_LifeCycle.core_non_rep,BiB_LifeCycle,core_non_rep,agebirth_m_y,Maternal age at birth (in years),integer,,age,13858,13858
 BiB_LifeCycle.core_non_rep.agebirth_p_d,BiB_LifeCycle.core_non_rep,BiB_LifeCycle,core_non_rep,agebirth_p_d,Paternal age at birth (days),integer,,age,3488,3488
-BiB_LifeCycle.core_non_rep.agebirth_p_fath,BiB_LifeCycle.core_non_rep,BiB_LifeCycle,core_non_rep,agebirth_p_fath,"Type of father, paternal age at birth",integer,,age,13858,13858
+BiB_LifeCycle.core_non_rep.agebirth_p_fath,BiB_LifeCycle.core_non_rep,BiB_LifeCycle,core_non_rep,agebirth_p_fath,Type of father at birth,integer,,age,13858,13858
 BiB_LifeCycle.core_non_rep.agebirth_p_y,BiB_LifeCycle.core_non_rep,BiB_LifeCycle,core_non_rep,agebirth_p_y,Paternal age at birth (years),integer,,age,3488,3488
 BiB_LifeCycle.core_non_rep.apgar,BiB_LifeCycle.core_non_rep,BiB_LifeCycle,core_non_rep,apgar,Apgar score,integer,,physical_health,13272,13272
 BiB_LifeCycle.core_non_rep.asthma_bf,BiB_LifeCycle.core_non_rep,BiB_LifeCycle,core_non_rep,asthma_bf,History of asthma (biological father),categorical,[0 no] [1 yes],respiratory_system,3081,3081

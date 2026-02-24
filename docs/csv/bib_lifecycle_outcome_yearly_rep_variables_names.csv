@@ -1,6 +1,5 @@
 project,table,variable
-BiB_LifeCycle,outcome_yearly_rep,row_id
-BiB_LifeCycle,outcome_yearly_rep,child_id
+BiB_LifeCycle,outcome_yearly_rep,BiBPersonID
 BiB_LifeCycle,outcome_yearly_rep,age_years
 BiB_LifeCycle,outcome_yearly_rep,whe_
 BiB_LifeCycle,outcome_yearly_rep,asthma_

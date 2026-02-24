@@ -1,6 +1,5 @@
 project,table,variable
-BiB_LifeCycle,outcome_monthly_rep,row_id
-BiB_LifeCycle,outcome_monthly_rep,child_id
+BiB_LifeCycle,outcome_monthly_rep,BiBPersonID
 BiB_LifeCycle,outcome_monthly_rep,age_years
 BiB_LifeCycle,outcome_monthly_rep,age_months
 BiB_LifeCycle,outcome_monthly_rep,heightmes_
