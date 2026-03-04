@@ -1,0 +1,6 @@
+table_id,project_name,table_name,display_name,cohort_membership,entity_type,data_subjects,data_respondents,n_variables,n_rows,n_entities,last_updated
+BiB_AgeOfWonder_Measurements.skinfold,BiB_AgeOfWonder_Measurements,skinfold,AoW school visit skinfold release,bib,participant,,,19,6575,6575,2025-10-02 18:12:02.185923
+BiB_AgeOfWonder_Measurements.heightweight,BiB_AgeOfWonder_Measurements,heightweight,AoW school visit height and weigh release,bib,participant,,,20,7759,7759,2025-10-02 18:08:23.357718
+BiB_AgeOfWonder_Measurements.bloodpressure,BiB_AgeOfWonder_Measurements,bloodpressure,AoW school visit blood pressure release,bib,participant,,,21,7383,7383,2025-10-02 18:06:23.240725
+BiB_AgeOfWonder_Measurements.bioimpedance,BiB_AgeOfWonder_Measurements,bioimpedance,AoW school visit bioimpedance release,bib,participant,,,28,5566,5566,2025-10-02 18:04:21.694723
+BiB_AgeOfWonder_Measurements.bloods,BiB_AgeOfWonder_Measurements,bloods,AoW school visit blood sample release,bib,participant,,,48,1161,1161,2025-10-02 13:49:07.151159

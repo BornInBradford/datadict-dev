@@ -12,9 +12,8 @@ BiB_Proteomics.CM_Controls.LOD,BiB_Proteomics.CM_Controls,BiB_Proteomics,CM_Cont
 BiB_Proteomics.CM_Controls.NPX,BiB_Proteomics.CM_Controls,BiB_Proteomics,CM_Controls,NPX,Normalized Protein Expression,float,,proteomics,34354,26
 BiB_Proteomics.CM_Controls.Normalization,BiB_Proteomics.CM_Controls,BiB_Proteomics,CM_Controls,Normalization,Method used to scale data,text,,proteomics,34354,26
 BiB_Proteomics.CM_Controls.Assay_Warning,BiB_Proteomics.CM_Controls,BiB_Proteomics,CM_Controls,Assay_Warning,Assay Warning,categorical,[1 Pass] [2 Warning],proteomics,34354,26
-BiB_Proteomics.CM_Project1.BiBSampleID,BiB_Proteomics.CM_Project1,BiB_Proteomics,CM_Project1,BiBSampleID,BiB SampleID,text,,administration,354301,1000
 BiB_Proteomics.CM_Project1.BiBPersonID,BiB_Proteomics.CM_Project1,BiB_Proteomics,CM_Project1,BiBPersonID,BiBPersonID,text,,administration,354301,1000
-BiB_Proteomics.CM_Project1.BiBPregNumber,BiB_Proteomics.CM_Project1,BiB_Proteomics,CM_Project1,BiBPregNumber,BiBPregNumber,text,,administration,354301,1000
+BiB_Proteomics.CM_Project1.PregnancyID,BiB_Proteomics.CM_Project1,BiB_Proteomics,CM_Project1,PregnancyID,Pregnancy ID,text,,administration,354301,1000
 BiB_Proteomics.CM_Project1.Ethnicity,BiB_Proteomics.CM_Project1,BiB_Proteomics,CM_Project1,Ethnicity,Ethnicity,text,,ethnic_group,354301,1000
 BiB_Proteomics.CM_Project1.GDM,BiB_Proteomics.CM_Project1,BiB_Proteomics,CM_Project1,GDM,Gestational Diabetes Status,integer,,endocrine_system,354301,1000
 BiB_Proteomics.CM_Project1.OlinkID,BiB_Proteomics.CM_Project1,BiB_Proteomics,CM_Project1,OlinkID,OlinkID,text,,proteomics,354301,1000
@@ -29,9 +28,8 @@ BiB_Proteomics.CM_Project1.LOD,BiB_Proteomics.CM_Project1,BiB_Proteomics,CM_Proj
 BiB_Proteomics.CM_Project1.NPX,BiB_Proteomics.CM_Project1,BiB_Proteomics,CM_Project1,NPX,Normalized Protein Expression,float,,proteomics,354301,1000
 BiB_Proteomics.CM_Project1.Normalization,BiB_Proteomics.CM_Project1,BiB_Proteomics,CM_Project1,Normalization,Method used to scale data,text,,proteomics,354301,1000
 BiB_Proteomics.CM_Project1.Assay_Warning,BiB_Proteomics.CM_Project1,BiB_Proteomics,CM_Project1,Assay_Warning,Assay Warning,categorical,[1 Pass] [2 Warning],proteomics,354301,1000
-BiB_Proteomics.CM_Project2.BiBSampleID,BiB_Proteomics.CM_Project2,BiB_Proteomics,CM_Project2,BiBSampleID,BiB SampleID,text,,administration,1079077,2994
 BiB_Proteomics.CM_Project2.BiBPersonID,BiB_Proteomics.CM_Project2,BiB_Proteomics,CM_Project2,BiBPersonID,BiBPersonID,text,,administration,1079077,2994
-BiB_Proteomics.CM_Project2.BiBPregNumber,BiB_Proteomics.CM_Project2,BiB_Proteomics,CM_Project2,BiBPregNumber,BiBPregNumber,text,,administration,1079077,2994
+BiB_Proteomics.CM_Project2.PregnancyID,BiB_Proteomics.CM_Project2,BiB_Proteomics,CM_Project2,PregnancyID,Pregnancy ID,text,,administration,1079077,2994
 BiB_Proteomics.CM_Project2.Ethnicity,BiB_Proteomics.CM_Project2,BiB_Proteomics,CM_Project2,Ethnicity,Ethnicity,text,,ethnic_group,1079077,2994
 BiB_Proteomics.CM_Project2.GDM,BiB_Proteomics.CM_Project2,BiB_Proteomics,CM_Project2,GDM,Gestational Diabetes Status,integer,,endocrine_system,530695,1469
 BiB_Proteomics.CM_Project2.has_GWAS,BiB_Proteomics.CM_Project2,BiB_Proteomics,CM_Project2,has_GWAS,has GWAS data,integer,,omics,530695,1469
@@ -67,9 +65,8 @@ BiB_Proteomics.CVII_Controls.QC_Warning,BiB_Proteomics.CVII_Controls,BiB_Proteom
 BiB_Proteomics.CVII_Controls.LOD,BiB_Proteomics.CVII_Controls,BiB_Proteomics,CVII_Controls,LOD,Limit of Detection,float,,proteomics,8740,71
 BiB_Proteomics.CVII_Controls.NPX,BiB_Proteomics.CVII_Controls,BiB_Proteomics,CVII_Controls,NPX,Normalized Protein Expression,float,,proteomics,8729,71
 BiB_Proteomics.CVII_Controls.Normalization,BiB_Proteomics.CVII_Controls,BiB_Proteomics,CVII_Controls,Normalization,Method used to scale data,text,,proteomics,8740,71
-BiB_Proteomics.CVII_Project1.BiBSampleID,BiB_Proteomics.CVII_Project1,BiB_Proteomics,CVII_Project1,BiBSampleID,BiB SampleID,text,,administration,90896,988
 BiB_Proteomics.CVII_Project1.BiBPersonID,BiB_Proteomics.CVII_Project1,BiB_Proteomics,CVII_Project1,BiBPersonID,BiBPersonID,text,,administration,90896,988
-BiB_Proteomics.CVII_Project1.BiBPregNumber,BiB_Proteomics.CVII_Project1,BiB_Proteomics,CVII_Project1,BiBPregNumber,BiBPregNumber,text,,administration,90896,988
+BiB_Proteomics.CVII_Project1.PregnancyID,BiB_Proteomics.CVII_Project1,BiB_Proteomics,CVII_Project1,PregnancyID,Pregnancy ID,text,,administration,90896,988
 BiB_Proteomics.CVII_Project1.Ethnicity,BiB_Proteomics.CVII_Project1,BiB_Proteomics,CVII_Project1,Ethnicity,Ethnicity,text,,ethnic_group,90896,988
 BiB_Proteomics.CVII_Project1.GDM,BiB_Proteomics.CVII_Project1,BiB_Proteomics,CVII_Project1,GDM,Gestational Diabetes Status,integer,,endocrine_system,90896,988
 BiB_Proteomics.CVII_Project1.OlinkID,BiB_Proteomics.CVII_Project1,BiB_Proteomics,CVII_Project1,OlinkID,OlinkID,text,,proteomics,90896,988
@@ -83,9 +80,8 @@ BiB_Proteomics.CVII_Project1.QC_Warning,BiB_Proteomics.CVII_Project1,BiB_Proteom
 BiB_Proteomics.CVII_Project1.LOD,BiB_Proteomics.CVII_Project1,BiB_Proteomics,CVII_Project1,LOD,Limit of Detection,float,,proteomics,90896,988
 BiB_Proteomics.CVII_Project1.NPX,BiB_Proteomics.CVII_Project1,BiB_Proteomics,CVII_Project1,NPX,Normalized Protein Expression,float,,proteomics,90890,988
 BiB_Proteomics.CVII_Project1.Normalization,BiB_Proteomics.CVII_Project1,BiB_Proteomics,CVII_Project1,Normalization,Method used to scale data,text,,proteomics,90896,988
-BiB_Proteomics.CVII_Project2.BiBSampleID,BiB_Proteomics.CVII_Project2,BiB_Proteomics,CVII_Project2,BiBSampleID,BiB SampleID,text,,administration,272964,2967
 BiB_Proteomics.CVII_Project2.BiBPersonID,BiB_Proteomics.CVII_Project2,BiB_Proteomics,CVII_Project2,BiBPersonID,BiBPersonID,text,,administration,272964,2967
-BiB_Proteomics.CVII_Project2.BiBPregNumber,BiB_Proteomics.CVII_Project2,BiB_Proteomics,CVII_Project2,BiBPregNumber,BiBPregNumber,text,,administration,272964,2967
+BiB_Proteomics.CVII_Project2.PregnancyID,BiB_Proteomics.CVII_Project2,BiB_Proteomics,CVII_Project2,PregnancyID,Pregnancy ID,text,,administration,272964,2967
 BiB_Proteomics.CVII_Project2.Ethnicity,BiB_Proteomics.CVII_Project2,BiB_Proteomics,CVII_Project2,Ethnicity,Ethnicity,text,,ethnic_group,272964,2967
 BiB_Proteomics.CVII_Project2.GDM,BiB_Proteomics.CVII_Project2,BiB_Proteomics,CVII_Project2,GDM,Gestational Diabetes Status,integer,,endocrine_system,133860,1455
 BiB_Proteomics.CVII_Project2.has_GWAS,BiB_Proteomics.CVII_Project2,BiB_Proteomics,CVII_Project2,has_GWAS,has GWAS data,integer,,omics,133860,1455

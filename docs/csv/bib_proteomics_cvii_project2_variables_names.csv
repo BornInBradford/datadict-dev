@@ -1,7 +1,6 @@
 project,table,variable
-BiB_Proteomics,CVII_Project2,BiBSampleID
 BiB_Proteomics,CVII_Project2,BiBPersonID
-BiB_Proteomics,CVII_Project2,BiBPregNumber
+BiB_Proteomics,CVII_Project2,PregnancyID
 BiB_Proteomics,CVII_Project2,Ethnicity
 BiB_Proteomics,CVII_Project2,GDM
 BiB_Proteomics,CVII_Project2,has_GWAS

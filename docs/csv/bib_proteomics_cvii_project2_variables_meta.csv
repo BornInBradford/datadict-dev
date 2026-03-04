@@ -1,7 +1,6 @@
 variable_id,table_id,project,table,variable,label,value_type,categories,topic,n_complete,n_entities_complete
-BiB_Proteomics.CVII_Project2.BiBSampleID,BiB_Proteomics.CVII_Project2,BiB_Proteomics,CVII_Project2,BiBSampleID,BiB SampleID,text,,administration,272964,2967
 BiB_Proteomics.CVII_Project2.BiBPersonID,BiB_Proteomics.CVII_Project2,BiB_Proteomics,CVII_Project2,BiBPersonID,BiBPersonID,text,,administration,272964,2967
-BiB_Proteomics.CVII_Project2.BiBPregNumber,BiB_Proteomics.CVII_Project2,BiB_Proteomics,CVII_Project2,BiBPregNumber,BiBPregNumber,text,,administration,272964,2967
+BiB_Proteomics.CVII_Project2.PregnancyID,BiB_Proteomics.CVII_Project2,BiB_Proteomics,CVII_Project2,PregnancyID,Pregnancy ID,text,,administration,272964,2967
 BiB_Proteomics.CVII_Project2.Ethnicity,BiB_Proteomics.CVII_Project2,BiB_Proteomics,CVII_Project2,Ethnicity,Ethnicity,text,,ethnic_group,272964,2967
 BiB_Proteomics.CVII_Project2.GDM,BiB_Proteomics.CVII_Project2,BiB_Proteomics,CVII_Project2,GDM,Gestational Diabetes Status,integer,,endocrine_system,133860,1455
 BiB_Proteomics.CVII_Project2.has_GWAS,BiB_Proteomics.CVII_Project2,BiB_Proteomics,CVII_Project2,has_GWAS,has GWAS data,integer,,omics,133860,1455

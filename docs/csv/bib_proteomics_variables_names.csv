@@ -12,9 +12,8 @@ BiB_Proteomics,CM_Controls,LOD
 BiB_Proteomics,CM_Controls,NPX
 BiB_Proteomics,CM_Controls,Normalization
 BiB_Proteomics,CM_Controls,Assay_Warning
-BiB_Proteomics,CM_Project1,BiBSampleID
 BiB_Proteomics,CM_Project1,BiBPersonID
-BiB_Proteomics,CM_Project1,BiBPregNumber
+BiB_Proteomics,CM_Project1,PregnancyID
 BiB_Proteomics,CM_Project1,Ethnicity
 BiB_Proteomics,CM_Project1,GDM
 BiB_Proteomics,CM_Project1,OlinkID
@@ -29,9 +28,8 @@ BiB_Proteomics,CM_Project1,LOD
 BiB_Proteomics,CM_Project1,NPX
 BiB_Proteomics,CM_Project1,Normalization
 BiB_Proteomics,CM_Project1,Assay_Warning
-BiB_Proteomics,CM_Project2,BiBSampleID
 BiB_Proteomics,CM_Project2,BiBPersonID
-BiB_Proteomics,CM_Project2,BiBPregNumber
+BiB_Proteomics,CM_Project2,PregnancyID
 BiB_Proteomics,CM_Project2,Ethnicity
 BiB_Proteomics,CM_Project2,GDM
 BiB_Proteomics,CM_Project2,has_GWAS
@@ -67,9 +65,8 @@ BiB_Proteomics,CVII_Controls,QC_Warning
 BiB_Proteomics,CVII_Controls,LOD
 BiB_Proteomics,CVII_Controls,NPX
 BiB_Proteomics,CVII_Controls,Normalization
-BiB_Proteomics,CVII_Project1,BiBSampleID
 BiB_Proteomics,CVII_Project1,BiBPersonID
-BiB_Proteomics,CVII_Project1,BiBPregNumber
+BiB_Proteomics,CVII_Project1,PregnancyID
 BiB_Proteomics,CVII_Project1,Ethnicity
 BiB_Proteomics,CVII_Project1,GDM
 BiB_Proteomics,CVII_Project1,OlinkID
@@ -83,9 +80,8 @@ BiB_Proteomics,CVII_Project1,QC_Warning
 BiB_Proteomics,CVII_Project1,LOD
 BiB_Proteomics,CVII_Project1,NPX
 BiB_Proteomics,CVII_Project1,Normalization
-BiB_Proteomics,CVII_Project2,BiBSampleID
 BiB_Proteomics,CVII_Project2,BiBPersonID
-BiB_Proteomics,CVII_Project2,BiBPregNumber
+BiB_Proteomics,CVII_Project2,PregnancyID
 BiB_Proteomics,CVII_Project2,Ethnicity
 BiB_Proteomics,CVII_Project2,GDM
 BiB_Proteomics,CVII_Project2,has_GWAS

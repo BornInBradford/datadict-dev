@@ -1,7 +1,6 @@
 variable_id,table_id,project,table,variable,label,value_type,categories,topic,n_complete,n_entities_complete
-BiB_Proteomics.CVII_Project1.BiBSampleID,BiB_Proteomics.CVII_Project1,BiB_Proteomics,CVII_Project1,BiBSampleID,BiB SampleID,text,,administration,90896,988
 BiB_Proteomics.CVII_Project1.BiBPersonID,BiB_Proteomics.CVII_Project1,BiB_Proteomics,CVII_Project1,BiBPersonID,BiBPersonID,text,,administration,90896,988
-BiB_Proteomics.CVII_Project1.BiBPregNumber,BiB_Proteomics.CVII_Project1,BiB_Proteomics,CVII_Project1,BiBPregNumber,BiBPregNumber,text,,administration,90896,988
+BiB_Proteomics.CVII_Project1.PregnancyID,BiB_Proteomics.CVII_Project1,BiB_Proteomics,CVII_Project1,PregnancyID,Pregnancy ID,text,,administration,90896,988
 BiB_Proteomics.CVII_Project1.Ethnicity,BiB_Proteomics.CVII_Project1,BiB_Proteomics,CVII_Project1,Ethnicity,Ethnicity,text,,ethnic_group,90896,988
 BiB_Proteomics.CVII_Project1.GDM,BiB_Proteomics.CVII_Project1,BiB_Proteomics,CVII_Project1,GDM,Gestational Diabetes Status,integer,,endocrine_system,90896,988
 BiB_Proteomics.CVII_Project1.OlinkID,BiB_Proteomics.CVII_Project1,BiB_Proteomics,CVII_Project1,OlinkID,OlinkID,text,,proteomics,90896,988
