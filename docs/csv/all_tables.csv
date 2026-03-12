@@ -86,16 +86,16 @@ BiB_Biosamples.covid_antibody_blood_tests,BiB_Biosamples,covid_antibody_blood_te
 BiB_Biosamples.maternal_iodine,BiB_Biosamples,maternal_iodine,BiB maternal iodine,bib,participant,,,12,7060,3,2024-05-14 09:12:09
 BiB_Biosamples.renal_blood_tests,BiB_Biosamples,renal_blood_tests,BiB Growing Up renal study blood tests,bib,participant,,,9,1720,1712,2024-05-14 09:12:10
 BiB_Biosamples.renal_cystatinc,BiB_Biosamples,renal_cystatinc,BiB Growing Up renal study Cystatin C,bib,participant,,,3,1534,1534,2024-05-14 09:12:10
-BiB_Geographic.bib_geog_person,BiB_Geographic,bib_geog_person,BiB person level geographic information,bib,participant,,,15,890344,29664,2024-05-15 10:05:19
-BiB_Geographic.bib_geog_property,BiB_Geographic,bib_geog_property,BiB property level geographic information,bib,property,,,12,32486,32486,2024-05-14 09:12:41
-BiB_Geographic.bib_geog_lsoa,BiB_Geographic,bib_geog_lsoa,BiB LSOA level geographic information,bib,lsoa,,,10,3594,3594,2024-05-14 09:12:31
-BiB_Geographic.bib_geog_air_quality,BiB_Geographic,bib_geog_air_quality,BiB property level air quality information,bib,property,,,88,11274,11274,2024-07-16 14:19:41.841293
-BiB_Geographic.bib_geog_built_env_indoor_qual,BiB_Geographic,bib_geog_built_env_indoor_qual,BiB property level built environment and indoor building quality,bib,property,,,39,11274,11274,2024-07-16 14:30:37.970768
-BiB_Geographic.bib_geog_ndvi_longitudinal,BiB_Geographic,bib_geog_ndvi_longitudinal,BiB property level longitudinal NDVI data,,property,,,46,32486,32486,2024-07-17 11:27:56.409552
-BiB_Geographic.bib_geog_food_environment,BiB_Geographic,bib_geog_food_environment,BiB property level food environment data,bib,property,,,36,32486,32486,2024-07-16 14:08:00.620348
-BiB_Geographic.bib_geog_green_space,BiB_Geographic,bib_geog_green_space,BiB property level green space data,bib,property,,,220,32486,32486,2024-07-17 11:27:53.369194
-BiB_Geographic.bib_geog_public_transport_traffic,BiB_Geographic,bib_geog_public_transport_traffic,BiB property level public transport and traffic data,bib,property,,,85,32486,32486,2024-07-16 14:08:16.762016
-BiB_Geographic.bib_geog_sc_walkability_lu,BiB_Geographic,bib_geog_sc_walkability_lu,"BiB property level street centrality, walkability and land use data",bib,property,,,37,32486,32486,2024-07-29 09:18:44.366495
+BiB_Geographic.bib_geog_person,BiB_Geographic,bib_geog_person,BiB person level geographic information,bib,participant,,,16,1022674,29664,2026-03-12 09:21:04.405022
+BiB_Geographic.bib_geog_property,BiB_Geographic,bib_geog_property,BiB property level geographic information,bib,property,,,13,34269,34269,2026-03-10 15:21:29.492895
+BiB_Geographic.bib_geog_lsoa,BiB_Geographic,bib_geog_lsoa,BiB LSOA level geographic information,bib,lsoa,,,16,3945,3945,2026-03-10 15:21:29.602243
+BiB_Geographic.bib_geog_air_quality,BiB_Geographic,bib_geog_air_quality,BiB property level air quality information,bib,property,,,88,34269,34269,2026-03-10 14:48:04.3433
+BiB_Geographic.bib_geog_built_env_indoor_qual,BiB_Geographic,bib_geog_built_env_indoor_qual,BiB property level built environment and indoor building quality,bib,property,,,39,34269,34269,2026-03-10 14:48:05.599602
+BiB_Geographic.bib_geog_ndvi_longitudinal,BiB_Geographic,bib_geog_ndvi_longitudinal,BiB property level longitudinal NDVI data,,property,,,46,34269,34269,2026-03-10 14:48:17.607548
+BiB_Geographic.bib_geog_food_environment,BiB_Geographic,bib_geog_food_environment,BiB property level food environment data,bib,property,,,36,34269,34269,2026-03-10 14:48:07.261604
+BiB_Geographic.bib_geog_green_space,BiB_Geographic,bib_geog_green_space,BiB property level green space data,bib,property,,,220,34269,34269,2026-03-10 14:48:15.185661
+BiB_Geographic.bib_geog_public_transport_traffic,BiB_Geographic,bib_geog_public_transport_traffic,BiB property level public transport and traffic data,bib,property,,,85,34269,34269,2026-03-10 14:48:20.194397
+BiB_Geographic.bib_geog_sc_walkability_lu,BiB_Geographic,bib_geog_sc_walkability_lu,"BiB property level street centrality, walkability and land use data",bib,property,,,37,34269,34269,2026-03-10 14:48:22.149572
 BiB_Glycomics.glycomics,BiB_Glycomics,glycomics,Total plasma glycome analyses using HILIC-UHPLC-FLR method,bib,participant,,,44,976,976,2024-05-14 09:12:41
 BiB_Proteomics.CM_Controls,BiB_Proteomics,CM_Controls,Olink Explore 384 Cardiometabolic Controls,bib,participant,,,12,34354,26,2026-03-04 15:16:10.075815
 BiB_Proteomics.CM_Project1,BiB_Proteomics,CM_Project1,Olink Explore 384 Cardiometabolic Project 1,bib,participant,,,15,354301,1000,2026-03-04 14:36:07.684584
@@ -239,44 +239,32 @@ BiB_SDQs.MeDALL_sdq,BiB_SDQs,MeDALL_sdq,Strength and Difficulties questionnaire 
 BiB_SDQs.Trajectories_Derived,BiB_SDQs,Trajectories_Derived,Strength and Difficulties questionnaire derived trajectories,bib,participant,,,12,6711,6711,2026-02-11 07:34:58.396576
 BiB_SDQs.PrimarySchoolYears_sdq,BiB_SDQs,PrimarySchoolYears_sdq,Strength and Difficulties questionnaire from the Primary School Years surve,bib,participant,,,58,3502,3234,2024-05-14 09:15:37
 BiB_SDQs.StartingSchool_sdq,BiB_SDQs,StartingSchool_sdq,Strength and Difficulties questionnaire from the Starting School survey,bib,participant,,,65,2340,2340,2024-05-14 09:15:37
-BiB_AgeOfWonder_2023.recruitment,BiB_AgeOfWonder_2023,recruitment,AoW recruitment denominator 2023 release,bib,participant,,,39,10385,8991,2026-03-04 16:38:47.522058
-BiB_AgeOfWonder_2023.survey_mod01,BiB_AgeOfWonder_2023,survey_mod01,AoW survey module 1 2023 release,bib,participant,,,268,4353,4353,2026-03-04 16:44:25.807747
-BiB_AgeOfWonder_2023.survey_mod02,BiB_AgeOfWonder_2023,survey_mod02,AoW survey module 2 2023 release,bib,participant,,,182,3932,3932,2026-03-04 16:46:14.188812
-BiB_AgeOfWonder_2023.survey_mod03,BiB_AgeOfWonder_2023,survey_mod03,AoW survey module 3 2023 release,bib,participant,,,225,2026,2026,2026-03-04 16:46:55.765676
-BiB_AgeOfWonder_2023.survey_mod04,BiB_AgeOfWonder_2023,survey_mod04,AoW survey module 4 2023 release,bib,participant,,,352,1868,1868,2026-03-04 16:47:44.165407
-BiB_AgeOfWonder_2024.recruitment,BiB_AgeOfWonder_2024,recruitment,AoW recruitment denominator 2024 release,bib,participant,,,35,23482,17840,2025-10-07 09:21:38.85935
-BiB_AgeOfWonder_2024.survey_mod231_main,BiB_AgeOfWonder_2024,survey_mod231_main,AoW survey module 231 2024 release with main variables,bib,participant,,,292,13563,11505,2025-10-07 09:23:45.637999
-BiB_AgeOfWonder_2024.survey_mod231_derived,BiB_AgeOfWonder_2024,survey_mod231_derived,AoW survey module 231 2024 release with derived variables,bib,participant,,,27,13563,11505,2025-10-07 09:22:52.467142
-BiB_AgeOfWonder_2024.survey_mod232_main,BiB_AgeOfWonder_2024,survey_mod232_main,AoW survey module 232 2024 release with main variables,bib,participant,,,312,12608,10684,2025-10-07 09:26:16.365915
-BiB_AgeOfWonder_2024.survey_mod232_derived,BiB_AgeOfWonder_2024,survey_mod232_derived,AoW survey module 232 2024 release with derived variables,bib,participant,,,56,12608,10684,2025-10-07 09:24:58.809727
-BiB_AgeOfWonder_2025.recruitment,BiB_AgeOfWonder_2025,recruitment,AoW recruitment denominator 2025 release,bib,participant,,,44,35568,22853,2025-10-02 18:10:06.61585
-BiB_AgeOfWonder_2025.survey_mod24_main,BiB_AgeOfWonder_2025,survey_mod24_main,AoW survey module 24 2025 release with main variables,bib,participant,,,729,23204,16549,2025-10-02 18:14:42.005606
-BiB_AgeOfWonder_2025.survey_mod24_derived,BiB_AgeOfWonder_2025,survey_mod24_derived,AoW survey module 24 2025 release with derived variables,bib,participant,,,64,23204,16549,2025-10-02 18:12:49.879501
-BiB_AgeOfWonder_Measurements.skinfold,BiB_AgeOfWonder_Measurements,skinfold,AoW school visit skinfold release,bib,participant,,,19,6575,6575,2025-10-02 18:12:02.185923
-BiB_AgeOfWonder_Measurements.heightweight,BiB_AgeOfWonder_Measurements,heightweight,AoW school visit height and weigh release,bib,participant,,,20,7759,7759,2025-10-02 18:08:23.357718
-BiB_AgeOfWonder_Measurements.bloodpressure,BiB_AgeOfWonder_Measurements,bloodpressure,AoW school visit blood pressure release,bib,participant,,,21,7383,7383,2025-10-02 18:06:23.240725
-BiB_AgeOfWonder_Measurements.bioimpedance,BiB_AgeOfWonder_Measurements,bioimpedance,AoW school visit bioimpedance release,bib,participant,,,28,5566,5566,2025-10-02 18:04:21.694723
-BiB_AgeOfWonder_Measurements.bloods,BiB_AgeOfWonder_Measurements,bloods,AoW school visit blood sample release,bib,participant,,,48,1161,1161,2025-10-02 13:49:07.151159
+BiB_AgeOfWonder_Measurements.recruitment,BiB_AgeOfWonder_Measurements,recruitment,AoW recruitment denominator release for Year 9,bib,participant,,,44,12612,12555,2026-03-10 20:46:22.462128
+BiB_AgeOfWonder_Measurements.skinfold,BiB_AgeOfWonder_Measurements,skinfold,AoW school visit skinfold release,bib,participant,,,19,6575,6575,2026-03-04 17:03:03.322952
+BiB_AgeOfWonder_Measurements.heightweight,BiB_AgeOfWonder_Measurements,heightweight,AoW school visit height and weigh release,bib,participant,,,20,7759,7759,2026-03-04 17:02:22.477446
+BiB_AgeOfWonder_Measurements.bloodpressure,BiB_AgeOfWonder_Measurements,bloodpressure,AoW school visit blood pressure release,bib,participant,,,21,7383,7383,2026-03-04 17:00:50.49852
+BiB_AgeOfWonder_Measurements.bioimpedance,BiB_AgeOfWonder_Measurements,bioimpedance,AoW school visit bioimpedance release,bib,participant,,,28,5566,5566,2026-03-04 17:00:08.713463
+BiB_AgeOfWonder_Measurements.bloods,BiB_AgeOfWonder_Measurements,bloods,AoW school visit blood sample release,bib,participant,,,48,1161,1161,2026-03-04 17:01:38.127815
 BiB_AAD.Allergic_Rhinitis,BiB_AAD,Allergic_Rhinitis,Allergic Rhinitis,bib,participant,,,3,13858,13858,2026-02-25 07:50:51.463148
 BiB_AAD.Asthma,BiB_AAD,Asthma,Asthma,bib,participant,,,3,13858,13858,2026-02-25 07:50:32.320618
 BiB_AAD.Eczema,BiB_AAD,Eczema,Eczema,bib,participant,,,3,13858,13858,2026-02-25 07:50:08.916309
-BiB_LifeCycle.core_monthly_rep,BiB_LifeCycle,core_monthly_rep,Core Monthly-Repeated Variables,bib,participant,,,6,129158,13858,2026-02-24 15:06:58.518927
-BiB_LifeCycle.core_non_rep,BiB_LifeCycle,core_non_rep,Core Non-Repeated Variables,bib,participant,,,218,13858,13858,2026-02-24 15:06:59.771603
-BiB_LifeCycle.core_trimester_rep,BiB_LifeCycle,core_trimester_rep,Core Trimester-Repeated Variables,bib,participant,,,3,25118,13858,2026-02-24 15:06:59.897873
-BiB_LifeCycle.core_yearly_rep,BiB_LifeCycle,core_yearly_rep,Core Yearly-Repeated Variables,bib,participant,,,100,249444,13858,2026-02-24 15:07:05.299467
-BiB_LifeCycle.outcome_ath_non_rep,BiB_LifeCycle,outcome_ath_non_rep,Outcome Non-Repeated Variables - ATHLETE,bib,participant,,,2,13858,13858,2026-02-24 15:07:05.39678
-BiB_LifeCycle.outcome_ath_trimester_rep,BiB_LifeCycle,outcome_ath_trimester_rep,Outcome Trimester-Repeated Variables - ATHLETE,bib,participant,,,19,33788,13858,2026-02-24 15:07:05.753736
-BiB_LifeCycle.outcome_ath_yearly_rep,BiB_LifeCycle,outcome_ath_yearly_rep,Outcome Yearly-Repeated Variables - ATHLETE,bib,participant,,,42,171012,13858,2026-02-24 15:07:07.084942
-BiB_LifeCycle.outcome_monthly_rep,BiB_LifeCycle,outcome_monthly_rep,Outcome Monthly-Repeated Variables,bib,participant,,,49,133874,13858,2026-02-24 15:07:08.373465
-BiB_LifeCycle.outcome_non_rep,BiB_LifeCycle,outcome_non_rep,Outcome Non-Repeated Variables,bib,participant,,,26,13858,13858,2026-02-24 15:07:08.530251
-BiB_LifeCycle.outcome_weekly_rep,BiB_LifeCycle,outcome_weekly_rep,Outcome Weekly-Repeated Variables,bib,participant,,,8,164989,13858,2026-02-24 15:07:09.000008
-BiB_LifeCycle.outcome_yearly_rep,BiB_LifeCycle,outcome_yearly_rep,Outcome Yearly-Repeated Variables,bib,participant,,,68,167794,13858,2026-02-24 15:07:10.708441
-BiB_LifeCycle.urban_ath_non_rep,BiB_LifeCycle,urban_ath_non_rep,Urban Exposures Non-Repeated Variables - ATHLETE,bib,participant,,,206,13858,13858,2026-02-24 15:07:12.540192
-BiB_LifeCycle.urban_ath_trimester_rep,BiB_LifeCycle,urban_ath_trimester_rep,Urban Exposures Trimester-Repeated Variables - ATHLETE,bib,participant,,,4,13858,13858,2026-02-24 15:07:12.633936
-BiB_LifeCycle.urban_ath_yearly_rep,BiB_LifeCycle,urban_ath_yearly_rep,Urban Exposures Yearly-Repeated Variables - ATHLETE,bib,participant,,,115,173105,13858,2026-02-24 15:07:19.789661
-BiB_LifeCycle.chemicals_ath_non_rep,BiB_LifeCycle,chemicals_ath_non_rep,Chemical Exposures Non-Repeated Variables - ATHLETE,bib,participant,,,1,13858,13858,2026-02-24 15:06:57.454348
-BiB_LifeCycle.chemicals_ath_trimester_rep,BiB_LifeCycle,chemicals_ath_trimester_rep,Chemical Exposures Trimester-Repeated Variables - ATHLETE,bib,participant,,,107,14072,13858,2026-02-24 15:06:57.75186
-BiB_LifeCycle.chemicals_ath_yearly_rep,BiB_LifeCycle,chemicals_ath_yearly_rep,Chemical Exposures Yearly-Repeated Variables - ATHLETE,bib,participant,,,107,14063,13858,2026-02-24 15:06:58.04921
+BiB_LifeCycle.core_monthly_rep,BiB_LifeCycle,core_monthly_rep,Core Monthly-Repeated Variables,bib,participant,,,6,129158,13858,2026-02-24 15:15:34.355778
+BiB_LifeCycle.core_non_rep,BiB_LifeCycle,core_non_rep,Core Non-Repeated Variables,bib,participant,,,218,13858,13858,2026-02-24 15:16:31.018295
+BiB_LifeCycle.core_trimester_rep,BiB_LifeCycle,core_trimester_rep,Core Trimester-Repeated Variables,bib,participant,,,3,25118,13858,2026-02-24 15:17:56.400124
+BiB_LifeCycle.core_yearly_rep,BiB_LifeCycle,core_yearly_rep,Core Yearly-Repeated Variables,bib,participant,,,100,249444,13858,2026-02-24 15:19:18.86027
+BiB_LifeCycle.outcome_ath_non_rep,BiB_LifeCycle,outcome_ath_non_rep,Outcome Non-Repeated Variables - ATHLETE,bib,participant,,,2,13858,13858,2026-02-24 15:22:14.11236
+BiB_LifeCycle.outcome_ath_trimester_rep,BiB_LifeCycle,outcome_ath_trimester_rep,Outcome Trimester-Repeated Variables - ATHLETE,bib,participant,,,19,33788,13858,2026-02-24 15:22:55.415773
+BiB_LifeCycle.outcome_ath_yearly_rep,BiB_LifeCycle,outcome_ath_yearly_rep,Outcome Yearly-Repeated Variables - ATHLETE,bib,participant,,,42,171012,13858,2026-02-24 15:24:16.49876
+BiB_LifeCycle.outcome_monthly_rep,BiB_LifeCycle,outcome_monthly_rep,Outcome Monthly-Repeated Variables,bib,participant,,,49,133874,13858,2026-02-24 15:25:41.52146
+BiB_LifeCycle.outcome_non_rep,BiB_LifeCycle,outcome_non_rep,Outcome Non-Repeated Variables,bib,participant,,,26,13858,13858,2026-02-24 15:26:50.554012
+BiB_LifeCycle.outcome_weekly_rep,BiB_LifeCycle,outcome_weekly_rep,Outcome Weekly-Repeated Variables,bib,participant,,,8,164989,13858,2026-02-24 15:28:13.26841
+BiB_LifeCycle.outcome_yearly_rep,BiB_LifeCycle,outcome_yearly_rep,Outcome Yearly-Repeated Variables,bib,participant,,,68,167794,13858,2026-02-24 15:29:29.359016
+BiB_LifeCycle.urban_ath_non_rep,BiB_LifeCycle,urban_ath_non_rep,Urban Exposures Non-Repeated Variables - ATHLETE,bib,participant,,,206,13858,13858,2026-02-24 15:30:58.131979
+BiB_LifeCycle.urban_ath_trimester_rep,BiB_LifeCycle,urban_ath_trimester_rep,Urban Exposures Trimester-Repeated Variables - ATHLETE,bib,participant,,,4,13858,13858,2026-02-24 15:31:58.525385
+BiB_LifeCycle.urban_ath_yearly_rep,BiB_LifeCycle,urban_ath_yearly_rep,Urban Exposures Yearly-Repeated Variables - ATHLETE,bib,participant,,,115,173105,13858,2026-02-24 15:33:06.161566
+BiB_LifeCycle.chemicals_ath_non_rep,BiB_LifeCycle,chemicals_ath_non_rep,Chemical Exposures Non-Repeated Variables - ATHLETE,bib,participant,,,1,13858,13858,2026-02-24 15:10:30.697817
+BiB_LifeCycle.chemicals_ath_trimester_rep,BiB_LifeCycle,chemicals_ath_trimester_rep,Chemical Exposures Trimester-Repeated Variables - ATHLETE,bib,participant,,,107,14072,13858,2026-02-24 15:13:53.693686
+BiB_LifeCycle.chemicals_ath_yearly_rep,BiB_LifeCycle,chemicals_ath_yearly_rep,Chemical Exposures Yearly-Repeated Variables - ATHLETE,bib,participant,,,107,14063,13858,2026-02-24 15:14:41.972868
 BiBBS_CohortInfo.recruitment,BiBBS_CohortInfo,recruitment,Pregnancy recruitment,bibbs,hospital patient,,,21,24918,20887,2024-05-14 09:15:46
 BiBBS_CohortInfo.pregnancy,BiBBS_CohortInfo,pregnancy,Recruited pregnancy information,bibbs,participant,,,15,2626,2425,2024-05-14 09:15:46
 BiBBS_CohortInfo.mother,BiBBS_CohortInfo,mother,Recruited mother information,bibbs,participant,,,10,2425,2425,2024-05-14 09:15:46
