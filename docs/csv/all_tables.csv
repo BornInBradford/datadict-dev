@@ -238,6 +238,9 @@ BiB_SDQs.GrowingUp_sdq,BiB_SDQs,GrowingUp_sdq,Strength and Difficulties question
 BiB_SDQs.MeDALL_sdq,BiB_SDQs,MeDALL_sdq,Strength and Difficulties questionnaire from the MeDALL survey,bib,participant,,,65,2590,2590,2024-05-14 09:15:36
 BiB_SDQs.PrimarySchoolYears_sdq,BiB_SDQs,PrimarySchoolYears_sdq,Strength and Difficulties questionnaire from the Primary School Years surve,bib,participant,,,58,3502,3234,2024-05-14 09:15:37
 BiB_SDQs.StartingSchool_sdq,BiB_SDQs,StartingSchool_sdq,Strength and Difficulties questionnaire from the Starting School survey,bib,participant,,,65,2340,2340,2024-05-14 09:15:37
+BiB_AgeOfWonder_2026.recruitment,BiB_AgeOfWonder_2026,recruitment,AoW recruitment denominator 2026 release,bib,participant,,,52,44983,25477,2026-10-05 18:22:56.149212
+BiB_AgeOfWonder_2026.survey_mod25_main,BiB_AgeOfWonder_2026,survey_mod25_main,AoW survey module 25 2026 release with main variables,bib,participant,,,739,30061,18797,2026-10-05 18:19:27.239283
+BiB_AgeOfWonder_2026.survey_mod25_derived,BiB_AgeOfWonder_2026,survey_mod25_derived,AoW survey module 25 2026 release with derived variables,bib,participant,,,64,30061,18797,2026-10-05 18:20:07.329565
 BiB_AgeOfWonder_2025.recruitment,BiB_AgeOfWonder_2025,recruitment,AoW recruitment denominator 2025 release,bib,participant,,,44,35568,22853,2026-03-04 16:55:43.931602
 BiB_AgeOfWonder_2025.survey_mod24_main,BiB_AgeOfWonder_2025,survey_mod24_main,AoW survey module 24 2025 release with main variables,bib,participant,,,729,23204,16549,2026-03-04 16:57:50.811771
 BiB_AgeOfWonder_2025.survey_mod24_derived,BiB_AgeOfWonder_2025,survey_mod24_derived,AoW survey module 24 2025 release with derived variables,bib,participant,,,64,23204,16549,2026-03-04 16:56:51.269213
